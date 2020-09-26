@@ -1,0 +1,878 @@
+2020-09-25 20:47:40,820 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 1201237ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 21:03:10,483 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 909637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 21:15:38,831 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 708332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 21:25:34,094 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575249ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 21:35:49,467 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 21:45:44,540 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575061ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 22:16:10,034 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575425ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 22:26:05,475 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 22:36:20,748 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575256ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 22:46:16,040 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 22:56:30,990 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 23:06:26,131 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575136ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 23:16:41,445 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575312ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 23:26:36,408 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 23:36:52,203 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-25 23:46:49,631 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 577429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 00:04:27,213 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 1017573ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 00:14:42,449 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 00:24:37,061 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574606ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 00:44:50,758 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 578398ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 00:55:04,734 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 573962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 01:04:59,765 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575029ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 01:14:56,010 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 576238ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 01:25:11,383 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575368ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 01:35:06,808 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 01:55:17,352 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575238ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 02:05:32,667 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575288ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 02:15:28,038 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575354ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 02:25:43,001 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574928ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 02:35:37,859 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 02:45:52,161 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 02:55:47,579 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575279ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 03:26:14,798 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574129ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 03:36:10,141 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 03:46:25,449 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 03:56:21,847 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 576082ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 04:06:39,064 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 576966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 04:16:34,564 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575182ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 04:26:49,806 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 04:36:45,199 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575037ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 04:47:00,515 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574965ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 04:56:55,875 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 05:07:11,251 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 05:17:05,565 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 573924ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 05:27:02,005 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 575957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 05:37:17,369 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 05:47:12,739 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 05:57:27,128 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 573961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 06:07:21,374 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 573748ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 06:17:36,578 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 06:27:31,988 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 06:37:46,361 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 573731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 06:47:41,724 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 06:57:57,141 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574682ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 07:07:52,622 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 574747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 13:21:29,808 ERROR 31697 nodejs.ClusterClientNoResponseError: client no response in 22376478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 31697
+hostname: lxddeMacBook-Pro.local
+
+2020-09-26 13:43:15,279 ERROR 34734 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/lxd/Desktop/mine/egg-example/app/view
+    at Map.resolve (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34734
+hostname: bogon
+
+2020-09-26 13:43:35,436 ERROR 34754 [-/127.0.0.1/-/7ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/lxd/Desktop/mine/egg-example/app/view
+    at Map.resolve (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34754
+hostname: bogon
+
+2020-09-26 13:43:36,103 ERROR 34754 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/lxd/Desktop/mine/egg-example/app/view
+    at Map.resolve (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34754
+hostname: bogon
+
+2020-09-26 13:43:36,263 ERROR 34754 [-/127.0.0.1/-/0ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/lxd/Desktop/mine/egg-example/app/view
+    at Map.resolve (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34754
+hostname: bogon
+
+2020-09-26 13:45:54,844 ERROR 34754 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/lxd/Desktop/mine/egg-example/app/view
+    at Map.resolve (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34754
+hostname: bogon
+
+2020-09-26 13:46:20,106 ERROR 34754 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/lxd/Desktop/mine/egg-example/app/view
+    at Map.resolve (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34754
+hostname: bogon
+
+2020-09-26 13:47:55,687 ERROR 34911 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find viewEngine for /Users/lxd/Desktop/mine/egg-example/app/view/news/list.tpl
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 34911
+hostname: bogon
+
+2020-09-26 13:47:57,982 ERROR 34911 [-/127.0.0.1/-/0ms GET /news] nodejs.AssertionError: Can't find viewEngine for /Users/lxd/Desktop/mine/egg-example/app/view/news/list.tpl
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 34911
+hostname: bogon
+
+2020-09-26 13:50:14,908 ERROR 35012 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find viewEngine for /Users/lxd/Desktop/mine/egg-example/app/view/news/list.tpl
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 35012
+hostname: bogon
+
+2020-09-26 13:51:22,275 ERROR 35012 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find viewEngine for /Users/lxd/Desktop/mine/egg-example/app/view/news/list.tpl
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 35012
+hostname: bogon
+
+2020-09-26 13:53:31,074 ERROR 35128 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:69:39)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 35128
+hostname: bogon
+
+2020-09-26 13:54:31,172 ERROR 35175 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find viewEngine for /Users/lxd/Desktop/mine/egg-example/app/view/news/list.tpl
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 35175
+hostname: bogon
+
+2020-09-26 13:54:32,823 ERROR 35175 [-/127.0.0.1/-/0ms GET /news] nodejs.AssertionError: Can't find viewEngine for /Users/lxd/Desktop/mine/egg-example/app/view/news/list.tpl
+    at ContextView.[contextView#render] (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/lib/context_view.js:66:5)
+    at async NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:12:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 35175
+hostname: bogon
+
+2020-09-26 14:17:09,252 ERROR 35907 [-/127.0.0.1/-/4ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:8:45)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 35907
+hostname: bogon
+
+2020-09-26 14:20:55,217 ERROR 36059 [-/127.0.0.1/-/5ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:8:45)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 36059
+hostname: bogon
+
+2020-09-26 14:22:53,825 ERROR 36141 [-/127.0.0.1/-/5ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:8:45)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 36141
+hostname: localhost
+
+2020-09-26 14:24:27,519 ERROR 36225 [-/127.0.0.1/-/1ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:8:45)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 36225
+hostname: localhost
+
+2020-09-26 14:24:45,823 ERROR 36225 [-/127.0.0.1/-/0ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (/Users/lxd/Desktop/mine/egg-example/app/controller/news.js:8:45)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 36225
+hostname: localhost
+
+2020-09-26 14:39:01,724 ERROR 36758 [-/127.0.0.1/-/31ms GET /news] nodejs.RequestError: getaddrinfo ENOTFOUND undefined, GET http://undefined/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"undefined:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "undefined"
+name: "RequestError"
+data: undefined
+path: "/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":27,"keepAliveSocket":false,"requestUrls":["http://undefined/topstories.json"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 36758
+hostname: localhost
+
+2020-09-26 16:19:20,828 ERROR 585 [-/127.0.0.1/-/5031ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5027,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 585
+hostname: bogon
+
+2020-09-26 16:19:29,709 ERROR 585 [-/127.0.0.1/-/5006ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 585
+hostname: bogon
+
+2020-09-26 16:43:45,455 ERROR 1543 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'url' of undefined
+    at Object.get info [as info] (/Users/lxd/Desktop/mine/egg-example/app/extend/context.js:12:25)
+    at HomeController.index (/Users/lxd/Desktop/mine/egg-example/app/controller/home.js:9:21)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 1543
+hostname: bogon
+
+2020-09-26 16:43:57,130 ERROR 1543 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'url' of undefined
+    at Object.get info [as info] (/Users/lxd/Desktop/mine/egg-example/app/extend/context.js:12:25)
+    at HomeController.index (/Users/lxd/Desktop/mine/egg-example/app/controller/home.js:9:21)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 1543
+hostname: bogon
+
+2020-09-26 16:44:33,222 ERROR 1578 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: ctx.info is not a function
+    at HomeController.index (/Users/lxd/Desktop/mine/egg-example/app/controller/home.js:9:21)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 1578
+hostname: bogon
+
+2020-09-26 16:44:35,151 ERROR 1578 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.info is not a function
+    at HomeController.index (/Users/lxd/Desktop/mine/egg-example/app/controller/home.js:9:21)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 1578
+hostname: bogon
+
