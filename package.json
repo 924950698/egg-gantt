@@ -17,8 +17,8 @@
     "autod-egg": "^1.1.0",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^5.13.0",
+    "egg-mock": "^3.25.1",
+    "eslint": "^5.16.0",
     "eslint-config-egg": "^7.1.0"
   },
   "engines": {
@@ -29,7 +29,7 @@
     "stop": "egg-scripts stop --title=egg-server-egg-demo",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
-    "test": "npm run lint -- --fix && npm run test-local",
+    "test": "egg-bin test",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",

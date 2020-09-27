@@ -6,7 +6,7 @@
       ".tpl": "/Users/lxd/Desktop/egg-example/config/config.default.js"
     },
     "root": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.local.js",
+    "cache": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.default.js"
   },
   "robot": {
@@ -40,7 +40,7 @@
       "value": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.local.js",
+      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
       "maxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
     },
@@ -95,7 +95,7 @@
     "cookieMaxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.unittest.js",
     "eventSources": {
       "default": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.default.js"
@@ -125,14 +125,6 @@
     "cleanSchedule": {
       "cron": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js"
     }
-  },
-  "development": {
-    "watchDirs": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "overrideIgnore": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
     "filesRotateByHour": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
@@ -246,17 +238,15 @@
     "encoding": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "env": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "level": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.unittest.js",
     "disableConsoleAfterReady": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "outputJSON": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.unittest.js",
     "appLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "coreLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
   },
   "httpclient": {

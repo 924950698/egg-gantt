@@ -117,14 +117,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false,
-      "overrideIgnore": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -144,14 +136,14 @@
     },
     "view": {
       "root": "/Users/lxd/Desktop/egg-example/app/view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
         ".tpl": "nunjucks"
       }
     },
-    "env": "local",
+    "env": "unittest",
     "name": "egg-demo",
     "keys": "<String len: 27>",
     "cookies": {},
@@ -180,8 +172,8 @@
         "autod-egg": "^1.1.0",
         "egg-bin": "^4.11.0",
         "egg-ci": "^1.11.0",
-        "egg-mock": "^3.21.0",
-        "eslint": "^5.13.0",
+        "egg-mock": "^3.25.1",
+        "eslint": "^5.16.0",
         "eslint-config-egg": "^7.1.0"
       },
       "engines": {
@@ -192,7 +184,7 @@
         "stop": "egg-scripts stop --title=egg-server-egg-demo",
         "dev": "egg-bin dev",
         "debug": "egg-bin debug",
-        "test": "npm run lint -- --fix && npm run test-local",
+        "test": "egg-bin test",
         "test-local": "egg-bin test",
         "cov": "egg-bin cov",
         "lint": "eslint .",
@@ -245,19 +237,17 @@
     "logger": {
       "dir": "/Users/lxd/Desktop/egg-example/logs/egg-demo",
       "encoding": "utf8",
-      "env": "local",
+      "env": "unittest",
       "level": "INFO",
-      "consoleLevel": "INFO",
+      "consoleLevel": "WARN",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": true,
+      "buffer": false,
       "appLogName": "egg-demo-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -413,21 +403,6 @@
       "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart",
       "version": "2.10.3"
     },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-development",
-      "version": "2.7.0"
-    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -471,6 +446,15 @@
       "optionalDependencies": [],
       "env": [],
       "from": "/Users/lxd/Desktop/egg-example/config/plugin.js"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.25.1"
     }
   }
 }
