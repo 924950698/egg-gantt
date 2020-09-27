@@ -84,6 +84,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/user/delete",
+    "regexp": "/^\\/user\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/demo",
     "regexp": "/^\\/demo(?:\\/(?=$))?$/",
     "stack": [

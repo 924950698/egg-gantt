@@ -50,6 +50,13 @@ class UserController extends Controller {
     ctx.body = res;
   }
 
+  async delete() {
+    const { ctx } = this;
+    const user ={ name: 'user2' };
+    const res = await ctx.service.user.delete(user);
+    ctx.body = res;
+  }
+
 }
 
 module.exports = UserController;

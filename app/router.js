@@ -11,5 +11,6 @@ module.exports = app => {
   router.get('/user/find', controller.user.find);
   router.get('/user/insert', controller.user.insert);
   router.get('/user/update', controller.user.update);
+  router.get('/user/delete', controller.user.delete);
   router.get('/demo', controller.home.demo);
 };

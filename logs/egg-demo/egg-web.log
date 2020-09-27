@@ -1738,3 +1738,99 @@
 2020-09-27 19:02:14,013 INFO 33295 [egg-watcher:application] watcher start success
 2020-09-27 19:02:14,016 INFO 33295 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:02:14 GMT+0800 (GMT+08:00)
 2020-09-27 19:02:14,025 INFO 33295 [egg:core] dump config after ready, 8ms
+2020-09-27 19:07:39,723 INFO 33510 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-27 19:07:39,747 INFO 33510 [egg-multipart] stream mode enable
+2020-09-27 19:07:39,748 INFO 33510 [egg-mysql] connecting root@127.0.0.1:3306/egg
+2020-09-27 19:07:39,861 INFO 33510 [egg-static] starting static serve /public/ -> /Users/lxd/Desktop/egg-example/app/public
+2020-09-27 19:07:39,863 INFO 33510 [egg-security] use csrf middleware
+2020-09-27 19:07:39,864 INFO 33510 [egg-security] use methodnoallow middleware
+2020-09-27 19:07:39,864 INFO 33510 [egg-security] use noopen middleware
+2020-09-27 19:07:39,865 INFO 33510 [egg-security] use nosniff middleware
+2020-09-27 19:07:39,865 INFO 33510 [egg-security] use xssProtection middleware
+2020-09-27 19:07:39,865 INFO 33510 [egg-security] use xframe middleware
+2020-09-27 19:07:39,866 INFO 33510 [egg-security] use dta middleware
+2020-09-27 19:07:39,866 INFO 33510 [egg-security] compose 7 middlewares into one security middleware
+2020-09-27 19:07:39,877 INFO 33510 [egg:core] dump config after load, 7ms
+2020-09-27 19:07:39,892 INFO 33510 [egg-watcher:application] watcher start success
+2020-09-27 19:07:39,895 INFO 33510 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:07:39 GMT+0800 (GMT+08:00)
+2020-09-27 19:07:39,902 INFO 33510 [egg:core] dump config after ready, 5ms
+2020-09-27 19:07:41,740 INFO 33512 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-27 19:07:41,761 INFO 33512 [egg-multipart] stream mode enable
+2020-09-27 19:07:41,761 INFO 33512 [egg-mysql] connecting root@127.0.0.1:3306/egg
+2020-09-27 19:07:41,845 INFO 33512 [egg-static] starting static serve /public/ -> /Users/lxd/Desktop/egg-example/app/public
+2020-09-27 19:07:41,847 INFO 33512 [egg-security] use csrf middleware
+2020-09-27 19:07:41,847 INFO 33512 [egg-security] use methodnoallow middleware
+2020-09-27 19:07:41,848 INFO 33512 [egg-security] use noopen middleware
+2020-09-27 19:07:41,848 INFO 33512 [egg-security] use nosniff middleware
+2020-09-27 19:07:41,848 INFO 33512 [egg-security] use xssProtection middleware
+2020-09-27 19:07:41,848 INFO 33512 [egg-security] use xframe middleware
+2020-09-27 19:07:41,849 INFO 33512 [egg-security] use dta middleware
+2020-09-27 19:07:41,849 INFO 33512 [egg-security] compose 7 middlewares into one security middleware
+2020-09-27 19:07:41,856 INFO 33512 [egg:core] dump config after load, 4ms
+2020-09-27 19:07:41,868 INFO 33512 [egg-watcher:application] watcher start success
+2020-09-27 19:07:41,871 INFO 33512 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:07:41 GMT+0800 (GMT+08:00)
+2020-09-27 19:07:41,877 INFO 33512 [egg:core] dump config after ready, 4ms
+2020-09-27 19:08:19,309 INFO 33559 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-27 19:08:19,330 INFO 33559 [egg-multipart] stream mode enable
+2020-09-27 19:08:19,330 INFO 33559 [egg-mysql] connecting root@127.0.0.1:3306/egg
+2020-09-27 19:08:19,419 INFO 33559 [egg-static] starting static serve /public/ -> /Users/lxd/Desktop/egg-example/app/public
+2020-09-27 19:08:19,421 INFO 33559 [egg-security] use csrf middleware
+2020-09-27 19:08:19,422 INFO 33559 [egg-security] use methodnoallow middleware
+2020-09-27 19:08:19,422 INFO 33559 [egg-security] use noopen middleware
+2020-09-27 19:08:19,422 INFO 33559 [egg-security] use nosniff middleware
+2020-09-27 19:08:19,423 INFO 33559 [egg-security] use xssProtection middleware
+2020-09-27 19:08:19,423 INFO 33559 [egg-security] use xframe middleware
+2020-09-27 19:08:19,423 INFO 33559 [egg-security] use dta middleware
+2020-09-27 19:08:19,423 INFO 33559 [egg-security] compose 7 middlewares into one security middleware
+2020-09-27 19:08:19,432 INFO 33559 [egg:core] dump config after load, 4ms
+2020-09-27 19:08:19,447 INFO 33559 [egg-watcher:application] watcher start success
+2020-09-27 19:08:19,450 INFO 33559 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:08:19 GMT+0800 (GMT+08:00)
+2020-09-27 19:08:19,461 INFO 33559 [egg:core] dump config after ready, 9ms
+2020-09-27 19:08:23,662 INFO 33569 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-27 19:08:23,681 INFO 33569 [egg-multipart] stream mode enable
+2020-09-27 19:08:23,682 INFO 33569 [egg-mysql] connecting root@127.0.0.1:3306/egg
+2020-09-27 19:08:23,766 INFO 33569 [egg-static] starting static serve /public/ -> /Users/lxd/Desktop/egg-example/app/public
+2020-09-27 19:08:23,768 INFO 33569 [egg-security] use csrf middleware
+2020-09-27 19:08:23,768 INFO 33569 [egg-security] use methodnoallow middleware
+2020-09-27 19:08:23,769 INFO 33569 [egg-security] use noopen middleware
+2020-09-27 19:08:23,769 INFO 33569 [egg-security] use nosniff middleware
+2020-09-27 19:08:23,769 INFO 33569 [egg-security] use xssProtection middleware
+2020-09-27 19:08:23,769 INFO 33569 [egg-security] use xframe middleware
+2020-09-27 19:08:23,770 INFO 33569 [egg-security] use dta middleware
+2020-09-27 19:08:23,770 INFO 33569 [egg-security] compose 7 middlewares into one security middleware
+2020-09-27 19:08:23,777 INFO 33569 [egg:core] dump config after load, 4ms
+2020-09-27 19:08:23,789 INFO 33569 [egg-watcher:application] watcher start success
+2020-09-27 19:08:23,792 INFO 33569 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:08:23 GMT+0800 (GMT+08:00)
+2020-09-27 19:08:23,798 INFO 33569 [egg:core] dump config after ready, 4ms
+2020-09-27 19:08:29,033 INFO 33583 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-27 19:08:29,057 INFO 33583 [egg-multipart] stream mode enable
+2020-09-27 19:08:29,057 INFO 33583 [egg-mysql] connecting root@127.0.0.1:3306/egg
+2020-09-27 19:08:29,146 INFO 33583 [egg-static] starting static serve /public/ -> /Users/lxd/Desktop/egg-example/app/public
+2020-09-27 19:08:29,148 INFO 33583 [egg-security] use csrf middleware
+2020-09-27 19:08:29,148 INFO 33583 [egg-security] use methodnoallow middleware
+2020-09-27 19:08:29,149 INFO 33583 [egg-security] use noopen middleware
+2020-09-27 19:08:29,149 INFO 33583 [egg-security] use nosniff middleware
+2020-09-27 19:08:29,149 INFO 33583 [egg-security] use xssProtection middleware
+2020-09-27 19:08:29,150 INFO 33583 [egg-security] use xframe middleware
+2020-09-27 19:08:29,150 INFO 33583 [egg-security] use dta middleware
+2020-09-27 19:08:29,150 INFO 33583 [egg-security] compose 7 middlewares into one security middleware
+2020-09-27 19:08:29,158 INFO 33583 [egg:core] dump config after load, 4ms
+2020-09-27 19:08:29,173 INFO 33583 [egg-watcher:application] watcher start success
+2020-09-27 19:08:29,176 INFO 33583 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:08:29 GMT+0800 (GMT+08:00)
+2020-09-27 19:08:29,183 INFO 33583 [egg:core] dump config after ready, 5ms
+2020-09-27 19:09:07,200 INFO 33619 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-27 19:09:07,228 INFO 33619 [egg-multipart] stream mode enable
+2020-09-27 19:09:07,228 INFO 33619 [egg-mysql] connecting root@127.0.0.1:3306/egg
+2020-09-27 19:09:07,316 INFO 33619 [egg-static] starting static serve /public/ -> /Users/lxd/Desktop/egg-example/app/public
+2020-09-27 19:09:07,318 INFO 33619 [egg-security] use csrf middleware
+2020-09-27 19:09:07,318 INFO 33619 [egg-security] use methodnoallow middleware
+2020-09-27 19:09:07,318 INFO 33619 [egg-security] use noopen middleware
+2020-09-27 19:09:07,319 INFO 33619 [egg-security] use nosniff middleware
+2020-09-27 19:09:07,319 INFO 33619 [egg-security] use xssProtection middleware
+2020-09-27 19:09:07,319 INFO 33619 [egg-security] use xframe middleware
+2020-09-27 19:09:07,320 INFO 33619 [egg-security] use dta middleware
+2020-09-27 19:09:07,320 INFO 33619 [egg-security] compose 7 middlewares into one security middleware
+2020-09-27 19:09:07,328 INFO 33619 [egg:core] dump config after load, 5ms
+2020-09-27 19:09:07,342 INFO 33619 [egg-watcher:application] watcher start success
+2020-09-27 19:09:07,345 INFO 33619 [egg-mysql] instance[0] status OK, rds currentTime: Sun Sep 27 2020 19:09:07 GMT+0800 (GMT+08:00)
+2020-09-27 19:09:07,352 INFO 33619 [egg:core] dump config after ready, 6ms

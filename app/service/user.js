@@ -50,6 +50,18 @@ class userService extends Service {
       return null;
     }
   }
+
+  async delete(id){
+    try {
+      const { app } = this;
+      const res = app.mysql.delete('user', id);
+      console.log("数据库链接成功==>", res);
+      return res;
+    } catch(error) {
+      console.log("数据库链接失败==>", error);
+      return null;
+    }
+  }
   
 }
 
