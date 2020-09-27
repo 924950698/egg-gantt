@@ -1,4 +1,4 @@
-1. Egg.js中的渐进式开发
+<h3>1. Egg.js中的渐进式开发</h3>
 
 通用组件 -》 框架扩展 -》 内置插件 -》 独立插件 -》 抽象框架 <br/>
 这个逐渐独立、完善的过程称为渐进式开发。<br/>
@@ -11,13 +11,13 @@
 内置插件：在根目录下创建lib/plugin/egg-info/app/extend; egg的内置插件用egg开头 ，将 获取本机器的info()方法封装到extend的context.js文件下。<br/>
 并导出package.json（ ⚠️注意：插件需要导出）。并在config/plugin.js中倒导入该插件。path: path.join(__dirname, '../lib/plugin/egg-info') 生成该插件的相对路径。
 
-2. Controller、 Service 和 test 单元测试
+<h3>2. Controller、 Service 和 test 单元测试</h3>
 
 （M）Service：就是在复杂业务场景下用于做业务逻辑封装的一个抽象层<br/>
 （V）View：视图模版展示<br/>
 （C）Controller：负责处理业务逻辑；比如根据用户访问不同的 URL，渲染不同的模板得到 HTML 返回给用户<br/>
 
-3. mysql数据库常用命令
+<h3>3. mysql数据库常用命令</h3>
 
 -- 查看数据库<br>
 show databases;
