@@ -19,17 +19,19 @@
 
 3. mysql数据库常用命令
 
--- 查看数据库
+-- 查看数据库<br>
 show databases;
 
 -- 删除数据库 <br>
 drop database egg;
 
--- 创建数据库
+-- 创建数据库<br>
 create database egg;
 
--- 在数据库中创建表
-use egg;
+-- 在数据库中创建表<br>
+use egg;<br>
+
+```
 
 create table user(
   id int(10) not null auto_increment, 
@@ -38,38 +40,40 @@ create table user(
   primary key(id)
 )engine=InnoDB charset=utf8;
 
-tips: 
-int、varchar 前者为基本数据类型、后者为string类型
-auto_increment 自动递增
-default 'admin' 默认名称
-primary key(id) 以id为主键
-engine=InnoDB 存储引擎 （ InnoDB 的设计目标是处理大容量数据时最大化性能，它的 CPU 利用率是其他所有基于磁盘的关系数据库引擎中最有效率的。）
+```
+
+tips: <br>
+int、varchar 前者为基本数据类型、后者为string类型<br>
+auto_increment 自动递增<br>
+default 'admin' 默认名称<br>
+primary key(id) 以id为主键<br>
+engine=InnoDB 存储引擎 （ InnoDB 的设计目标是处理大容量数据时最大化性能，它的 CPU 利用率是其他所有基于磁盘的关系数据库引擎中最有效率的。）<br>
 
 
 -- 查看表
-show tables;
+show tables;<br>
 
 -- 查看表结构
-desc user;
+desc user;<br>
 
 -- 删除表
-drop table user;
+drop table user;<br>
 
 -- 插入表数据
-insert into user(name, pwd) values('user1', '123');
-insert into user values(2, 'user2', '123');
-insert into user values(3, 'user3', '123');
+insert into user(name, pwd) values('user1', '123');<br>
+insert into user values(2, 'user2', '123');<br>
+insert into user values(3, 'user3', '123');<br>
 
 tips: 
-可以指定字段顺序，否则按照表结构中的字段顺序执行
+可以指定字段顺序，否则按照表结构中的字段顺序执行<br>
 
 -- 查询表数据
-select * from user;
-select id,name from user;            // 查询指定字段
-select id,name from user where id=1; // 数据筛选
+select * from user;<br>
+select id,name from user;            // 查询指定字段<br>
+select id,name from user where id=1; // 数据筛选<br>
 
 -- 修改表数据
-update user set pwd='123456' where id = 1;
+update user set pwd='123456' where id = 1;<br>
 
 -- 删除表数据
-delete from user where id = 2;
+delete from user where id = 2;<br>
