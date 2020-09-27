@@ -50,30 +50,30 @@ primary key(id) 以id为主键<br>
 engine=InnoDB 存储引擎 （ InnoDB 的设计目标是处理大容量数据时最大化性能，它的 CPU 利用率是其他所有基于磁盘的关系数据库引擎中最有效率的。）<br>
 
 
--- 查看表
+-- 查看表<br>
 show tables;<br>
 
--- 查看表结构
+-- 查看表结构<br>
 desc user;<br>
 
--- 删除表
+-- 删除表<br>
 drop table user;<br>
 
--- 插入表数据
+-- 插入表数据<br>
 insert into user(name, pwd) values('user1', '123');<br>
 insert into user values(2, 'user2', '123');<br>
 insert into user values(3, 'user3', '123');<br>
 
-tips: 
+tips: <br>
 可以指定字段顺序，否则按照表结构中的字段顺序执行<br>
 
--- 查询表数据
+-- 查询表数据<br>
 select * from user;<br>
 select id,name from user;            // 查询指定字段<br>
 select id,name from user where id=1; // 数据筛选<br>
 
--- 修改表数据
+-- 修改表数据<br>
 update user set pwd='123456' where id = 1;<br>
 
--- 删除表数据
+-- 删除表数据<br>
 delete from user where id = 2;<br>

@@ -117,6 +117,14 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -136,14 +144,14 @@
     },
     "view": {
       "root": "/Users/lxd/Desktop/egg-example/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
         ".tpl": "nunjucks"
       }
     },
-    "env": "unittest",
+    "env": "local",
     "name": "egg-demo",
     "keys": "<String len: 27>",
     "cookies": {},
@@ -163,6 +171,7 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.29.0"
@@ -237,17 +246,19 @@
     "logger": {
       "dir": "/Users/lxd/Desktop/egg-example/logs/egg-demo",
       "encoding": "utf8",
-      "env": "unittest",
+      "env": "local",
       "level": "INFO",
-      "consoleLevel": "WARN",
+      "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "egg-demo-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -403,6 +414,21 @@
       "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart",
       "version": "2.10.3"
     },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-development",
+      "version": "2.7.0"
+    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -446,15 +472,6 @@
       "optionalDependencies": [],
       "env": [],
       "from": "/Users/lxd/Desktop/egg-example/config/plugin.js"
-    },
-    "egg-mock": {
-      "enable": true,
-      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-mock",
-      "name": "egg-mock",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "version": "3.25.1"
     }
   }
 }

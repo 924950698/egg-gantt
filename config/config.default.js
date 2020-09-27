@@ -28,17 +28,17 @@ module.exports = appInfo => {
   //   serverUrl: 'https://hacker-news.firebaseio.com/v0',
   // };
 
-  // add middleware robot
-  // config.middleware = [
-  //   'robot'
-  // ];
-
-  // robot's configurations
-  config.robot = {
-    ua: [
-      /Baiduspider/i,
-    ]
-  };
+  config.mysql = {
+    client: {
+      host: '127.0.0.1',
+      port: '3306',
+      user: 'root',
+      password: 'liuxiangdong',
+      database: 'egg',
+    },
+    app: true,   // 是否挂载在全局下
+    agent: false,// 是否挂载到代理下
+  }
 
   // add your middleware config here
   config.middleware = [];

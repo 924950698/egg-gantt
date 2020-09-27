@@ -101,13 +101,12 @@
         "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-schedule/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/locales",
+        "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/locales",
-        "/Users/lxd/Desktop/egg-example/lib/plugin/egg-info/config/locales",
-        "/Users/lxd/Desktop/egg-example/node_modules/egg-mock/config/locales",
+        "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg/config/locales",
-        "/Users/lxd/Desktop/egg-example/node_modules/egg-mock/lib/tmp/config/locales",
         "/Users/lxd/Desktop/egg-example/config/locales"
       ],
       "queryField": "locale",
@@ -148,6 +147,14 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -167,14 +174,29 @@
     },
     "view": {
       "root": "/Users/lxd/Desktop/egg-example/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
         ".tpl": "nunjucks"
       }
     },
-    "env": "unittest",
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 12>",
+        "database": "egg"
+      }
+    },
+    "env": "local",
     "name": "egg-demo",
     "keys": "<String len: 27>",
     "cookies": {},
@@ -194,6 +216,7 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.29.0"
@@ -268,17 +291,19 @@
     "logger": {
       "dir": "/Users/lxd/Desktop/egg-example/logs/egg-demo",
       "encoding": "utf8",
-      "env": "unittest",
+      "env": "local",
       "level": "INFO",
-      "consoleLevel": "WARN",
+      "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "egg-demo-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "application"
     },
@@ -314,9 +339,9 @@
       "bodyParser",
       "overrideMethod",
       "session",
-      "clusterAppMock",
       "securities",
-      "i18n"
+      "i18n",
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -332,11 +357,6 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "robot": {
-      "ua": [
-        {}
-      ]
-    },
     "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -451,6 +471,21 @@
       "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart",
       "version": "2.10.3"
     },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-development",
+      "version": "2.7.0"
+    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -486,23 +521,16 @@
       "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-view",
       "version": "2.1.2"
     },
-    "info": {
+    "mysql": {
       "enable": true,
-      "path": "/Users/lxd/Desktop/egg-example/lib/plugin/egg-info",
-      "name": "info",
+      "package": "egg-mysql",
+      "name": "mysql",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lxd/Desktop/egg-example/config/plugin.js"
-    },
-    "egg-mock": {
-      "enable": true,
-      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-mock",
-      "name": "egg-mock",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "version": "3.25.1"
+      "from": "/Users/lxd/Desktop/egg-example/config/plugin.js",
+      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }
