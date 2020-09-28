@@ -24,6 +24,19 @@
       "connectionLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql/config/config.default.js"
     }
   },
+  "sequelize": {
+    "dialect": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "host": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "port": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "root": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "password": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "database": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "define": {
+      "timestamps": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+      "freezeTableName": "/Users/lxd/Desktop/egg-example/config/config.default.js"
+    },
+    "username": "/Users/lxd/Desktop/egg-example/node_modules/egg-sequelize/config/config.default.js"
+  },
   "middleware": "/Users/lxd/Desktop/egg-example/config/config.default.js",
   "session": {
     "maxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
@@ -184,8 +197,10 @@
       "egg": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "moment": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "moment": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",

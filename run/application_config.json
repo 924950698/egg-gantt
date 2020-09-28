@@ -106,6 +106,7 @@
         "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql/config/locales",
+        "/Users/lxd/Desktop/egg-example/node_modules/egg-sequelize/config/locales",
         "/Users/lxd/Desktop/egg-example/node_modules/egg/config/locales",
         "/Users/lxd/Desktop/egg-example/config/locales"
       ],
@@ -196,6 +197,19 @@
         "database": "egg"
       }
     },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "egg",
+      "host": "127.0.0.1",
+      "port": "3306",
+      "username": "root",
+      "password": "<String len: 12>",
+      "root": "root",
+      "define": {
+        "timestamps": false,
+        "freezeTableName": true
+      }
+    },
     "env": "local",
     "name": "egg-demo",
     "keys": "<String len: 27>",
@@ -218,8 +232,10 @@
         "egg": "^2.15.1",
         "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^6.0.0",
         "egg-view-nunjucks": "^2.2.0",
-        "moment": "^2.29.0"
+        "moment": "^2.29.0",
+        "mysql2": "^2.2.5"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -531,6 +547,17 @@
       "from": "/Users/lxd/Desktop/egg-example/config/plugin.js",
       "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql",
       "version": "3.0.0"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lxd/Desktop/egg-example/config/plugin.js",
+      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-sequelize",
+      "version": "6.0.0"
     }
   }
 }

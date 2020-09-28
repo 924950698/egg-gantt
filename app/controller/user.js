@@ -11,42 +11,56 @@ class UserController extends Controller {
 
   async lists() {
     const { ctx } = this;
-    const res = await ctx.service.user.lists();
+    // const res = await ctx.service.user.lists();
+
+    const res = await ctx.model.User.findAll({
+      // where: {
+      //   id: 1
+      // }
+      linie: 1,  // 分页
+      offset: 0, // 偏移量
+    });
     ctx.body=res;
   }
 
   async find() {
     const { ctx } = this;
-    const res = await ctx.service.user.find(1);
-    ctx.body=res;
+    // const res = await ctx.service.user.find(1);
+    const res = await ctx.model.User.findByPk(ctx.query.id); //查询指定数据
+    ctx.body = res;
   }
 
+  
   async insert() {
     const { ctx } = this;
     const user = {
-      id: 7,
+      id: 5,
       name: 'user2',
       pwd: '123'
     }
-    const res = await ctx.service.user.insert(user);
-    const insertSuccess = res.affectedRows === 1;
-    if(res) {
-      if(insertSuccess) {
-        ctx.body = res;
-        console.log('新建成功！');
-      }
-    } else {
-      console.log('插入失败==>', res)
-    }
+    // const res = await ctx.service.user.insert(user);
+    const res = await ctx.model.User.create(user);
+    ctx.body = res;
   }
 
   async update() {
     const { ctx } = this;
-    const user ={
-      id: 4,
-      name: 'user4'
+    const params = {
+      id: 7,
+      name: "user2222",
+      pwd: "222"
     }
-    const res = await ctx.service.user.update(user);
+
+    // const res = await ctx.service.user.update(user);
+
+    const user = await ctx.model.User.findByPk(JSON.stringify(params.id));
+    if (!user) {
+      ctx.status = 404;
+      return;
+    }
+    const res = await user.update(JSON.stringify(params));
+    console.log(res, '--');
+
     ctx.body = res;
   }
 

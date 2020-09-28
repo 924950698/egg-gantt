@@ -1235,3 +1235,1173 @@ name: "ER_DUP_ENTRYError"
 pid: 33055
 hostname: lxddeMacBook-Pro.local
 
+2020-09-28 10:25:20,728 WARN 36479 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:25:21,734 WARN 36479 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:25:22,737 WARN 36479 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:25:23,747 ERROR 36479 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 36479
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 10:28:56,336 WARN 36598 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:28:57,345 WARN 36598 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:28:58,353 WARN 36598 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:28:59,364 ERROR 36598 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 36598
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 10:29:40,714 WARN 36635 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:29:41,723 WARN 36635 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:29:42,726 WARN 36635 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:29:43,730 ERROR 36635 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 36635
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 10:29:46,450 WARN 36648 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:29:47,454 WARN 36648 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:29:48,459 WARN 36648 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:29:49,468 ERROR 36648 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 36648
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 10:29:59,810 WARN 36675 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:30:00,814 WARN 36675 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:30:01,819 WARN 36675 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-28 10:30:02,830 ERROR 36675 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 36675
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 10:31:59,241 INFO 36748 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:33:46,909 INFO 36811 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:36:25,515 INFO 36886 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:38:19,390 INFO 36969 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:39:19,473 INFO 37009 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:46:25,582 INFO 37231 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:46:55,910 INFO 37263 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:54:53,407 INFO 37602 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:55:01,378 ERROR 37602 [-/127.0.0.1/-/5ms GET /user/lists] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.lists (/Users/lxd/Desktop/egg-example/app/controller/user.js:16:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 37602
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 10:55:10,248 INFO 37623 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:55:20,803 INFO 37650 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:55:21,499 INFO 37650 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-28 10:55:57,756 INFO 37684 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:55:58,613 INFO 37684 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;
+2020-09-28 10:56:34,811 INFO 37721 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:57:19,223 INFO 37755 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:57:20,110 INFO 37755 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;
+2020-09-28 10:57:21,788 INFO 37755 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;
+2020-09-28 10:58:17,457 INFO 37799 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 10:58:20,017 ERROR 37799 [-/127.0.0.1/-/6ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 37799
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:12:10,549 INFO 44033 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:12:11,469 INFO 44043 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:12:21,800 INFO 44057 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:12:28,688 INFO 44078 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:12:37,112 ERROR 44078 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44078
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:12:40,481 ERROR 44078 [-/127.0.0.1/-/1ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44078
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:13:07,832 INFO 44107 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:13:10,058 ERROR 44107 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44107
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:13:11,834 ERROR 44107 [-/127.0.0.1/-/1ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44107
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:13:14,260 ERROR 44107 [-/127.0.0.1/-/0ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44107
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:20:35,989 INFO 44376 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:20:38,978 ERROR 44376 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44376
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:21:20,729 INFO 44407 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:21:27,391 INFO 44421 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:21:53,954 INFO 44447 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:22:02,899 INFO 44464 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:22:04,256 ERROR 44464 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44464
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:23:19,666 INFO 44517 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:23:20,334 ERROR 44517 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44517
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:23:24,655 INFO 44526 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:24:55,014 INFO 44572 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:24:57,961 ERROR 44572 [-/127.0.0.1/-/5ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44572
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:25:09,679 INFO 44587 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:25:25,111 INFO 44616 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:25:26,090 INFO 44619 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:25:27,976 ERROR 44619 [-/127.0.0.1/-/5ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:25:29,305 ERROR 44619 [-/127.0.0.1/-/0ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:28:12,168 ERROR 44619 [-/127.0.0.1/-/1ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:28:12,653 ERROR 44619 [-/127.0.0.1/-/0ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:28:13,255 ERROR 44619 [-/127.0.0.1/-/1ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:28:13,756 ERROR 44619 [-/127.0.0.1/-/1ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:28:13,909 ERROR 44619 [-/127.0.0.1/-/0ms GET /user/find] nodejs.ReferenceError: toInt is not defined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44619
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:28:47,648 INFO 44732 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:28:49,095 ERROR 44732 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 44732
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:30:05,544 INFO 44776 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:30:09,585 ERROR 44776 [-/127.0.0.1/-/12ms GET /user/find] nodejs.SequelizeDatabaseError: Field 'pwd' doesn't have a default value
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'pwd' doesn't have a default value","sql":"INSERT INTO `user` (`id`,`name`) VALUES (?,?);","parameters":[2,"22"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'pwd' doesn't have a default value","sql":"INSERT INTO `user` (`id`,`name`) VALUES (?,?);","parameters":[2,"22"]}
+sql: "INSERT INTO `user` (`id`,`name`) VALUES (?,?);"
+parameters: [2,"22"]
+pid: 44776
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:30:11,021 ERROR 44776 [-/127.0.0.1/-/2ms GET /user/find] nodejs.SequelizeDatabaseError: Field 'pwd' doesn't have a default value
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'pwd' doesn't have a default value","sql":"INSERT INTO `user` (`id`,`name`) VALUES (?,?);","parameters":[2,"22"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'pwd' doesn't have a default value","sql":"INSERT INTO `user` (`id`,`name`) VALUES (?,?);","parameters":[2,"22"]}
+sql: "INSERT INTO `user` (`id`,`name`) VALUES (?,?);"
+parameters: [2,"22"]
+pid: 44776
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:30:19,889 INFO 44797 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:30:27,783 INFO 44826 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:38:52,453 INFO 45041 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:38:53,375 INFO 45044 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:38:57,449 ERROR 45044 [-/127.0.0.1/-/5ms GET /user/find] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:56)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45044
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:39:04,220 ERROR 45044 [-/127.0.0.1/-/1ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:29:56)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45044
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:39:27,133 INFO 45065 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:39:29,370 ERROR 45065 [-/127.0.0.1/-/6ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:31:56)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45065
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:40:49,971 INFO 45115 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:40:54,055 INFO 45121 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:41:32,286 ERROR 45121 [-/127.0.0.1/-/2ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:31:56)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45121
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:41:53,415 ERROR 45121 [-/127.0.0.1/-/1ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:31:56)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45121
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:41:57,099 INFO 45173 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:42:01,840 INFO 45185 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:42:17,876 INFO 45205 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:44:07,968 INFO 45269 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:44:32,515 INFO 45300 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:44:34,329 INFO 45310 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:44:44,178 INFO 45324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:45:31,001 INFO 45356 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:45:49,947 INFO 45382 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:45:54,369 INFO 45392 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:45:55,778 ERROR 45392 [-/127.0.0.1/-/5ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45392
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:46:06,196 INFO 45406 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:46:08,136 ERROR 45406 [-/127.0.0.1/-/5ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45406
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:46:13,560 INFO 45421 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:46:14,009 ERROR 45421 [-/127.0.0.1/-/6ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45421
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:46:19,599 ERROR 45421 [-/127.0.0.1/-/1ms GET /user/find] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45421
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:46:45,142 INFO 45459 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:46:53,696 ERROR 45459 [-/127.0.0.1/-/6ms GET /user/find] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45459
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:47:05,920 INFO 45485 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:47:07,567 ERROR 45485 [-/127.0.0.1/-/5ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45485
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:47:13,626 ERROR 45485 [-/127.0.0.1/-/1ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45485
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:48:04,970 ERROR 45485 [-/127.0.0.1/-/0ms GET /user/find?id=2] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45485
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:48:12,361 ERROR 45485 [-/127.0.0.1/-/1ms GET /user/find?id=3] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45485
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:48:49,855 INFO 45543 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:48:51,675 ERROR 45543 [-/127.0.0.1/-/5ms GET /user/find?id=3] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:31:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45543
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:48:57,199 ERROR 45543 [-/127.0.0.1/-/1ms GET /user/find] nodejs.TypeError: ctx.model.User.findByPK is not a function
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:31:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45543
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:49:38,518 INFO 45583 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:49:47,244 INFO 45598 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:49:50,755 ERROR 45598 [-/127.0.0.1/-/6ms GET /user/find?id=1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45598
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:50:02,474 INFO 45621 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:50:05,714 ERROR 45621 [-/127.0.0.1/-/5ms GET /user/find?id=2] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.find (/Users/lxd/Desktop/egg-example/app/controller/user.js:30:26)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45621
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:50:25,939 INFO 45642 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:50:27,392 INFO 45642 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '2';
+2020-09-28 18:50:29,389 INFO 45642 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '2';
+2020-09-28 18:50:35,266 INFO 45642 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '1';
+2020-09-28 18:50:40,096 INFO 45642 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '3';
+2020-09-28 18:50:57,936 INFO 45665 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:50:59,087 INFO 45666 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:52:44,127 INFO 45716 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:52:52,777 ERROR 45716 [-/127.0.0.1/-/5ms GET /user/insert] nodejs.TypeError: ctx.model.User.creat is not a function
+    at UserController.insert (/Users/lxd/Desktop/egg-example/app/controller/user.js:42:38)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 45716
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:53:01,110 INFO 45736 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:53:02,545 INFO 45736 [egg-sequelize](4ms) Executed (default): INSERT INTO `user` (`id`,`name`,`pwd`) VALUES (?,?,?);
+2020-09-28 18:53:03,972 ERROR 45736 [-/127.0.0.1/-/4ms GET /user/insert] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"user.PRIMARY must be unique","type":"unique violation","path":"user.PRIMARY","value":"7","origin":"DB","instance":{"id":7,"name":"user2","pwd":"123"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"user.PRIMARY":"7"}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '7' for key 'user.PRIMARY'","sql":"INSERT INTO `user` (`id`,`name`,`pwd`) VALUES (?,?,?);","parameters":[7,"user2","123"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '7' for key 'user.PRIMARY'","sql":"INSERT INTO `user` (`id`,`name`,`pwd`) VALUES (?,?,?);","parameters":[7,"user2","123"]}
+sql: "INSERT INTO `user` (`id`,`name`,`pwd`) VALUES (?,?,?);"
+pid: 45736
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:53:22,142 INFO 45761 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:53:23,384 INFO 45761 [egg-sequelize](3ms) Executed (default): INSERT INTO `user` (`id`,`name`,`pwd`) VALUES (?,?,?);
+2020-09-28 18:53:41,233 INFO 45779 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:53:46,168 INFO 45791 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:53:51,215 INFO 45805 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:53:52,276 INFO 45805 [egg-sequelize](3ms) Executed (default): INSERT INTO `user` (`id`,`name`,`pwd`) VALUES (?,?,?);
+2020-09-28 18:58:09,706 INFO 45921 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:58:16,029 ERROR 45921 [-/127.0.0.1/-/5ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:53:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 45921
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:58:34,224 INFO 45939 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:58:35,295 ERROR 45939 [-/127.0.0.1/-/5ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:52:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 45939
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:59:24,147 INFO 45978 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:59:26,826 ERROR 45978 [-/127.0.0.1/-/6ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:54:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 45978
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 18:59:33,304 INFO 46001 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:59:51,047 INFO 46018 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 18:59:53,344 ERROR 46018 [-/127.0.0.1/-/5ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:54:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 46018
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:00:04,829 INFO 46034 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:00:05,791 ERROR 46034 [-/127.0.0.1/-/5ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:54:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 46034
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:00:20,300 INFO 46060 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:00:20,881 ERROR 46060 [-/127.0.0.1/-/5ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:52:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 46060
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:00:30,511 INFO 46082 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:00:36,568 INFO 46082 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '1';
+2020-09-28 19:01:13,943 INFO 46117 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:01:18,885 ERROR 46117 [-/127.0.0.1/-/6ms GET /user/update] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:52:63)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 46117
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:02:32,107 WARN 46117 [-/127.0.0.1/-/28ms PUT /user/update] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-28 19:02:32,108 WARN 46117 [-/127.0.0.1/-/29ms PUT /user/update] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 46117
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:03:29,663 WARN 46117 [-/127.0.0.1/-/1ms PUT /user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-28 19:03:29,663 WARN 46117 [-/127.0.0.1/-/1ms PUT /user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 46117
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:04:05,867 WARN 46117 [-/127.0.0.1/-/1ms PUT /user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-28 19:04:05,867 WARN 46117 [-/127.0.0.1/-/1ms PUT /user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 46117
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:05:49,607 WARN 46117 [-/127.0.0.1/-/1ms PUT /user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-28 19:05:49,607 WARN 46117 [-/127.0.0.1/-/1ms PUT /user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 46117
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:06:59,702 INFO 46268 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:07:02,829 WARN 46268 [-/127.0.0.1/-/11ms PUT /user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-28 19:07:02,831 WARN 46268 [-/127.0.0.1/-/12ms PUT /user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 46268
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:08:09,548 INFO 46313 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:09:01,406 INFO 46353 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:09:04,508 INFO 46363 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:09:06,923 INFO 46363 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;
+2020-09-28 19:09:09,145 INFO 46363 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;
+2020-09-28 19:09:50,117 INFO 46397 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:09:55,104 INFO 46407 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:09:59,928 INFO 46423 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:10:01,290 ERROR 46423 [-/127.0.0.1/-/5ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:54:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 46423
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:10:02,619 ERROR 46423 [-/127.0.0.1/-/1ms GET /user/update] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:54:39)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 46423
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:10:26,733 INFO 46452 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:10:34,579 INFO 46473 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:10:37,175 WARN 46473 [-/127.0.0.1/-/10ms PUT /user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-28 19:10:37,177 WARN 46473 [-/127.0.0.1/-/11ms PUT /user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 46473
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:10:40,922 INFO 46473 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":7,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:10:40,949 ERROR 46473 [-/127.0.0.1/-/22ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:60:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46473
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:10:53,093 INFO 46492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:10:54,004 INFO 46492 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":7,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:10:54,017 ERROR 46492 [-/127.0.0.1/-/12ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:60:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46492
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:10:56,082 INFO 46492 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":7,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:10:56,083 ERROR 46492 [-/127.0.0.1/-/3ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:60:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46492
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:11:31,667 INFO 46522 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:11:32,630 INFO 46522 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":9,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:11:32,642 ERROR 46522 [-/127.0.0.1/-/12ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:60:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46522
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:12:25,935 INFO 46565 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:12:26,273 INFO 46565 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":7,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:12:26,287 ERROR 46565 [-/127.0.0.1/-/13ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:60:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46565
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:13:25,493 INFO 46601 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:13:26,841 INFO 46611 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:13:28,064 INFO 46611 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":7,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:13:28,071 ERROR 46611 [-/127.0.0.1/-/12ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:62:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46611
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:13:40,196 INFO 46626 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:13:41,128 INFO 46626 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"id\":7,\"name\":\"user2222\",\"pwd\":\"222\"}';
+2020-09-28 19:13:41,135 ERROR 46626 [-/127.0.0.1/-/12ms GET /user/update] nodejs.TypeError: Cannot read property 'update' of null
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:62:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 46626
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:15:04,535 INFO 46679 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:15:05,203 INFO 46679 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:16:06,915 INFO 46725 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:16:08,439 INFO 46725 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:21:00,960 INFO 46970 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:21:03,563 INFO 46970 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:21:12,575 INFO 46984 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:21:14,162 INFO 46984 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:22:06,769 INFO 47026 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:22:08,981 INFO 47026 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:24:53,675 INFO 47127 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:25:25,606 INFO 47158 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:25:45,295 INFO 47158 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:26:23,050 INFO 47193 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:26:24,546 INFO 47193 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '6';
+2020-09-28 19:27:16,096 INFO 47235 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:27:17,537 INFO 47245 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:27:19,935 INFO 47245 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '6';
+2020-09-28 19:28:55,835 INFO 47297 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:28:59,220 INFO 47297 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '6';
+2020-09-28 19:30:19,037 INFO 47352 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:30:28,545 INFO 47374 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:30:29,960 INFO 47374 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"is\":6}';
+2020-09-28 19:30:50,084 INFO 47374 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"is\":6}';
+2020-09-28 19:30:58,069 INFO 47400 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:31:00,959 INFO 47400 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '{\"is\":6}';
+2020-09-28 19:31:13,559 INFO 47418 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:31:18,554 INFO 47428 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:31:59,011 INFO 47462 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:32:00,722 INFO 47468 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:32:03,757 INFO 47468 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '8';
+2020-09-28 19:32:05,256 INFO 47468 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '8';
+2020-09-28 19:32:09,926 INFO 47486 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:32:11,236 INFO 47486 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:32:36,919 INFO 47508 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:32:37,821 INFO 47508 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:32:39,417 INFO 47508 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:32:45,179 INFO 47530 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:32:46,843 INFO 47530 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-28 19:32:46,853 ERROR 47530 [-/127.0.0.1/-/12ms GET /user/update] nodejs.ReferenceError: res is not defined
+    at UserController.update (/Users/lxd/Desktop/egg-example/app/controller/user.js:62:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/egg-example/node_modules/koa-static-cache/index.js:41:56
+
+pid: 47530
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 19:32:50,720 INFO 47540 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-28 19:32:51,443 INFO 47540 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';

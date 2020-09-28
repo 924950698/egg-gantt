@@ -40,6 +40,19 @@ module.exports = appInfo => {
     agent: false,// 是否挂载到代理下
   }
 
+  config.sequelize = {
+    dialect: 'mysql', // 数据源
+    host: '127.0.0.1',
+    port: '3306',
+    root: 'root',
+    password: 'liuxiangdong',
+    database: 'egg', 
+    define: {
+      timestamps: false,  // 是否自动添加时间戳createAt，updateAt
+      freezeTableName: true, // 默认false修改表名为复数，true不修改表名，与数据库表名同步
+    }
+  };
+
   // add your middleware config here
   config.middleware = [];
 

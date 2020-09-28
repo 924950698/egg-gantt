@@ -77,3 +77,9 @@ update user set pwd='123456' where id = 1;<br>
 
 -- 删除表数据<br>
 delete from user where id = 2;<br>
+
+<h3> 4. egg-sequelize的使用  </h3> 
+
+-- 在sequelize中， 每个表都当作一个模型，表名称与模型名称保持一致。<br>
+
+
