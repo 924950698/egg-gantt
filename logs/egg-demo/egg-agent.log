@@ -674,3 +674,108 @@ hostname: lxddeMacBook-Pro.local
 2020-09-28 19:32:43,977 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1592,"blocks":8,"atimeMs":1601292763961.836,"mtimeMs":1601292763966.314,"ctimeMs":1601292763966.314,"birthtimeMs":1601175835278.6968,"atime":"2020-09-28T11:32:43.962Z","mtime":"2020-09-28T11:32:43.966Z","ctime":"2020-09-28T11:32:43.966Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-09-28 19:32:49,701 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
 2020-09-28 19:32:49,497 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601292769481.685,"mtimeMs":1601292769486.8416,"ctimeMs":1601292769486.8416,"birthtimeMs":1601175835278.6968,"atime":"2020-09-28T11:32:49.482Z","mtime":"2020-09-28T11:32:49.487Z","ctime":"2020-09-28T11:32:49.487Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-28 20:12:30,175 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 2179424ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 20:48:28,240 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 2078042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 22:49:27,254 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7219001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 22:53:29,292 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 202025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 23:44:03,253 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 3013945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 01:45:02,253 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7218980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 02:15:26,145 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 1743871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 04:16:25,331 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7219168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 06:17:24,002 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7218645ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 08:18:23,008 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7218985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 09:46:37,908 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 5214870ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 09:57:25,359 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:57:25,158 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344645094.4993,"mtimeMs":1601344645096.831,"ctimeMs":1601344645096.831,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:25.094Z","mtime":"2020-09-29T01:57:25.097Z","ctime":"2020-09-29T01:57:25.097Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:57:25,776 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344645764.0908,"mtimeMs":1601344645765.0894,"ctimeMs":1601344645765.0894,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:25.764Z","mtime":"2020-09-29T01:57:25.765Z","ctime":"2020-09-29T01:57:25.765Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:57:25,827 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344645764.0908,"mtimeMs":1601344645765.0894,"ctimeMs":1601344645765.0894,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:25.764Z","mtime":"2020-09-29T01:57:25.765Z","ctime":"2020-09-29T01:57:25.765Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:57:26,031 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:57:29,649 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344649638.2034,"mtimeMs":1601344649639.1135,"ctimeMs":1601344649639.1135,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:29.638Z","mtime":"2020-09-29T01:57:29.639Z","ctime":"2020-09-29T01:57:29.639Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:57:29,700 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344649638.2034,"mtimeMs":1601344649639.1135,"ctimeMs":1601344649639.1135,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:29.638Z","mtime":"2020-09-29T01:57:29.639Z","ctime":"2020-09-29T01:57:29.639Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:57:29,901 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:57:34,848 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:57:34,593 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344654581.537,"mtimeMs":1601344654582.4255,"ctimeMs":1601344654582.4255,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:34.582Z","mtime":"2020-09-29T01:57:34.582Z","ctime":"2020-09-29T01:57:34.582Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:57:34,643 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1589,"blocks":8,"atimeMs":1601344654581.537,"mtimeMs":1601344654582.4255,"ctimeMs":1601344654582.4255,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:57:34.582Z","mtime":"2020-09-29T01:57:34.582Z","ctime":"2020-09-29T01:57:34.582Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:58:05,901 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1595,"blocks":8,"atimeMs":1601344685835.8174,"mtimeMs":1601344685838.8284,"ctimeMs":1601344685838.8284,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:58:05.836Z","mtime":"2020-09-29T01:58:05.839Z","ctime":"2020-09-29T01:58:05.839Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:58:06,106 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:59:01,976 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:59:01,772 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1579,"blocks":8,"atimeMs":1601344741709.4434,"mtimeMs":1601344741710.3296,"ctimeMs":1601344741710.3296,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:59:01.709Z","mtime":"2020-09-29T01:59:01.710Z","ctime":"2020-09-29T01:59:01.710Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-29 09:59:23,512 WARN 45458 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/user.js change
+2020-09-29 09:59:23,308 INFO 45458 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17595285,"size":1545,"blocks":8,"atimeMs":1601344763246.7703,"mtimeMs":1601344763247.6567,"ctimeMs":1601344763247.6567,"birthtimeMs":1601175835278.6968,"atime":"2020-09-29T01:59:23.247Z","mtime":"2020-09-29T01:59:23.248Z","ctime":"2020-09-29T01:59:23.248Z","birthtime":"2020-09-27T03:03:55.279Z"},"remove":false,"isDirectory":false,"isFile":true}

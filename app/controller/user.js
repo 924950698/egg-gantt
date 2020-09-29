@@ -58,8 +58,7 @@ class UserController extends Controller {
       ctx.status = 404;
       return;
     }
-    const res = await user.update(JSON.stringify(params));
-    console.log(res, '--');
+    const res = await user.update(params);
 
     ctx.body = res;
   }

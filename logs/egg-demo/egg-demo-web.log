@@ -2405,3 +2405,14 @@ hostname: lxddeMacBook-Pro.local
 
 2020-09-28 19:32:50,720 INFO 47540 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2020-09-28 19:32:51,443 INFO 47540 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-29 09:57:26,383 INFO 48522 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 09:57:27,340 INFO 48525 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 09:57:30,880 INFO 48537 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 09:57:35,893 INFO 48548 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 09:57:52,507 INFO 48548 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-29 09:58:07,091 INFO 48569 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 09:58:08,229 INFO 48569 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-29 09:59:02,974 INFO 48612 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 09:59:05,199 INFO 48612 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-29 09:59:05,207 INFO 48612 [egg-sequelize](3ms) Executed (default): UPDATE `user` SET `name`=?,`pwd`=? WHERE `id` = ?
+2020-09-29 09:59:24,597 INFO 48638 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

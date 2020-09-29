@@ -2206,3 +2206,91 @@ hostname: lxddeMacBook-Pro.local
 pid: 47530
 hostname: lxddeMacBook-Pro.local
 
+2020-09-28 20:12:30,175 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 2179424ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 20:48:28,240 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 2078042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 22:49:27,253 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7219001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 22:53:29,292 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 202025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-28 23:44:03,253 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 3013945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 01:45:02,252 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7218980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 02:15:26,145 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 1743871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 04:16:25,330 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7219168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 06:17:24,002 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7218645ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 08:18:23,008 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 7218985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 09:46:37,907 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 5214870ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
