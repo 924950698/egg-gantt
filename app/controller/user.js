@@ -13,13 +13,7 @@ class UserController extends Controller {
     const { ctx } = this;
     // const res = await ctx.service.user.lists();
 
-    const res = await ctx.model.User.findAll({
-      // where: {
-      //   id: 1
-      // }
-      linie: 1,  // 分页
-      offset: 0, // 偏移量
-    });
+    const res = await ctx.model.User.findAll();
     ctx.body=res;
   }
 

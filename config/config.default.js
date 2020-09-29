@@ -61,6 +61,19 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  config.security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true,
+    },
+    domainWhiteList: [ '*'],
+  };
+  
+  config.cors = {
+    origin: '*',//匹配规则  域名+端口  *则为全匹配
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+  };
+
   return {
     ...config,
     ...userConfig,

@@ -2416,3 +2416,218 @@ hostname: lxddeMacBook-Pro.local
 2020-09-29 09:59:05,199 INFO 48612 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
 2020-09-29 09:59:05,207 INFO 48612 [egg-sequelize](3ms) Executed (default): UPDATE `user` SET `name`=?,`pwd`=? WHERE `id` = ?
 2020-09-29 09:59:24,597 INFO 48638 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 11:26:49,644 ERROR 48638 [-/127.0.0.1/-/28ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;"
+parameters: undefined
+pid: 48638
+hostname: localhost
+
+2020-09-29 11:27:18,019 INFO 53505 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 11:27:18,802 ERROR 53505 [-/127.0.0.1/-/13ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"
+parameters: undefined
+pid: 53505
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:27:30,498 INFO 53527 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 11:27:32,576 ERROR 53527 [-/127.0.0.1/-/11ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"
+parameters: undefined
+pid: 53527
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:28:07,619 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 11:28:10,117 ERROR 53560 [-/127.0.0.1/-/10ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"
+parameters: undefined
+pid: 53560
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:28:11,468 ERROR 53560 [-/127.0.0.1/-/2ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"
+parameters: undefined
+pid: 53560
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:28:42,689 INFO 53560 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:31:01,321 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:31:51,698 WARN 53560 [-/127.0.0.1/-/12ms PUT /user/update] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-29 11:31:51,701 WARN 53560 [-/127.0.0.1/-/15ms PUT /user/update] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/lxd/Desktop/egg-example/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/lxd/Desktop/egg-example/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lxd/Desktop/egg-example/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lxd/Desktop/egg-example/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 53560
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:38:22,070 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = '7';
+2020-09-29 11:38:22,078 INFO 53560 [egg-sequelize](4ms) Executed (default): UPDATE `user` SET `name`=? WHERE `id` = ?
+2020-09-29 11:38:40,698 INFO 53560 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:38:58,198 INFO 53560 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:39:25,414 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:40:05,041 INFO 53560 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:40:27,713 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:40:58,201 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:43:21,057 INFO 53560 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:44:14,130 INFO 53560 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:44:22,040 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:47:55,460 INFO 53560 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:48:05,239 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:48:14,844 INFO 53560 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 11:48:45,207 INFO 53560 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:02:58,644 INFO 54641 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:03:00,791 ERROR 54641 [-/127.0.0.1/-/25ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54641
+hostname: localhost
+
+2020-09-29 12:03:13,540 INFO 54668 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:03:15,568 INFO 54668 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:03:16,649 INFO 54668 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:03:20,938 INFO 54668 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:03:29,541 INFO 54691 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:03:32,259 INFO 54693 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:03:34,946 ERROR 54693 [-/127.0.0.1/-/5ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54693
+hostname: localhost
+
+2020-09-29 12:03:37,112 ERROR 54693 [-/127.0.0.1/-/1ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54693
+hostname: localhost
+
+2020-09-29 12:03:52,021 ERROR 54693 [-/127.0.0.1/-/1ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54693
+hostname: localhost
+
+2020-09-29 12:03:58,076 INFO 54724 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:04:02,034 INFO 54724 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:04:20,686 INFO 54724 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:04:39,644 INFO 54724 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:05:14,983 INFO 54769 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:05:26,270 INFO 54787 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:06:23,358 INFO 54837 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:07:45,286 INFO 55000 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:10:13,051 INFO 55078 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:13:37,083 INFO 55187 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:13:40,850 INFO 55187 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:13:44,403 INFO 55204 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:13:47,273 INFO 55204 [egg-sequelize](5ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:14:37,005 INFO 55204 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:14:48,402 INFO 55204 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:14:51,764 INFO 55204 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:14:58,039 INFO 55204 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:17:05,823 INFO 55308 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:17:09,445 INFO 55308 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:17:13,064 INFO 55308 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:19:09,233 INFO 55376 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:19:11,178 INFO 55376 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:19:16,750 INFO 55376 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:21:15,951 INFO 55437 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:21:18,572 INFO 55437 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:21:21,732 INFO 55437 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:21:25,004 INFO 55460 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 12:21:26,870 INFO 55460 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 12:25:46,992 INFO 55460 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 13:57:16,642 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 13:59:17,764 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 13:59:51,515 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 13:59:53,770 INFO 56289 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:00:43,537 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:00:56,626 INFO 56289 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:00:57,694 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:01:15,294 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:01:18,107 INFO 56289 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:02:27,152 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:02:30,133 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:03:07,861 INFO 56289 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:16:54,033 INFO 56950 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 14:31:47,528 INFO 57630 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 14:31:51,460 INFO 57630 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:32:14,540 INFO 57656 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 14:32:16,329 INFO 57656 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:33:20,652 INFO 57707 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 14:34:03,647 INFO 57739 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-29 14:34:49,494 INFO 57739 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:35:24,911 INFO 57739 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:36:36,870 INFO 57739 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;
+2020-09-29 14:36:45,582 INFO 57739 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `pwd` FROM `user` AS `user`;

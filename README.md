@@ -28,6 +28,9 @@ drop database egg;
 -- 创建数据库<br>
 create database egg;
 
+-- 查看当前使用的数据库<br>
+select database();
+
 -- 在数据库中创建表<br>
 use egg;<br>
 
@@ -59,6 +62,9 @@ desc user;<br>
 -- 删除表<br>
 drop table user;<br>
 
+-- 重命名表 <br>
+rename table egg to egg1;
+
 -- 插入表数据<br>
 insert into user(name, pwd) values('user1', '123');<br>
 insert into user values(2, 'user2', '123');<br>
@@ -77,6 +83,11 @@ update user set pwd='123456' where id = 1;<br>
 
 -- 删除表数据<br>
 delete from user where id = 2;<br>
+
+-- 更新字段内容<br>
+update 表名 set 字段名 = replace(字段名,’旧内容’,’新内容’)
+
+默认更新全部符合条件的数据
 
 <h3> 4. egg-sequelize的使用  </h3> 
 

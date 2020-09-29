@@ -38,6 +38,10 @@
     "username": "/Users/lxd/Desktop/egg-example/node_modules/egg-sequelize/config/config.default.js"
   },
   "middleware": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+  "cors": {
+    "origin": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "allowMethods": "/Users/lxd/Desktop/egg-example/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
     "key": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
@@ -195,6 +199,7 @@
     },
     "dependencies": {
       "egg": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",

@@ -2294,3 +2294,147 @@ name: "ClusterClientNoResponseError"
 pid: 45458
 hostname: lxddeMacBook-Pro.local
 
+2020-09-29 11:26:49,644 ERROR 48638 [-/127.0.0.1/-/28ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user` LIMIT 0, 10000000000000;"
+parameters: undefined
+pid: 48638
+hostname: localhost
+
+2020-09-29 11:27:18,801 ERROR 53505 [-/127.0.0.1/-/13ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"
+parameters: undefined
+pid: 53505
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:27:32,576 ERROR 53527 [-/127.0.0.1/-/11ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user` WHERE `user`.`id` = 1;"
+parameters: undefined
+pid: 53527
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:28:10,117 ERROR 53560 [-/127.0.0.1/-/10ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"
+parameters: undefined
+pid: 53560
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 11:28:11,468 ERROR 53560 [-/127.0.0.1/-/2ms GET /user/lists] nodejs.SequelizeDatabaseError: Table 'egg.user' doesn't exist
+    at Query.formatError (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'egg.user' doesn't exist","sql":"SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"}
+sql: "SELECT `id`, `name`, `pwd` FROM `user` AS `user`;"
+parameters: undefined
+pid: 53560
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 12:03:00,791 ERROR 54641 [-/127.0.0.1/-/25ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54641
+hostname: localhost
+
+2020-09-29 12:03:34,944 ERROR 54693 [-/127.0.0.1/-/5ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54693
+hostname: localhost
+
+2020-09-29 12:03:37,111 ERROR 54693 [-/127.0.0.1/-/1ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54693
+hostname: localhost
+
+2020-09-29 12:03:52,021 ERROR 54693 [-/127.0.0.1/-/1ms GET /user/lists] nodejs.TypeError: Cannot read property 'config' of undefined
+    at jsonp (/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/app/extend/application.js:16:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/lxd/Desktop/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lxd/Desktop/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 54693
+hostname: localhost
+
+2020-09-29 12:34:13,421 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 488388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 12:49:23,062 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 909635ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+
+2020-09-29 13:47:00,462 ERROR 45458 nodejs.ClusterClientNoResponseError: client no response in 3437385ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 45458
+hostname: lxddeMacBook-Pro.local
+

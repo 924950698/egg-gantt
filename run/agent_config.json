@@ -179,6 +179,10 @@
         "freezeTableName": true
       }
     },
+    "cors": {
+      "origin": "http://localhost:7001",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
+    },
     "env": "local",
     "name": "egg-demo",
     "keys": "<String len: 27>",
@@ -199,6 +203,7 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
+        "egg-cors": "^2.2.3",
         "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^6.0.0",
@@ -510,6 +515,17 @@
       "from": "/Users/lxd/Desktop/egg-example/config/plugin.js",
       "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-sequelize",
       "version": "6.0.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lxd/Desktop/egg-example/config/plugin.js",
+      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg-cors",
+      "version": "2.2.3"
     }
   }
 }
