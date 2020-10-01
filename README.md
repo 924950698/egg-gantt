@@ -45,6 +45,21 @@ create table user(
 
 ```
 
+create table gannt(
+  id int(10) not null auto_increment, 
+  label varchar(50) not null comment '需求名称',
+  user varchar(10) not null comment '用户名',
+  start int(10) not null comment '开始时间',
+  endDate varchar(50) not null comment '结束时间',
+  duration int(50) not null comment '周期',
+  percent int(10) not null default 0 comment '完成度',
+  type varchar(10) not null comment '类型',
+  proType varchar(10) not null comment '产品需求',
+  risk varchar(10) not null comment '风险预警xxx',
+  primary key(id)
+)engine=InnoDB charset=utf8;
+
+
 tips: <br>
 int、varchar 前者为基本数据类型、后者为string类型<br>
 auto_increment 自动递增<br>
@@ -89,8 +104,22 @@ update 表名 set 字段名 = replace(字段名,’旧内容’,’新内容’)
 
 默认更新全部符合条件的数据
 
+
+
 <h3> 4. egg-sequelize的使用  </h3> 
 
 -- 在sequelize中， 每个表都当作一个模型，表名称与模型名称保持一致。<br>
 
+<h3>5. </h3>
 
+-- 表中列的数据类型的修改<br>
+ALTER TABLE gannt CHANGE start start INT;<br>
+ALTER TABLE gannt CHANGE duration duration INT;<br>
+
+-- 表中列的数据的删除<br>
+ALTER TABLE gannt  DROP start;<br>
+
+-- 表中列的数据的增加<br>
+ALTER TABLE gannt ADD start DATETIME;
+
+delete from gannt where id = 2;

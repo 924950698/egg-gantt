@@ -13,4 +13,7 @@ module.exports = app => {
   router.get('/user/update', controller.user.update);
   router.get('/user/delete', controller.user.delete);
   router.get('/demo', controller.home.demo);
+
+  router.get('/gannt/lists', controller.gannt.lists);
+  router.post('/gannt/created', controller.gannt.created);
 };
