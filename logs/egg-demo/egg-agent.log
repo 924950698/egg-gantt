@@ -215,3 +215,993 @@ hostname: localhost
 2020-10-01 12:32:51,415 INFO 96469 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/core/base_controller.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":19347920,"size":367,"blocks":8,"atimeMs":1601526771404.3704,"mtimeMs":1601526771405.235,"ctimeMs":1601526771405.235,"birthtimeMs":1601526235407.9421,"atime":"2020-10-01T04:32:51.404Z","mtime":"2020-10-01T04:32:51.405Z","ctime":"2020-10-01T04:32:51.405Z","birthtime":"2020-10-01T04:23:55.408Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-10-01 12:32:51,466 INFO 96469 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/core/base_controller.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":19347920,"size":367,"blocks":8,"atimeMs":1601526771404.3704,"mtimeMs":1601526771405.235,"ctimeMs":1601526771405.235,"birthtimeMs":1601526235407.9421,"atime":"2020-10-01T04:32:51.404Z","mtime":"2020-10-01T04:32:51.405Z","ctime":"2020-10-01T04:32:51.405Z","birthtime":"2020-10-01T04:23:55.408Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-10-01 12:32:51,671 WARN 96469 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/core/base_controller.js change
+2020-10-01 13:08:41,833 WARN 96469 [agent:development] reload worker because /Users/lxd/Desktop/egg-example/app/controller/gannt.js change
+2020-10-01 13:08:41,629 INFO 96469 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":776,"blocks":8,"atimeMs":1601528921565.828,"mtimeMs":1601528921568.0635,"ctimeMs":1601528921568.0635,"birthtimeMs":1601362003872.6194,"atime":"2020-10-01T05:08:41.566Z","mtime":"2020-10-01T05:08:41.568Z","ctime":"2020-10-01T05:08:41.568Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-02 19:39:13,259 INFO 16165 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-02 19:39:13,040 INFO 16165 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-02 19:39:13,202 INFO 16165 [egg:core] dump config after load, 4ms
+2020-10-02 19:39:13,231 INFO 16165 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-02 19:39:13,231 INFO 16165 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-02 19:39:13,231 INFO 16165 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-02 19:39:13,231 INFO 16165 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-02 19:39:13,231 INFO 16165 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-02 19:39:13,231 INFO 16165 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-02 19:39:13,232 INFO 16165 [egg-watcher:agent] watcher start success
+2020-10-02 19:39:13,289 INFO 16165 [egg:core] dump config after ready, 9ms
+2020-10-02 22:43:48,492 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 573906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 22:54:03,606 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575101ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 23:04:19,733 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576109ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 23:14:14,825 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575086ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 23:24:29,966 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575121ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 23:34:45,058 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 23:44:40,139 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-02 23:54:56,225 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576072ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 00:05:11,313 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 00:15:06,389 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575061ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 00:25:21,479 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575082ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 00:35:17,001 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575514ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 00:45:32,097 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 00:55:48,199 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 01:05:43,302 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575094ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 01:26:13,467 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 01:36:09,551 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 01:46:24,654 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 01:56:39,740 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 02:06:34,838 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575088ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 02:16:50,915 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 02:27:06,005 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575078ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 02:37:01,094 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 02:47:17,171 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 02:57:13,002 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575821ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 03:07:28,098 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 03:17:43,186 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 03:27:39,251 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576056ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 03:37:57,345 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 578083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 03:48:12,467 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575102ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 03:58:08,536 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 04:08:23,634 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 04:18:38,718 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575062ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 04:28:33,803 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575078ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 04:38:49,901 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 04:49:05,012 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575091ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 04:59:00,099 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575080ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 05:19:12,002 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576805ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 05:29:27,100 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575088ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 05:39:42,200 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 05:49:37,290 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 05:59:53,377 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 06:10:08,464 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575073ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 06:20:03,563 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575084ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 06:30:19,651 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576071ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 06:40:34,734 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575073ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 06:50:29,828 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575084ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 07:11:01,007 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 07:20:56,098 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 07:31:11,187 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 07:41:07,268 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576072ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 07:51:22,370 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575091ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 08:01:37,464 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 08:11:32,563 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 08:21:48,659 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 08:32:03,736 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575069ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 08:41:58,819 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 08:52:14,917 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 576078ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 09:02:30,007 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 09:12:25,065 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 575050ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 09:20:49,155 ERROR 16165 nodejs.ClusterClientNoResponseError: client no response in 464080ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 16165
+hostname: localhost
+
+2020-10-03 09:25:53,782 INFO 24252 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-03 09:25:53,487 INFO 24252 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-03 09:25:53,708 INFO 24252 [egg:core] dump config after load, 3ms
+2020-10-03 09:25:53,744 INFO 24252 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-03 09:25:53,744 INFO 24252 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-03 09:25:53,744 INFO 24252 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-03 09:25:53,744 INFO 24252 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-03 09:25:53,745 INFO 24252 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-03 09:25:53,745 INFO 24252 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-03 09:25:53,745 INFO 24252 [egg-watcher:agent] watcher start success
+2020-10-03 09:25:53,793 INFO 24252 [egg:core] dump config after ready, 9ms
+2020-10-03 10:51:29,088 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 573734ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 11:01:45,160 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 576055ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 11:11:40,144 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 11:21:56,109 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575948ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 11:31:52,002 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575884ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 11:42:06,993 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574967ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 12:02:17,902 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 12:12:33,894 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575979ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 12:22:48,858 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574942ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 12:32:43,825 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 12:35:34,800 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 130963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 13:01:00,998 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 345959ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 13:51:15,174 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 259439ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 14:45:31,583 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575772ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 14:55:47,071 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575474ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 15:06:02,021 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574937ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 15:15:57,987 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575952ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 15:26:12,953 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 15:46:23,900 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574960ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 15:56:39,837 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575919ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 16:06:36,002 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 576150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 16:16:50,982 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574959ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 16:23:46,944 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 375951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 16:27:44,983 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 138005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-03 21:14:36,929 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 194176ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 09:53:31,034 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 43273624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 10:28:17,227 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 2066187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 10:45:11,603 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574336ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 10:55:07,648 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 576031ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 11:05:02,749 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 11:14:57,031 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 11:35:08,366 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575824ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 11:45:23,367 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 11:55:21,790 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 578413ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 12:05:18,002 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 576202ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 12:25:28,821 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575308ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 12:35:44,242 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575408ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 12:45:40,445 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 576200ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 12:55:54,968 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 574507ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 13:05:50,388 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 13:16:06,102 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575699ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 13:26:01,403 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575295ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 13:36:16,918 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 13:51:19,076 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 575699ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 13:57:38,570 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 359481ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 17:37:43,667 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 162354ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 18:30:40,056 ERROR 24252 nodejs.ClusterClientNoResponseError: client no response in 295751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 24252
+hostname: localhost
+
+2020-10-04 19:10:36,009 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:10:35,802 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":776,"blocks":8,"atimeMs":1601809835739.3884,"mtimeMs":1601809835740.6338,"ctimeMs":1601809835740.6338,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:10:35.739Z","mtime":"2020-10-04T11:10:35.741Z","ctime":"2020-10-04T11:10:35.741Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:12:13,908 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:12:13,703 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1010,"blocks":8,"atimeMs":1601809933641.9048,"mtimeMs":1601809933642.5444,"ctimeMs":1601809933642.5444,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:12:13.642Z","mtime":"2020-10-04T11:12:13.643Z","ctime":"2020-10-04T11:12:13.643Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:12:16,228 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:12:15,975 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1009,"blocks":8,"atimeMs":1601809935963.6606,"mtimeMs":1601809935964.3176,"ctimeMs":1601809935964.3176,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:12:15.964Z","mtime":"2020-10-04T11:12:15.964Z","ctime":"2020-10-04T11:12:15.964Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:12:16,025 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1009,"blocks":8,"atimeMs":1601809935963.6606,"mtimeMs":1601809935964.3176,"ctimeMs":1601809935964.3176,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:12:15.964Z","mtime":"2020-10-04T11:12:15.964Z","ctime":"2020-10-04T11:12:15.964Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:12:27,486 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:12:27,285 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1009,"blocks":8,"atimeMs":1601809947270.0024,"mtimeMs":1601809947272.6838,"ctimeMs":1601809947272.6838,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:12:27.270Z","mtime":"2020-10-04T11:12:27.273Z","ctime":"2020-10-04T11:12:27.273Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:15:16,478 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:15:16,274 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1168,"blocks":8,"atimeMs":1601810116209.354,"mtimeMs":1601810116212.0298,"ctimeMs":1601810116212.0298,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:15:16.209Z","mtime":"2020-10-04T11:15:16.212Z","ctime":"2020-10-04T11:15:16.212Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:15:52,695 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:15:52,492 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1323,"blocks":8,"atimeMs":1601810152430.9863,"mtimeMs":1601810152431.4805,"ctimeMs":1601810152431.4805,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:15:52.431Z","mtime":"2020-10-04T11:15:52.431Z","ctime":"2020-10-04T11:15:52.431Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:12,363 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1323,"blocks":8,"atimeMs":1601810172300.978,"mtimeMs":1601810172301.6428,"ctimeMs":1601810172301.6428,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:16:12.301Z","mtime":"2020-10-04T11:16:12.302Z","ctime":"2020-10-04T11:16:12.302Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:12,565 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:16:19,817 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:16:19,563 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810179550.9714,"mtimeMs":1601810179551.5212,"ctimeMs":1601810179551.5212,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:16:19.551Z","mtime":"2020-10-04T11:16:19.552Z","ctime":"2020-10-04T11:16:19.552Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:19,613 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810179550.9714,"mtimeMs":1601810179551.5212,"ctimeMs":1601810179551.5212,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:16:19.551Z","mtime":"2020-10-04T11:16:19.552Z","ctime":"2020-10-04T11:16:19.552Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:21,685 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:16:21,433 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810181422.162,"mtimeMs":1601810181423.8848,"ctimeMs":1601810181423.8848,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:16:21.422Z","mtime":"2020-10-04T11:16:21.424Z","ctime":"2020-10-04T11:16:21.424Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:21,483 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810181422.162,"mtimeMs":1601810181423.8848,"ctimeMs":1601810181423.8848,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:16:21.422Z","mtime":"2020-10-04T11:16:21.424Z","ctime":"2020-10-04T11:16:21.424Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:30,175 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/router.js change
+2020-10-04 19:16:29,920 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17521872,"size":717,"blocks":8,"atimeMs":1601810189909.0732,"mtimeMs":1601810189909.6062,"ctimeMs":1601810189909.6062,"birthtimeMs":1601000246190.4717,"atime":"2020-10-04T11:16:29.909Z","mtime":"2020-10-04T11:16:29.910Z","ctime":"2020-10-04T11:16:29.910Z","birthtime":"2020-09-25T02:17:26.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:29,971 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17521872,"size":717,"blocks":8,"atimeMs":1601810189909.0732,"mtimeMs":1601810189909.6062,"ctimeMs":1601810189909.6062,"birthtimeMs":1601000246190.4717,"atime":"2020-10-04T11:16:29.909Z","mtime":"2020-10-04T11:16:29.910Z","ctime":"2020-10-04T11:16:29.910Z","birthtime":"2020-09-25T02:17:26.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:32,307 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17521872,"size":717,"blocks":8,"atimeMs":1601810192295.7783,"mtimeMs":1601810192296.3792,"ctimeMs":1601810192296.3792,"birthtimeMs":1601000246190.4717,"atime":"2020-10-04T11:16:32.296Z","mtime":"2020-10-04T11:16:32.296Z","ctime":"2020-10-04T11:16:32.296Z","birthtime":"2020-09-25T02:17:26.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:32,357 INFO 24252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17521872,"size":717,"blocks":8,"atimeMs":1601810192295.7783,"mtimeMs":1601810192296.3792,"ctimeMs":1601810192296.3792,"birthtimeMs":1601000246190.4717,"atime":"2020-10-04T11:16:32.296Z","mtime":"2020-10-04T11:16:32.296Z","ctime":"2020-10-04T11:16:32.296Z","birthtime":"2020-09-25T02:17:26.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:16:32,560 WARN 24252 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/router.js change
+2020-10-04 19:17:36,114 INFO 46730 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-04 19:17:35,876 INFO 46730 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-04 19:17:36,049 INFO 46730 [egg:core] dump config after load, 3ms
+2020-10-04 19:17:36,083 INFO 46730 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-04 19:17:36,083 INFO 46730 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-04 19:17:36,083 INFO 46730 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-04 19:17:36,083 INFO 46730 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-04 19:17:36,084 INFO 46730 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-04 19:17:36,084 INFO 46730 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-04 19:17:36,084 INFO 46730 [egg-watcher:agent] watcher start success
+2020-10-04 19:17:36,123 INFO 46730 [egg:core] dump config after ready, 4ms
+2020-10-04 19:17:59,838 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17521872,"size":717,"blocks":8,"atimeMs":1601810279746.204,"mtimeMs":1601810279749.1284,"ctimeMs":1601810279749.1284,"birthtimeMs":1601000246190.4717,"atime":"2020-10-04T11:17:59.746Z","mtime":"2020-10-04T11:17:59.749Z","ctime":"2020-10-04T11:17:59.749Z","birthtime":"2020-09-25T02:17:26.190Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:00,041 WARN 46730 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/router.js change
+2020-10-04 19:18:01,800 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810281788.2039,"mtimeMs":1601810281788.8787,"ctimeMs":1601810281788.8787,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:01.788Z","mtime":"2020-10-04T11:18:01.789Z","ctime":"2020-10-04T11:18:01.789Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:02,004 WARN 46730 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:18:03,410 WARN 46730 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:18:03,157 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810283145.7375,"mtimeMs":1601810283146.434,"ctimeMs":1601810283146.434,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:03.146Z","mtime":"2020-10-04T11:18:03.146Z","ctime":"2020-10-04T11:18:03.146Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:03,207 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1169,"blocks":8,"atimeMs":1601810283145.7375,"mtimeMs":1601810283146.434,"ctimeMs":1601810283146.434,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:03.146Z","mtime":"2020-10-04T11:18:03.146Z","ctime":"2020-10-04T11:18:03.146Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:17,831 WARN 46730 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:18:17,580 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1167,"blocks":8,"atimeMs":1601810297568.349,"mtimeMs":1601810297568.9067,"ctimeMs":1601810297568.9067,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:17.568Z","mtime":"2020-10-04T11:18:17.569Z","ctime":"2020-10-04T11:18:17.569Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:17,631 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1167,"blocks":8,"atimeMs":1601810297568.349,"mtimeMs":1601810297568.9067,"ctimeMs":1601810297568.9067,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:17.568Z","mtime":"2020-10-04T11:18:17.569Z","ctime":"2020-10-04T11:18:17.569Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:20,704 WARN 46730 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:18:20,453 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1167,"blocks":8,"atimeMs":1601810300441.284,"mtimeMs":1601810300441.8616,"ctimeMs":1601810300441.8616,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:20.441Z","mtime":"2020-10-04T11:18:20.442Z","ctime":"2020-10-04T11:18:20.442Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:18:20,503 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1167,"blocks":8,"atimeMs":1601810300441.284,"mtimeMs":1601810300441.8616,"ctimeMs":1601810300441.8616,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:18:20.441Z","mtime":"2020-10-04T11:18:20.442Z","ctime":"2020-10-04T11:18:20.442Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:20:48,405 INFO 46730 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1167,"blocks":8,"atimeMs":1601810448349.391,"mtimeMs":1601810448350.3018,"ctimeMs":1601810448350.3018,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:20:48.349Z","mtime":"2020-10-04T11:20:48.350Z","ctime":"2020-10-04T11:20:48.350Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:20:48,610 WARN 46730 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:25:55,100 INFO 47072 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-04 19:25:54,884 INFO 47072 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-04 19:25:55,047 INFO 47072 [egg:core] dump config after load, 4ms
+2020-10-04 19:25:55,070 INFO 47072 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-04 19:25:55,070 INFO 47072 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-04 19:25:55,071 INFO 47072 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-04 19:25:55,071 INFO 47072 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-04 19:25:55,071 INFO 47072 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-04 19:25:55,071 INFO 47072 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-04 19:25:55,071 INFO 47072 [egg-watcher:agent] watcher start success
+2020-10-04 19:25:55,108 INFO 47072 [egg:core] dump config after ready, 5ms
+2020-10-04 19:26:10,044 INFO 47105 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-04 19:26:09,830 INFO 47105 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-04 19:26:09,993 INFO 47105 [egg:core] dump config after load, 4ms
+2020-10-04 19:26:10,016 INFO 47105 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-04 19:26:10,016 INFO 47105 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-04 19:26:10,016 INFO 47105 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-04 19:26:10,016 INFO 47105 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-04 19:26:10,017 INFO 47105 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-04 19:26:10,017 INFO 47105 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-04 19:26:10,017 INFO 47105 [egg-watcher:agent] watcher start success
+2020-10-04 19:26:10,050 INFO 47105 [egg:core] dump config after ready, 4ms
+2020-10-04 19:26:20,239 INFO 47128 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-04 19:26:20,022 INFO 47128 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-04 19:26:20,189 INFO 47128 [egg:core] dump config after load, 4ms
+2020-10-04 19:26:20,212 INFO 47128 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-04 19:26:20,212 INFO 47128 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-04 19:26:20,212 INFO 47128 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-04 19:26:20,212 INFO 47128 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-04 19:26:20,212 INFO 47128 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-04 19:26:20,213 INFO 47128 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-04 19:26:20,213 INFO 47128 [egg-watcher:agent] watcher start success
+2020-10-04 19:26:20,246 INFO 47128 [egg:core] dump config after ready, 5ms
+2020-10-04 19:32:25,961 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:32:25,758 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1133,"blocks":8,"atimeMs":1601811145702.2588,"mtimeMs":1601811145702.7644,"ctimeMs":1601811145702.7644,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:32:25.702Z","mtime":"2020-10-04T11:32:25.703Z","ctime":"2020-10-04T11:32:25.703Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:32:58,765 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:32:58,560 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1155,"blocks":8,"atimeMs":1601811178496.071,"mtimeMs":1601811178499.2405,"ctimeMs":1601811178499.2405,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:32:58.496Z","mtime":"2020-10-04T11:32:58.499Z","ctime":"2020-10-04T11:32:58.499Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:34:05,154 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1161,"blocks":8,"atimeMs":1601811244894.7734,"mtimeMs":1601811244895.5842,"ctimeMs":1601811244895.5842,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:34:04.895Z","mtime":"2020-10-04T11:34:04.896Z","ctime":"2020-10-04T11:34:04.896Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:34:05,361 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:35:06,739 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:35:06,537 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1168,"blocks":8,"atimeMs":1601811306474.6438,"mtimeMs":1601811306475.2805,"ctimeMs":1601811306475.2805,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:35:06.475Z","mtime":"2020-10-04T11:35:06.475Z","ctime":"2020-10-04T11:35:06.475Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:35:26,488 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1156,"blocks":8,"atimeMs":1601811326393.6523,"mtimeMs":1601811326395.5403,"ctimeMs":1601811326395.5403,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:35:26.394Z","mtime":"2020-10-04T11:35:26.396Z","ctime":"2020-10-04T11:35:26.396Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:35:26,692 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:35:44,471 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1166,"blocks":8,"atimeMs":1601811344416.2568,"mtimeMs":1601811344418.289,"ctimeMs":1601811344418.289,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:35:44.416Z","mtime":"2020-10-04T11:35:44.418Z","ctime":"2020-10-04T11:35:44.418Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:35:44,672 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:36:03,024 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:36:02,821 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1188,"blocks":8,"atimeMs":1601811362757.841,"mtimeMs":1601811362759.816,"ctimeMs":1601811362759.816,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:36:02.758Z","mtime":"2020-10-04T11:36:02.760Z","ctime":"2020-10-04T11:36:02.760Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-04 19:36:39,016 WARN 47128 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
+2020-10-04 19:36:38,812 INFO 47128 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":1183,"blocks":8,"atimeMs":1601811398749.715,"mtimeMs":1601811398750.379,"ctimeMs":1601811398750.379,"birthtimeMs":1601362003872.6194,"atime":"2020-10-04T11:36:38.750Z","mtime":"2020-10-04T11:36:38.750Z","ctime":"2020-10-04T11:36:38.750Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}

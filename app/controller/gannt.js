@@ -15,8 +15,8 @@ class GanntController extends Controller {
     }
   }
 
-  // 新建
-  async created() {
+   // 新建
+   async created() {
     const { ctx } = this;
     const res = await ctx.model.Gannt.create(ctx.request.body);
     if(res) {
@@ -26,14 +26,30 @@ class GanntController extends Controller {
     }
   }
 
+  // 更新
+  async update() {
+    const { ctx } = this;
+    console.log(ctx.request.body);
+    const params = ctx.request.body;
+    const user = await ctx.model.Gannt.findByPk(params.id);
+    if (!user) {
+      ctx.status = 404;
+      return;
+    }
+    const res = await user.update(params);
+    if(res) {
+      this.success(res);
+    } else {
+      this.notFound('update接口地址错误');
+    }
+  }
+
   // 删除某一项
   async delete() {
     const { ctx } = this;
     console.log("删除某一项==>", ctx);
     const res = await ctx.model.User.findByPk();
   }
-
-
   
 }
 

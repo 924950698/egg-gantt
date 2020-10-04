@@ -118,3 +118,111 @@
 2020-10-01 12:32:52,365 INFO 1476 [egg-schedule]: register schedule /Users/lxd/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-10-01 12:32:52,365 INFO 1476 [egg-schedule]: register schedule /Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-10-01 12:32:52,365 INFO 1476 [egg-schedule]: register schedule /Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-01 13:08:42,583 INFO 2965 [egg-schedule]: register schedule /Users/lxd/Desktop/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-01 13:08:42,583 INFO 2965 [egg-schedule]: register schedule /Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-01 13:08:42,583 INFO 2965 [egg-schedule]: register schedule /Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-02 19:39:13,938 INFO 16166 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-02 19:39:13,938 INFO 16166 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-02 19:39:13,938 INFO 16166 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-02 19:39:14,220 INFO 16165 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31845783ms at 2020-10-03 04:30:00.003
+2020-10-02 19:39:14,220 INFO 16165 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15645780ms at 2020-10-03 00:00:00.000
+2020-10-02 19:39:14,220 INFO 16165 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15646780ms at 2020-10-03 00:00:01.000
+2020-10-03 09:25:54,454 INFO 24264 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-03 09:25:54,454 INFO 24264 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-03 09:25:54,454 INFO 24264 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-03 09:25:54,758 INFO 24252 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68645245ms at 2020-10-04 04:30:00.002
+2020-10-03 09:25:54,758 INFO 24252 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 52445242ms at 2020-10-04 00:00:00.000
+2020-10-03 09:25:54,758 INFO 24252 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 52446242ms at 2020-10-04 00:00:01.000
+2020-10-04 19:10:37,192 INFO 46313 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:10:37,192 INFO 46313 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:10:37,192 INFO 46313 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:12:14,602 INFO 46378 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:12:14,602 INFO 46378 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:12:14,602 INFO 46378 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:12:16,911 INFO 46392 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:12:16,911 INFO 46392 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:12:16,911 INFO 46392 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:12:28,191 INFO 46406 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:12:28,191 INFO 46406 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:12:28,191 INFO 46406 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:15:17,191 INFO 46541 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:15:17,191 INFO 46541 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:15:17,191 INFO 46541 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:15:53,401 INFO 46577 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:15:53,401 INFO 46577 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:15:53,401 INFO 46577 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:16:13,268 INFO 46612 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:16:13,268 INFO 46612 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:16:13,268 INFO 46612 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:16:20,507 INFO 46634 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:16:20,507 INFO 46634 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:16:20,507 INFO 46634 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:16:22,393 INFO 46638 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:16:22,393 INFO 46638 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:16:22,393 INFO 46638 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:16:30,884 INFO 46664 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:16:30,884 INFO 46664 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:16:30,884 INFO 46664 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:16:33,260 INFO 46666 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:16:33,260 INFO 46666 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:16:33,260 INFO 46666 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:17:36,805 INFO 46733 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:17:36,805 INFO 46733 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:17:36,805 INFO 46733 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:17:37,098 INFO 46730 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 33142905ms at 2020-10-05 04:30:00.003
+2020-10-04 19:17:37,098 INFO 46730 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16942902ms at 2020-10-05 00:00:00.000
+2020-10-04 19:17:37,098 INFO 46730 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16943902ms at 2020-10-05 00:00:01.000
+2020-10-04 19:18:00,769 INFO 46752 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:18:00,769 INFO 46752 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:18:00,769 INFO 46752 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:18:02,685 INFO 46765 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:18:02,685 INFO 46765 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:18:02,685 INFO 46765 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:18:04,115 INFO 46767 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:18:04,115 INFO 46767 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:18:04,115 INFO 46767 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:18:18,529 INFO 46785 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:18:18,529 INFO 46785 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:18:18,529 INFO 46785 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:18:21,381 INFO 46795 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:18:21,381 INFO 46795 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:18:21,381 INFO 46795 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:20:49,299 INFO 46875 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:20:49,299 INFO 46875 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:20:49,299 INFO 46875 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:25:55,779 INFO 47076 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:25:55,779 INFO 47076 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:25:55,779 INFO 47076 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:25:56,083 INFO 47072 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32643919ms at 2020-10-05 04:30:00.002
+2020-10-04 19:25:56,084 INFO 47072 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16443917ms at 2020-10-05 00:00:00.001
+2020-10-04 19:25:56,084 INFO 47072 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16444916ms at 2020-10-05 00:00:01.000
+2020-10-04 19:26:20,917 INFO 47132 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:26:20,917 INFO 47132 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:26:20,917 INFO 47132 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:26:21,212 INFO 47128 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 32618791ms at 2020-10-05 04:30:00.002
+2020-10-04 19:26:21,212 INFO 47128 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16418788ms at 2020-10-05 00:00:00.000
+2020-10-04 19:26:21,212 INFO 47128 [Timer] /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16419788ms at 2020-10-05 00:00:01.000
+2020-10-04 19:32:26,851 INFO 47420 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:32:26,851 INFO 47420 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:32:26,851 INFO 47420 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:32:59,474 INFO 47453 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:32:59,474 INFO 47453 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:32:59,474 INFO 47453 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:34:06,040 INFO 47507 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:34:06,040 INFO 47507 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:34:06,040 INFO 47507 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:35:07,420 INFO 47557 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:35:07,420 INFO 47557 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:35:07,420 INFO 47557 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:35:27,367 INFO 47585 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:35:27,367 INFO 47585 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:35:27,367 INFO 47585 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:35:45,354 INFO 47603 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:35:45,354 INFO 47603 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:35:45,354 INFO 47603 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:36:03,714 INFO 47622 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:36:03,714 INFO 47622 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:36:03,714 INFO 47622 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-04 19:36:39,684 INFO 47645 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-04 19:36:39,684 INFO 47645 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-04 19:36:39,684 INFO 47645 [egg-schedule]: register schedule /Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

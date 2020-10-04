@@ -16,4 +16,7 @@ module.exports = app => {
 
   router.get('/gannt/lists', controller.gannt.lists);
   router.post('/gannt/created', controller.gannt.created);
+  router.post('/gannt/update', controller.gannt.update);
+
+  
 };

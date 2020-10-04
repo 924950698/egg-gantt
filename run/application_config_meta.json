@@ -1,334 +1,334 @@
 {
-  "keys": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+  "keys": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
   "view": {
-    "defaultViewEngine": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "defaultViewEngine": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
     "mapping": {
-      ".tpl": "/Users/lxd/Desktop/egg-example/config/config.default.js"
+      ".tpl": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js"
     },
-    "root": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/lxd/Desktop/egg-example/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-view/config/config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "port": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "user": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "password": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "database": "/Users/lxd/Desktop/egg-example/config/config.default.js"
+      "host": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "port": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "user": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "password": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "database": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js"
     },
-    "app": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "agent": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "app": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "agent": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
     "default": {
-      "database": "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql/config/config.default.js",
-      "connectionLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg-mysql/config/config.default.js"
+      "database": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-mysql/config/config.default.js"
     }
   },
   "sequelize": {
-    "dialect": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "host": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "port": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "root": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "password": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "database": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+    "dialect": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "host": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "port": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "root": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "password": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "database": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
     "define": {
-      "timestamps": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "freezeTableName": "/Users/lxd/Desktop/egg-example/config/config.default.js"
+      "timestamps": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "freezeTableName": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js"
     },
-    "username": "/Users/lxd/Desktop/egg-example/node_modules/egg-sequelize/config/config.default.js"
+    "username": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-sequelize/config/config.default.js"
   },
-  "middleware": "/Users/lxd/Desktop/egg-example/config/config.default.js",
+  "middleware": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
   "security": {
     "csrf": {
-      "enable": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "ignoreJSON": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-      "type": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "ignoreJSON": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+      "type": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "protocolWhiteList": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "protocolWhiteList": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
     }
   },
   "cors": {
-    "origin": "/Users/lxd/Desktop/egg-example/config/config.default.js",
-    "allowMethods": "/Users/lxd/Desktop/egg-example/config/config.default.js"
+    "origin": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js",
+    "allowMethods": "/Users/lxd/Desktop/mine/egg-example/config/config.default.js"
   },
   "session": {
-    "maxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/lxd/Desktop/egg-example/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "/Users/lxd/Desktop/egg-example/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/lxd/Desktop/egg-example/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/lxd/Desktop/egg-example/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/lxd/Desktop/egg-example/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/lxd/Desktop/egg-example/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/lxd/Desktop/egg-example/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/lxd/Desktop/egg-example/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/lxd/Desktop/egg-example/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/lxd/Desktop/egg-example/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/lxd/Desktop/egg-example/node_modules/egg-schedule/config/config.default.js"
+    "directory": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "mode": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/lxd/Desktop/egg-example/node_modules/egg-multipart/config/config.default.js"
+      "cron": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js",
-    "overrideIgnore": "/Users/lxd/Desktop/egg-example/node_modules/egg-development/config/config.default.js"
+    "watchDirs": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/lxd/Desktop/egg-example/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/lxd/Desktop/egg-example/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg-static/config/config.default.js"
   },
-  "env": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "name": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "cookies": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "maxIpsCount": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+  "env": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "version": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "description": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "private": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "name": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
     "egg": {
-      "declarations": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "declarations": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-cors": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-mysql": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-sequelize": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "moment": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "mysql2": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "egg": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "moment": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "autod": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "node": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "stop": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "dev": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "debug": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "test": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "cov": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "lint": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "ci": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "autod": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "start": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "stop": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "debug": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "version": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "url": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "type": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
-    "author": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "license": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "author": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "textLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "strict": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "depth": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
-    "onerror": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "onerror": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
   "logger": {
-    "dir": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "env": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "level": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "dir": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.local.js"
+      "consoleLevel": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "logging": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "enable": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "port": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+      "path": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "/Users/lxd/Desktop/egg-example/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
 }
