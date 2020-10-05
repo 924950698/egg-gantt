@@ -18,5 +18,5 @@ module.exports = app => {
   router.post('/gannt/created', controller.gannt.created);
   router.post('/gannt/update', controller.gannt.update);
   router.post('/gannt/destroy', controller.gannt.destroy);
-  
+  router.post('/gannt/search', controller.gannt.search);
 };

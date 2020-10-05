@@ -15,6 +15,18 @@ class GanntController extends Controller {
     }
   }
 
+  //查询
+  async search() {
+    const { ctx } = this;
+    const params = ctx.request.body;
+    const res = await ctx.model.Gannt.findByLabel(params.label);
+    if(res) {
+      this.success(res);
+    } else {
+      this.notFound('search接口地址错误');
+    }
+  }
+
    // 新建
    async created() {
     const { ctx } = this;

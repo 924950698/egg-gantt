@@ -1532,3 +1532,34 @@ name: "ClusterClientNoResponseError"
 pid: 47128
 hostname: localhost
 
+2020-10-05 18:15:22,406 ERROR 68805 [-/192.168.0.100/-/10ms POST /gannt/search] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at GanntController.search (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:22:39)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 68805
+hostname: localhost
+
+2020-10-05 18:22:02,386 ERROR 69108 [-/192.168.0.100/-/8ms POST /gannt/search] nodejs.SequelizeQueryError: The argument passed to findAll must be an options object, use findByPk if you wish to pass a single primary key value
+    at Function.findAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1683:13)
+    at GanntController.search (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:22:39)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+name: "SequelizeQueryError"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 69108
+hostname: localhost
+

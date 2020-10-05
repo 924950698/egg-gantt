@@ -14,5 +14,14 @@ module.exports = app => {
     risk: STRING(10),
   })
 
+  // 查询
+  Gannt.findByLabel = async function(label) {
+    return await this.findAll ({
+      where: {
+        label: label
+      }
+    });
+  }
+
   return Gannt;
 }

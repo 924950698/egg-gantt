@@ -934,3 +934,204 @@ hostname: localhost
 2020-10-05 09:44:02,716 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = 3;
 2020-10-05 09:44:02,718 INFO 55529 [egg-sequelize](2ms) Executed (default): DELETE FROM `gannt` WHERE `id` = 3
 2020-10-05 09:44:02,821 INFO 55529 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:44:48,285 INFO 55529 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:45:57,677 INFO 55529 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:46:12,716 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:46:12,760 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:46:35,378 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:46:50,692 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = 11;
+2020-10-05 09:46:50,694 INFO 55529 [egg-sequelize](2ms) Executed (default): DELETE FROM `gannt` WHERE `id` = 11
+2020-10-05 09:46:50,774 INFO 55529 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:48:44,128 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:48:46,465 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:49:27,405 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:49:37,504 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:49:47,318 INFO 55529 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:50:13,873 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:53:51,166 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:54:42,832 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:55:03,966 INFO 55529 [egg-sequelize](7ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:55:29,998 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:55:33,094 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:56:09,670 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:57:19,982 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:59:45,358 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 09:59:45,400 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:00:02,067 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:02:02,076 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:02:15,654 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:02:23,181 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:03:18,131 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:03:20,233 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:04:38,343 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:05:32,302 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:05:34,412 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:05:38,289 INFO 55529 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:06:50,561 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:07:03,909 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:07:05,043 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:09:41,377 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:09:43,922 INFO 55529 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:09:50,766 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = 4;
+2020-10-05 10:09:50,768 INFO 55529 [egg-sequelize](2ms) Executed (default): DELETE FROM `gannt` WHERE `id` = 4
+2020-10-05 10:09:50,859 INFO 55529 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:13:34,983 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:13:58,835 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:14:05,460 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:14:24,871 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:14:27,400 INFO 55529 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:15:10,336 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:15:22,174 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:18:27,164 INFO 55529 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:22:37,053 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 10:58:04,561 INFO 55529 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 11:01:51,258 INFO 58326 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 11:02:20,000 INFO 58360 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:12:32,240 INFO 58360 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:12:32,281 INFO 58360 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:12:32,720 INFO 58360 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:12:33,173 INFO 58360 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:12:41,194 INFO 58360 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:13:06,282 INFO 58360 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:13:12,714 INFO 58360 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:13:25,822 INFO 58360 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:14:09,383 INFO 68748 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:14:10,749 INFO 68762 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:14:24,247 INFO 68781 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:14:25,825 INFO 68791 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:14:31,004 INFO 68805 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:14:43,549 INFO 68805 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:14:44,992 INFO 68805 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:15:07,196 INFO 68805 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:15:19,460 INFO 68805 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:15:22,406 ERROR 68805 [-/192.168.0.100/-/10ms POST /gannt/search] nodejs.Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1879:13)
+    at GanntController.search (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:22:39)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 68805
+hostname: localhost
+
+2020-10-05 18:16:14,578 INFO 68805 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:16:28,107 INFO 68948 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:16:31,913 INFO 68948 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:16:37,441 INFO 68948 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = '5';
+2020-10-05 18:18:40,243 INFO 68948 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:19:10,714 INFO 68948 [egg-sequelize](4ms) Executed (default): INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);
+2020-10-05 18:19:10,814 INFO 68948 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:19:16,881 INFO 68948 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = '直播课程';
+2020-10-05 18:19:16,883 WARN 68948 [-/192.168.0.100/-/5ms POST /gannt/search] nodejs.NotFoundError: search接口地址错误
+    at Object.throw (/Users/lxd/Desktop/mine/egg-example/node_modules/koa/lib/context.js:97:11)
+    at GanntController.notFound (/Users/lxd/Desktop/mine/egg-example/app/core/base_controller.js:17:19)
+    at GanntController.search (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:26:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+message: "search接口地址错误"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 68948
+hostname: localhost
+
+2020-10-05 18:19:21,545 INFO 68948 [egg-sequelize](0ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = '直播课程';
+2020-10-05 18:19:21,546 WARN 68948 [-/192.168.0.100/-/2ms POST /gannt/search] nodejs.NotFoundError: search接口地址错误
+    at Object.throw (/Users/lxd/Desktop/mine/egg-example/node_modules/koa/lib/context.js:97:11)
+    at GanntController.notFound (/Users/lxd/Desktop/mine/egg-example/app/core/base_controller.js:17:19)
+    at GanntController.search (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:26:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+message: "search接口地址错误"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 68948
+hostname: localhost
+
+2020-10-05 18:19:33,019 INFO 68948 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = '5';
+2020-10-05 18:21:53,077 INFO 69108 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:21:56,248 INFO 69108 [egg-sequelize](7ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:22:02,386 ERROR 69108 [-/192.168.0.100/-/8ms POST /gannt/search] nodejs.SequelizeQueryError: The argument passed to findAll must be an options object, use findByPk if you wish to pass a single primary key value
+    at Function.findAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1683:13)
+    at GanntController.search (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:22:39)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+name: "SequelizeQueryError"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 69108
+hostname: localhost
+
+2020-10-05 18:22:50,252 INFO 69145 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:22:52,549 INFO 69145 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:23:01,004 INFO 69145 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:23:15,606 INFO 69145 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:23:17,929 INFO 69145 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:23:38,463 INFO 69145 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:23:41,066 INFO 69145 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:26:56,569 INFO 69262 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:27:08,510 INFO 69279 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:27:14,219 INFO 69293 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:27:17,285 INFO 69293 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:27:26,159 INFO 69293 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程' LIMIT 1;
+2020-10-05 18:29:21,122 INFO 69293 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:29:42,112 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:29:46,062 INFO 69382 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:29:49,255 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程' LIMIT 1;
+2020-10-05 18:30:15,412 INFO 69382 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:30:17,302 INFO 69382 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:30:22,464 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程' LIMIT 1;
+2020-10-05 18:30:48,017 INFO 69382 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:30:48,732 INFO 69382 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:30:49,694 INFO 69382 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:30:53,621 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程' LIMIT 1;
+2020-10-05 18:31:23,602 INFO 69382 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:31:26,815 INFO 69382 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:31:29,824 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程' LIMIT 1;
+2020-10-05 18:31:42,300 INFO 69382 [egg-sequelize](0ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5' LIMIT 1;
+2020-10-05 18:31:45,335 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5' LIMIT 1;
+2020-10-05 18:31:55,327 INFO 69382 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5' LIMIT 1;
+2020-10-05 18:37:15,848 INFO 69623 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:37:18,252 INFO 69623 [egg-sequelize](7ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:37:20,839 INFO 69623 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5';
+2020-10-05 18:38:27,231 INFO 69623 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:40:05,809 INFO 69623 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:40:47,925 INFO 69623 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5';
+2020-10-05 18:40:58,333 INFO 69623 [egg-sequelize](0ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '6';
+2020-10-05 18:41:21,682 INFO 69623 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:41:27,465 INFO 69623 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程';
+2020-10-05 18:41:52,817 INFO 69623 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5';
+2020-10-05 18:42:00,135 INFO 69768 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-05 18:42:04,345 INFO 69768 [egg-sequelize](7ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:42:10,164 INFO 69768 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '直播课程';
+2020-10-05 18:42:13,632 INFO 69768 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5';
+2020-10-05 18:42:20,975 INFO 69768 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:43:03,341 INFO 69768 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:43:12,235 INFO 69768 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '1';
+2020-10-05 18:44:33,748 INFO 69768 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:45:29,062 INFO 69768 [egg-sequelize](0ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '1';
+2020-10-05 18:46:37,000 INFO 69768 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:46:41,388 INFO 69768 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:46:44,942 INFO 69768 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5';
+2020-10-05 18:46:48,179 INFO 69768 [egg-sequelize](0ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '6';
+2020-10-05 18:46:50,584 INFO 69768 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '7';
+2020-10-05 18:46:53,647 INFO 69768 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` WHERE `gannt`.`label` = '5';
+2020-10-05 18:46:55,508 INFO 69768 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
+2020-10-05 18:47:51,606 INFO 69768 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt`;
