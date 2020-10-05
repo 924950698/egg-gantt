@@ -1254,3 +1254,281 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 47585
 hostname: localhost
 
+2020-10-04 19:54:50,360 ERROR 47645 [-/192.168.0.100/-/6ms POST /gannt/created] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"gannt.PRIMARY must be unique","type":"unique violation","path":"gannt.PRIMARY","value":"1","origin":"DB","instance":{"id":1,"label":"5","user":"5","start":"2020-10-04 00-00-00","endDate":"2020-10-05 00-00-00","proType":"5","percent":"5","risk":"5"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"gannt.PRIMARY":"1"}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '1' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[1,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '1' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[1,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 47645
+hostname: localhost
+
+2020-10-04 19:54:51,389 ERROR 47645 [-/192.168.0.100/-/3ms POST /gannt/created] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"gannt.PRIMARY must be unique","type":"unique violation","path":"gannt.PRIMARY","value":"1","origin":"DB","instance":{"id":1,"label":"5","user":"5","start":"2020-10-04 00-00-00","endDate":"2020-10-05 00-00-00","proType":"5","percent":"5","risk":"5"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"gannt.PRIMARY":"1"}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '1' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[1,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '1' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[1,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 47645
+hostname: localhost
+
+2020-10-04 19:54:53,573 ERROR 47645 [-/192.168.0.100/-/3ms POST /gannt/created] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"gannt.PRIMARY must be unique","type":"unique violation","path":"gannt.PRIMARY","value":"1","origin":"DB","instance":{"id":1,"label":"5","user":"5","start":"2020-10-04 00-00-00","endDate":"2020-10-05 00-00-00","proType":"5","percent":"5","risk":"5"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"gannt.PRIMARY":"1"}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '1' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[1,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '1' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[1,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 47645
+hostname: localhost
+
+2020-10-04 19:55:25,692 ERROR 47645 [-/192.168.0.100/-/4ms POST /gannt/created] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"gannt.PRIMARY must be unique","type":"unique violation","path":"gannt.PRIMARY","value":"6","origin":"DB","instance":{"id":6,"label":"5","user":"5","start":"2020-10-04 00-00-00","endDate":"2020-10-05 00-00-00","proType":"5","percent":"5","risk":"5"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"gannt.PRIMARY":"6"}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '6' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[6,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '6' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[6,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 47645
+hostname: localhost
+
+2020-10-04 19:57:24,907 ERROR 47645 [-/192.168.0.100/-/8ms POST /gannt/created] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"gannt.PRIMARY must be unique","type":"unique violation","path":"gannt.PRIMARY","value":"9","origin":"DB","instance":{"id":9,"label":"5","user":"5","start":"2020-10-04 00-00-00","endDate":"2020-10-05 00-00-00","proType":"5","percent":"5","risk":"5"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"gannt.PRIMARY":"9"}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '9' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[9,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '9' for key 'gannt.PRIMARY'","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);","parameters":[9,"5","5","2020-10-04 00-00-00","2020-10-05 00-00-00","5","5","5"]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`) VALUES (?,?,?,?,?,?,?,?);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 47645
+hostname: localhost
+
+2020-10-05 04:06:28,003 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 576184ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 04:26:38,926 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575497ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 04:36:54,454 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 04:46:49,973 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575510ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 05:07:01,095 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575504ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 05:27:10,932 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 574437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 05:37:26,854 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575903ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 05:47:22,251 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575387ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 05:57:37,876 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575602ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 06:07:33,132 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575244ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 06:17:48,294 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575149ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 06:27:43,827 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575521ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 06:38:00,328 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 576488ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 06:47:57,736 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 577395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 06:57:54,001 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 576259ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 07:08:09,409 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575398ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 07:18:04,732 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 07:28:20,369 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 07:38:16,070 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575691ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 07:48:30,994 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 574909ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 07:58:25,617 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 574611ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 08:08:40,935 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 08:18:37,369 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 576426ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 08:28:52,678 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575296ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 08:38:48,288 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 575604ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+
+2020-10-05 08:46:33,737 ERROR 47128 nodejs.ClusterClientNoResponseError: client no response in 425434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47128
+hostname: localhost
+

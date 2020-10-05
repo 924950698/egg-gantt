@@ -45,10 +45,21 @@ class GanntController extends Controller {
   }
 
   // 删除某一项
-  async delete() {
+  async destroy() {
     const { ctx } = this;
-    console.log("删除某一项==>", ctx);
-    const res = await ctx.model.User.findByPk();
+    const params = ctx.request.body;
+    console.log(params);
+    const user = await ctx.model.Gannt.findByPk(params.id);
+    if (!user) {
+      ctx.status = 404;
+      return;
+    }
+    const res = await user.destroy();
+    if(res) {
+      this.success(res);
+    } else {
+      this.notFound('delete接口地址错误');
+    }
   }
   
 }
