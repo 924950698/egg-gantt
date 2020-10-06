@@ -23,5 +23,14 @@ module.exports = app => {
     });
   }
 
+  //
+  Gannt.find = async function(label) {
+    return await this.findAll ({
+      // where: {
+      //   label: label
+      // }
+    });
+  }
+
   return Gannt;
 }

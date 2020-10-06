@@ -2,17 +2,40 @@
 
 const Controller = require('../core/base_controller');
 
+function toInt(str) {
+  if (typeof str === 'number') return str;
+  if (!str) return str;
+  return parseInt(str, 10) || 0;
+}
+
 class GanntController extends Controller {
-  
+
   // 获取列表
+  // async lists() {
+  //   const { ctx } = this;
+  //   const res = await ctx.model.Gannt.findAll();
+  //   if(res) {
+  //     this.success(res);
+  //   } else {
+  //     this.notFound('lists接口地址错误');
+  //   }
+  // }
+
   async lists() {
     const { ctx } = this;
-    const res = await ctx.model.Gannt.findAll();
-    if(res) {
-      this.success(res);
-    } else {
-      this.notFound('lists接口地址错误');
-    }
+    let { currentPage = 1, currentSizes = 10 } = ctx.request.query
+    console.log(currentPage, currentSizes);
+    let offset = (currentPage - 1) * currentSizes;
+    let userList = await this.ctx.model.Gannt.findAndCountAll({
+        offset,//offet去掉前多少个数据
+        limit: Number(currentSizes)//limit每页数据数量
+    }).then(res => {
+        let result = {};
+        result.data = res.rows;
+        result.total = res.count;
+        return result;
+    });
+    ctx.body = userList;
   }
 
   //查询
