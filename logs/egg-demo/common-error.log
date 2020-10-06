@@ -331,3 +331,78 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 83443
 hostname: localhost
 
+2020-10-06 12:02:38,274 ERROR 83964 [-/192.168.0.100/-/3ms GET /gannt/lists?filters=5&currentPage=1&currentSizes=10] nodejs.Error: Support for `{where: 'raw query'}` has been removed.
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2236:13)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2687:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 0)
+    at async Function.findAndCountAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2085:27)
+    at async GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:29:20)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83964
+hostname: localhost
+
+2020-10-06 12:03:48,661 ERROR 84114 [-/192.168.0.100/-/16ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 12:05:31,496 ERROR 84114 [-/192.168.0.100/-/1ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 12:05:31,531 ERROR 84114 [-/192.168.0.100/-/2ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 12:05:33,112 ERROR 84114 [-/192.168.0.100/-/2ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+

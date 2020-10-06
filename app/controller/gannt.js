@@ -21,21 +21,31 @@ class GanntController extends Controller {
   //   }
   // }
 
+  // 列表 和 查询
   async lists() {
     const { ctx } = this;
-    let { currentPage = 1, currentSizes = 10 } = ctx.request.query
+    let { currentPage = 1, currentSizes = 10, filters } = ctx.request.query
     console.log(currentPage, currentSizes);
     let offset = (currentPage - 1) * currentSizes;
-    let userList = await this.ctx.model.Gannt.findAndCountAll({
+    var userList;
+    if(filters) {
+      userList = await this.ctx.model.Gannt.findAndCountAll({
+          offset,//offet去掉前多少个数据
+          limit: Number(currentSizes),//limit每页数据数量
+          where: {
+            label: filters
+          },
+      })
+    } else {
+      userList = await this.ctx.model.Gannt.findAndCountAll({
         offset,//offet去掉前多少个数据
-        limit: Number(currentSizes)//limit每页数据数量
-    }).then(res => {
-        let result = {};
-        result.data = res.rows;
-        result.total = res.count;
-        return result;
-    });
-    ctx.body = userList;
+        limit: Number(currentSizes),//limit每页数据数量
+      })
+    }
+    ctx.body = {
+      data: userList.rows,
+      total: userList.count,
+    };
   }
 
   //查询
