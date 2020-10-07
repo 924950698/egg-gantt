@@ -1,0 +1,1278 @@
+2020-10-06 07:15:48,148 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 07:26:03,056 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 07:36:01,578 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578512ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 07:46:17,216 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575630ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 07:56:12,784 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575553ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 08:06:27,817 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 08:16:23,523 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575692ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 08:26:22,002 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578473ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 08:36:37,625 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575609ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 08:46:33,339 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 08:56:48,867 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575514ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 09:06:33,400 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 564526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 10:14:08,127 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 362316ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 10:54:33,142 ERROR 81608 [-/192.168.0.100/-/7ms GET /gannt/lists] nodejs.TypeError: this.ctx.model.Gannt.find is not a function
+    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:29:47)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81608
+hostname: localhost
+
+2020-10-06 10:55:56,861 ERROR 81665 [-/192.168.0.100/-/13ms GET /gannt/lists] nodejs.TypeError: this.ctx.model.Gannt.find(...).count is not a function
+    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:29:56)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81665
+hostname: localhost
+
+2020-10-06 11:01:08,542 ERROR 81832 [-/192.168.0.100/-/6ms GET /gannt/lists] nodejs.ReferenceError: ctx is not defined
+    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:26:31)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81832
+hostname: localhost
+
+2020-10-06 11:01:20,305 ERROR 81850 [-/192.168.0.100/-/7ms GET /gannt/lists] nodejs.ReferenceError: Problem is not defined
+    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:29:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81850
+hostname: localhost
+
+2020-10-06 11:10:49,594 ERROR 82213 [-/192.168.0.100/-/44ms GET /gannt/lists] nodejs.SequelizeDatabaseError: Undeclared variable: NaN
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT NaN, 10000000000000;"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT NaN, 10000000000000;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT NaN, 10000000000000;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82213
+hostname: localhost
+
+2020-10-06 11:11:24,090 ERROR 82242 [-/192.168.0.100/-/38ms GET /gannt/lists] nodejs.SequelizeDatabaseError: Undeclared variable: NaN
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT NaN, 10000000000000;"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT NaN, 10000000000000;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT NaN, 10000000000000;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82242
+hostname: localhost
+
+2020-10-06 11:13:49,163 ERROR 82305 [-/192.168.0.100/-/15ms GET /gannt/lists?currentPage=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82305
+hostname: localhost
+
+2020-10-06 11:13:49,179 ERROR 82305 [-/192.168.0.100/-/2ms GET /gannt/lists?currentPage=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82305
+hostname: localhost
+
+2020-10-06 11:13:52,951 ERROR 82305 [-/192.168.0.100/-/7ms GET /gannt/lists?currentPage=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82305
+hostname: localhost
+
+2020-10-06 11:14:08,157 ERROR 82305 [-/192.168.0.100/-/5ms GET /gannt/lists?currentPage=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82305
+hostname: localhost
+
+2020-10-06 11:14:08,212 ERROR 82305 [-/192.168.0.100/-/4ms GET /gannt/lists?currentPage=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82305
+hostname: localhost
+
+2020-10-06 11:14:10,331 ERROR 82305 [-/192.168.0.100/-/4ms GET /gannt/lists?currentPage=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82305
+hostname: localhost
+
+2020-10-06 11:45:26,398 ERROR 82807 [-/192.168.0.100/-/4ms GET /gannt/lists?currentPage=&currentPage=1] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82807
+hostname: localhost
+
+2020-10-06 11:45:26,407 ERROR 82807 [-/192.168.0.100/-/1ms GET /gannt/lists?currentPage=&currentPage=1] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, 10' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT -10, 10;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 82807
+hostname: localhost
+
+2020-10-06 11:46:32,735 ERROR 83377 [-/192.168.0.100/-/20ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83377
+hostname: localhost
+
+2020-10-06 11:47:26,905 ERROR 83417 [-/192.168.0.100/-/38ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83417
+hostname: localhost
+
+2020-10-06 11:47:58,622 ERROR 83443 [-/192.168.0.100/-/22ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"}
+sql: "SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk` FROM `gannt` AS `gannt` LIMIT 0, '10';"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83443
+hostname: localhost
+
+2020-10-06 12:02:38,274 ERROR 83964 [-/192.168.0.100/-/3ms GET /gannt/lists?filters=5&currentPage=1&currentSizes=10] nodejs.Error: Support for `{where: 'raw query'}` has been removed.
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2236:13)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2687:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 0)
+    at async Function.findAndCountAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2085:27)
+    at async GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:29:20)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83964
+hostname: localhost
+
+2020-10-06 12:03:48,661 ERROR 84114 [-/192.168.0.100/-/16ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 12:05:31,496 ERROR 84114 [-/192.168.0.100/-/1ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 12:05:31,531 ERROR 84114 [-/192.168.0.100/-/2ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 12:05:33,112 ERROR 84114 [-/192.168.0.100/-/2ms GET /gannt/lists?currentPage=1&currentSizes=10] nodejs.Error: WHERE parameter "label" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
+    at Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:45)
+    at Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84114
+hostname: localhost
+
+2020-10-06 16:28:59,332 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 103448ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-06 22:58:22,371 ERROR 84686 [-/192.168.0.100/-/2ms POST /gannt/created] nodejs.SequelizeDatabaseError: Field 'label' doesn't have a default value
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'label' doesn't have a default value","sql":"INSERT INTO `gannt` (`id`) VALUES (DEFAULT);"}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'label' doesn't have a default value","sql":"INSERT INTO `gannt` (`id`) VALUES (DEFAULT);"}
+sql: "INSERT INTO `gannt` (`id`) VALUES (DEFAULT);"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84686
+hostname: localhost
+
+2020-10-06 22:58:45,135 ERROR 84686 [-/192.168.0.100/-/4ms POST /gannt/created] nodejs.SequelizeDatabaseError: Field 'proType' doesn't have a default value
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'proType' doesn't have a default value","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?);","parameters":["test","tian","2020-10-01 00-00-00","2020-10-06 00-00-00","1","1"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'proType' doesn't have a default value","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?);","parameters":["test","tian","2020-10-01 00-00-00","2020-10-06 00-00-00","1","1"]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?);"
+parameters: ["test","tian","2020-10-01 00-00-00","2020-10-06 00-00-00","1","1"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 84686
+hostname: localhost
+
+2020-10-06 23:23:21,340 ERROR 1391 [-/192.168.0.100/-/18ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","",""]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","",""]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","",""]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:23:25,223 ERROR 1391 [-/192.168.0.100/-/2ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","",""]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","",""]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","",""]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:28:25,657 ERROR 1391 [-/192.168.0.100/-/2ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,002 ERROR 1391 [-/192.168.0.100/-/6ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,006 ERROR 1391 [-/192.168.0.100/-/6ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,007 ERROR 1391 [-/192.168.0.100/-/8ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,011 ERROR 1391 [-/192.168.0.100/-/7ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,012 ERROR 1391 [-/192.168.0.100/-/4ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,017 ERROR 1391 [-/192.168.0.100/-/8ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,018 ERROR 1391 [-/192.168.0.100/-/5ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,021 ERROR 1391 [-/192.168.0.100/-/6ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,023 ERROR 1391 [-/192.168.0.100/-/6ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,024 ERROR 1391 [-/192.168.0.100/-/5ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:30:30,026 ERROR 1391 [-/192.168.0.100/-/5ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,000 ERROR 1391 [-/192.168.0.100/-/3ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,004 ERROR 1391 [-/192.168.0.100/-/2ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,008 ERROR 1391 [-/192.168.0.100/-/3ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,013 ERROR 1391 [-/192.168.0.100/-/7ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,014 ERROR 1391 [-/192.168.0.100/-/11ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,017 ERROR 1391 [-/192.168.0.100/-/8ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,018 ERROR 1391 [-/192.168.0.100/-/8ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,021 ERROR 1391 [-/192.168.0.100/-/9ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,023 ERROR 1391 [-/192.168.0.100/-/7ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,027 ERROR 1391 [-/192.168.0.100/-/8ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:32:07,028 ERROR 1391 [-/192.168.0.100/-/3ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect datetime value: '' for column 'start' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '' for column 'start' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);","parameters":["","","",null,1209600000,10,"","","",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`duration`,`percent`,`type`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?);"
+parameters: ["","","",null,1209600000,10,"","","",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1391
+hostname: bogon
+
+2020-10-06 23:53:43,874 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 569698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 00:03:39,003 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575109ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 00:13:54,188 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 00:23:51,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576800ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 00:34:05,839 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 00:44:04,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 00:54:19,056 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 01:14:30,243 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 01:24:25,278 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 01:34:41,423 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576133ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 01:44:36,462 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 02:04:47,401 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575905ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 02:15:02,448 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575026ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 02:24:57,640 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575180ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 02:35:12,748 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 02:45:08,752 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 02:55:23,979 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575214ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 03:05:19,901 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575915ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 03:15:34,913 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 03:25:30,118 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 03:35:45,134 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574995ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 03:45:41,055 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575912ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 03:55:57,075 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576008ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 04:05:52,497 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575408ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 04:16:07,547 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 04:26:02,607 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 04:35:57,678 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 04:45:52,835 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575147ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 04:55:48,898 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576054ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 05:05:44,536 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 05:15:59,759 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 05:25:56,985 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 577219ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 05:36:13,109 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576115ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 05:46:08,105 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 05:56:24,156 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576030ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 06:06:19,206 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 06:16:34,187 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 06:26:30,189 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 06:36:45,214 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575014ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 06:46:40,216 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 07:06:51,274 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 07:17:07,345 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576056ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 07:27:04,584 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 577230ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 07:37:20,670 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576071ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 07:47:15,613 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574924ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 07:57:31,636 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 08:07:26,858 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 08:27:37,974 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 08:37:52,592 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 08:47:48,595 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575990ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 08:58:03,794 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 09:07:58,841 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575039ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 09:18:16,882 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578024ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 09:28:11,945 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 09:38:26,997 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575033ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 09:48:22,878 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575869ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 09:58:37,938 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 10:08:33,833 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575885ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 10:18:51,823 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 577980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 10:28:47,034 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575203ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 10:37:53,354 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 506305ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 10:40:22,071 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 88706ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-07 11:51:47,731 ERROR 5664 [-/192.168.0.100/-/10ms POST /gannt/created] nodejs.SequelizeDatabaseError: Incorrect integer value: 'allan' for column 'percent' at row 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect integer value: 'allan' for column 'percent' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["allan","allan","2020-10-01 00-00-00","2020-10-08 00-00-00","allan",2,"allan",1]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect integer value: 'allan' for column 'percent' at row 1","sql":"INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","parameters":["allan","allan","2020-10-01 00-00-00","2020-10-08 00-00-00","allan",2,"allan",1]}
+sql: "INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);"
+parameters: ["allan","allan","2020-10-01 00-00-00","2020-10-08 00-00-00","allan",2,"allan",1]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5664
+hostname: bogon
+

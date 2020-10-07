@@ -12,13 +12,24 @@ module.exports = app => {
     type: STRING(20),
     proType: STRING(20),
     risk: STRING(10),
+    parentId: INTEGER(),
+    childId: STRING(45),
   })
 
-  // 查询
+  // label查询
   Gannt.findByLabel = async function(label) {
     return await this.findAll ({
       where: {
         label: label
+      }
+    });
+  }
+
+  // id查询
+  Gannt.findById = async function(id) {
+    return await this.findAll ({
+      where: {
+        id: id
       }
     });
   }

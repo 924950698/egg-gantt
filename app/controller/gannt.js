@@ -48,7 +48,7 @@ class GanntController extends Controller {
     };
   }
 
-  //查询
+  //过滤
   async search() {
     const { ctx } = this;
     const params = ctx.request.body;
@@ -60,12 +60,38 @@ class GanntController extends Controller {
     }
   }
 
-   // 新建
+   // 新建 - 处理childId
    async created() {
     const { ctx } = this;
-    const res = await ctx.model.Gannt.create(ctx.request.body);
-    if(res) {
-      this.success(res);
+    // parentId - id
+    // 新建接口获取id，再调更新接口更新childId
+    const params = ctx.request.body;
+
+    const res = await ctx.model.Gannt.create(params);
+    const parentId= params.parentId;
+    const currentId= res.id;
+    var childId = ''; 
+    const parentVal = await ctx.model.Gannt.findById(parentId);
+    const parentData = parentVal[0].dataValues;
+    // console.log("parentData==>", parentData);
+
+    if(parentData) {
+      if(parentData.childId) {
+        childId = parentData.childId + '_' + currentId;
+      }else {
+        childId = parentData.id + '_' + currentId;
+      }
+    } else {
+      this.notFound('查找不到该条parentId记录！');
+    }
+    
+    // console.log("childId==>", childId);
+    params.childId = childId;
+    // console.log("params==>", params);
+    const body = await res.update(params);
+    // console.log("body==>", body);
+    if(body) {
+      this.success(body);
     } else {
       this.notFound('created接口地址错误');
     }
