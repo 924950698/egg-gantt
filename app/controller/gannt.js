@@ -1,6 +1,8 @@
 'use strict';
 
 const Controller = require('../core/base_controller');
+const { Op } = require("sequelize");
+
 
 function toInt(str) {
   if (typeof str === 'number') return str;
@@ -28,36 +30,83 @@ class GanntController extends Controller {
     console.log(currentPage, currentSizes);
     let offset = (currentPage - 1) * currentSizes;
     var userList;
+    var countArr;
     if(filters) {
-      userList = await this.ctx.model.Gannt.findAndCountAll({
-          offset,//offet去掉前多少个数据
-          limit: Number(currentSizes),//limit每页数据数量
-          where: {
-            label: filters
-          },
-      })
-    } else {
-      userList = await this.ctx.model.Gannt.findAndCountAll({
+      countArr = await ctx.model.Gannt.findAndCountAll({
         offset,//offet去掉前多少个数据
         limit: Number(currentSizes),//limit每页数据数量
+        where: {
+          label: filters,
+          // parentId: null,
+        },
+      });
+      
+      const len = countArr.rows;
+      for( let i = 0; i < len.length; i ++) { // 过滤结果是数组
+        var id;
+        if(len[i].childId) {
+          id = len[i].childId.split('_')[0];
+        } else {
+          id = len[i].id;
+        }
+        userList = await ctx.model.Gannt.findAndCountAll({
+          where: {
+            [Op.or]: [
+              {
+                childId: {
+                  [Op.startsWith]: id + '_',
+                } 
+              },
+              {
+                id: {
+                  [Op.eq]: id, 
+                }
+              }
+            ],
+          },
+        })
+        console.log("userList==>", JSON.stringify(userList));
+        countArr.rows = userList.rows;
+        countArr.count = countArr.count;
+      }
+      
+    } else {
+      countArr = await ctx.model.Gannt.findAndCountAll({
+        offset,//offet去掉前多少个数据
+        limit: Number(currentSizes),//limit每页数据数量
+        where: {
+          parentId: null,
+        }
       })
+      const len = countArr.rows;
+      for( let i = 0; i < len.length; i ++) {
+          userList =  await ctx.model.Gannt.findAndCountAll({
+          where: {
+            childId: {
+              [Op.startsWith]: len[i].id + '_',
+            } 
+          },
+        })
+        countArr.rows = countArr.rows.concat(userList.rows);
+        countArr.count = userList.count + countArr.count
+      }
     }
     ctx.body = {
-      data: userList.rows,
-      total: userList.count,
+      data: countArr.rows,
+      total: countArr.count,
     };
   }
 
   //过滤
   async search() {
-    const { ctx } = this;
-    const params = ctx.request.body;
-    const res = await ctx.model.Gannt.findByLabel(params.label);
-    if(res) {
-      this.success(res);
-    } else {
-      this.notFound('search接口地址错误');
-    }
+    // const { ctx } = this;
+    // const params = ctx.request.body;
+    // const res = await ctx.model.Gannt.findByLabel(params.label);
+    // if(res) {
+    //   this.success(res);
+    // } else {
+    //   this.notFound('search接口地址错误');
+    // }
   }
 
    // 新建 - 处理childId
@@ -66,7 +115,6 @@ class GanntController extends Controller {
     // parentId - id
     // 新建接口获取id，再调更新接口更新childId
     const params = ctx.request.body;
-
     const res = await ctx.model.Gannt.create(params);
     const parentId= params.parentId;
     const currentId= res.id;
@@ -74,7 +122,6 @@ class GanntController extends Controller {
     const parentVal = await ctx.model.Gannt.findById(parentId);
     const parentData = parentVal[0].dataValues;
     // console.log("parentData==>", parentData);
-
     if(parentData) {
       if(parentData.childId) {
         childId = parentData.childId + '_' + currentId;
@@ -84,7 +131,6 @@ class GanntController extends Controller {
     } else {
       this.notFound('查找不到该条parentId记录！');
     }
-    
     // console.log("childId==>", childId);
     params.childId = childId;
     // console.log("params==>", params);
