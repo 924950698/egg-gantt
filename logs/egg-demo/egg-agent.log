@@ -1,82 +1,5 @@
-2020-10-07 12:00:34,770 INFO 55260 [egg-logrotator] agent logger reload: got log-reload message
-2020-10-07 12:01:52,533 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/model/gannt.js change
-2020-10-07 12:01:52,332 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/model/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17937535,"size":791,"blocks":8,"atimeMs":1602043312269.2615,"mtimeMs":1602043312269.7744,"ctimeMs":1602043312269.7744,"birthtimeMs":1601365880444.4885,"atime":"2020-10-07T04:01:52.269Z","mtime":"2020-10-07T04:01:52.270Z","ctime":"2020-10-07T04:01:52.270Z","birthtime":"2020-09-29T07:51:20.444Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:01:56,120 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":2845,"blocks":8,"atimeMs":1602043316108.3445,"mtimeMs":1602043316109.0776,"ctimeMs":1602043316109.0776,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:01:56.108Z","mtime":"2020-10-07T04:01:56.109Z","ctime":"2020-10-07T04:01:56.109Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:01:56,171 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":2845,"blocks":8,"atimeMs":1602043316108.3445,"mtimeMs":1602043316109.0776,"ctimeMs":1602043316109.0776,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:01:56.108Z","mtime":"2020-10-07T04:01:56.109Z","ctime":"2020-10-07T04:01:56.109Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:01:56,374 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:04:35,467 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:04:35,265 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3050,"blocks":8,"atimeMs":1602043475200.34,"mtimeMs":1602043475203.3118,"ctimeMs":1602043475203.3118,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:04:35.200Z","mtime":"2020-10-07T04:04:35.203Z","ctime":"2020-10-07T04:04:35.203Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:04:39,208 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:04:39,005 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3055,"blocks":8,"atimeMs":1602043478989.135,"mtimeMs":1602043478993.6738,"ctimeMs":1602043478993.6738,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:04:38.989Z","mtime":"2020-10-07T04:04:38.994Z","ctime":"2020-10-07T04:04:38.994Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:05:16,266 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:05:16,064 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3110,"blocks":8,"atimeMs":1602043516001.2075,"mtimeMs":1602043516003.9841,"ctimeMs":1602043516003.9841,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:05:16.001Z","mtime":"2020-10-07T04:05:16.004Z","ctime":"2020-10-07T04:05:16.004Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:05:58,570 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:05:58,368 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3222,"blocks":8,"atimeMs":1602043558305.3914,"mtimeMs":1602043558306.1396,"ctimeMs":1602043558306.1396,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:05:58.305Z","mtime":"2020-10-07T04:05:58.306Z","ctime":"2020-10-07T04:05:58.306Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:05:59,736 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3225,"blocks":8,"atimeMs":1602043559724.4897,"mtimeMs":1602043559725.1638,"ctimeMs":1602043559725.1638,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:05:59.724Z","mtime":"2020-10-07T04:05:59.725Z","ctime":"2020-10-07T04:05:59.725Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:05:59,786 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3225,"blocks":8,"atimeMs":1602043559724.4897,"mtimeMs":1602043559725.1638,"ctimeMs":1602043559725.1638,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:05:59.724Z","mtime":"2020-10-07T04:05:59.725Z","ctime":"2020-10-07T04:05:59.725Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:05:59,990 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:06:04,793 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3224,"blocks":8,"atimeMs":1602043564778.396,"mtimeMs":1602043564781.589,"ctimeMs":1602043564781.589,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:06:04.778Z","mtime":"2020-10-07T04:06:04.782Z","ctime":"2020-10-07T04:06:04.782Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:06:04,999 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:06:19,222 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:06:18,965 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3224,"blocks":8,"atimeMs":1602043578954.273,"mtimeMs":1602043578955.1284,"ctimeMs":1602043578955.1284,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:06:18.954Z","mtime":"2020-10-07T04:06:18.955Z","ctime":"2020-10-07T04:06:18.955Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:06:19,016 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3224,"blocks":8,"atimeMs":1602043578954.273,"mtimeMs":1602043578955.1284,"ctimeMs":1602043578955.1284,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:06:18.954Z","mtime":"2020-10-07T04:06:18.955Z","ctime":"2020-10-07T04:06:18.955Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:09:40,913 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:09:40,708 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3234,"blocks":8,"atimeMs":1602043780645.25,"mtimeMs":1602043780646.0703,"ctimeMs":1602043780646.0703,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:09:40.645Z","mtime":"2020-10-07T04:09:40.646Z","ctime":"2020-10-07T04:09:40.646Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:09:43,761 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:09:43,509 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3234,"blocks":8,"atimeMs":1602043783497.8137,"mtimeMs":1602043783498.5454,"ctimeMs":1602043783498.5454,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:09:43.498Z","mtime":"2020-10-07T04:09:43.499Z","ctime":"2020-10-07T04:09:43.499Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:09:43,559 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3234,"blocks":8,"atimeMs":1602043783497.8137,"mtimeMs":1602043783498.5454,"ctimeMs":1602043783498.5454,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:09:43.498Z","mtime":"2020-10-07T04:09:43.499Z","ctime":"2020-10-07T04:09:43.499Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:10:51,558 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3229,"blocks":8,"atimeMs":1602043851489.9302,"mtimeMs":1602043851496.1003,"ctimeMs":1602043851496.1003,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:10:51.490Z","mtime":"2020-10-07T04:10:51.496Z","ctime":"2020-10-07T04:10:51.496Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:10:51,760 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:13:03,893 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:13:03,687 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3317,"blocks":8,"atimeMs":1602043983624.2295,"mtimeMs":1602043983624.964,"ctimeMs":1602043983624.964,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:13:03.624Z","mtime":"2020-10-07T04:13:03.625Z","ctime":"2020-10-07T04:13:03.625Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:13:07,866 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:13:07,660 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3306,"blocks":8,"atimeMs":1602043987645.4023,"mtimeMs":1602043987648.831,"ctimeMs":1602043987648.831,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:13:07.645Z","mtime":"2020-10-07T04:13:07.649Z","ctime":"2020-10-07T04:13:07.649Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:15:39,137 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3317,"blocks":8,"atimeMs":1602044139073.5574,"mtimeMs":1602044139074.3542,"ctimeMs":1602044139074.3542,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:15:39.074Z","mtime":"2020-10-07T04:15:39.074Z","ctime":"2020-10-07T04:15:39.074Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:15:39,337 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:15:41,656 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:15:41,404 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3318,"blocks":8,"atimeMs":1602044141391.7217,"mtimeMs":1602044141392.4722,"ctimeMs":1602044141392.4722,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:15:41.392Z","mtime":"2020-10-07T04:15:41.392Z","ctime":"2020-10-07T04:15:41.392Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:15:41,454 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3318,"blocks":8,"atimeMs":1602044141391.7217,"mtimeMs":1602044141392.4722,"ctimeMs":1602044141392.4722,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:15:41.392Z","mtime":"2020-10-07T04:15:41.392Z","ctime":"2020-10-07T04:15:41.392Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:16:12,948 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:16:12,742 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3272,"blocks":8,"atimeMs":1602044172679.5337,"mtimeMs":1602044172680.3538,"ctimeMs":1602044172680.3538,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:16:12.680Z","mtime":"2020-10-07T04:16:12.680Z","ctime":"2020-10-07T04:16:12.680Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:16:16,757 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:16:16,506 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3272,"blocks":8,"atimeMs":1602044176495.1726,"mtimeMs":1602044176495.9304,"ctimeMs":1602044176495.9304,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:16:16.495Z","mtime":"2020-10-07T04:16:16.496Z","ctime":"2020-10-07T04:16:16.496Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:16:16,556 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3272,"blocks":8,"atimeMs":1602044176495.1726,"mtimeMs":1602044176495.9304,"ctimeMs":1602044176495.9304,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:16:16.495Z","mtime":"2020-10-07T04:16:16.496Z","ctime":"2020-10-07T04:16:16.496Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:17:58,618 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3289,"blocks":8,"atimeMs":1602044278556.2861,"mtimeMs":1602044278557.115,"ctimeMs":1602044278557.115,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:17:58.556Z","mtime":"2020-10-07T04:17:58.557Z","ctime":"2020-10-07T04:17:58.557Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:17:58,822 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:18:07,361 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:18:07,161 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3303,"blocks":8,"atimeMs":1602044287148.6445,"mtimeMs":1602044287149.5076,"ctimeMs":1602044287149.5076,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:18:07.149Z","mtime":"2020-10-07T04:18:07.150Z","ctime":"2020-10-07T04:18:07.150Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:18:09,339 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:18:09,084 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3303,"blocks":8,"atimeMs":1602044289073.1655,"mtimeMs":1602044289073.9038,"ctimeMs":1602044289073.9038,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:18:09.073Z","mtime":"2020-10-07T04:18:09.074Z","ctime":"2020-10-07T04:18:09.074Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:18:09,134 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3303,"blocks":8,"atimeMs":1602044289073.1655,"mtimeMs":1602044289073.9038,"ctimeMs":1602044289073.9038,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:18:09.073Z","mtime":"2020-10-07T04:18:09.074Z","ctime":"2020-10-07T04:18:09.074Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:23:38,350 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:23:38,146 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3387,"blocks":8,"atimeMs":1602044618081.052,"mtimeMs":1602044618083.7974,"ctimeMs":1602044618083.7974,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:23:38.081Z","mtime":"2020-10-07T04:23:38.084Z","ctime":"2020-10-07T04:23:38.084Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:23:40,025 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:23:39,769 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3385,"blocks":8,"atimeMs":1602044619752.9387,"mtimeMs":1602044619758.3801,"ctimeMs":1602044619758.3801,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:23:39.753Z","mtime":"2020-10-07T04:23:39.758Z","ctime":"2020-10-07T04:23:39.758Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:23:39,820 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3385,"blocks":8,"atimeMs":1602044619752.9387,"mtimeMs":1602044619758.3801,"ctimeMs":1602044619758.3801,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:23:39.753Z","mtime":"2020-10-07T04:23:39.758Z","ctime":"2020-10-07T04:23:39.758Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:24:34,683 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3382,"blocks":8,"atimeMs":1602044674606.7263,"mtimeMs":1602044674609.7004,"ctimeMs":1602044674609.7004,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:24:34.607Z","mtime":"2020-10-07T04:24:34.610Z","ctime":"2020-10-07T04:24:34.610Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:24:34,883 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:25:50,792 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/model/gannt.js change
-2020-10-07 12:25:50,587 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/model/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17937535,"size":791,"blocks":8,"atimeMs":1602044750525.2678,"mtimeMs":1602044750525.8662,"ctimeMs":1602044750525.8662,"birthtimeMs":1601365880444.4885,"atime":"2020-10-07T04:25:50.525Z","mtime":"2020-10-07T04:25:50.526Z","ctime":"2020-10-07T04:25:50.526Z","birthtime":"2020-09-29T07:51:20.444Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:25:51,827 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/model/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17937535,"size":791,"blocks":8,"atimeMs":1602044751814.7974,"mtimeMs":1602044751815.3123,"ctimeMs":1602044751815.3123,"birthtimeMs":1601365880444.4885,"atime":"2020-10-07T04:25:51.815Z","mtime":"2020-10-07T04:25:51.815Z","ctime":"2020-10-07T04:25:51.815Z","birthtime":"2020-09-29T07:51:20.444Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:25:51,877 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/model/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17937535,"size":791,"blocks":8,"atimeMs":1602044751814.7974,"mtimeMs":1602044751815.3123,"ctimeMs":1602044751815.3123,"birthtimeMs":1601365880444.4885,"atime":"2020-10-07T04:25:51.815Z","mtime":"2020-10-07T04:25:51.815Z","ctime":"2020-10-07T04:25:51.815Z","birthtime":"2020-09-29T07:51:20.444Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:25:52,080 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/model/gannt.js change
-2020-10-07 12:26:30,960 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3394,"blocks":8,"atimeMs":1602044790893.6553,"mtimeMs":1602044790898.4688,"ctimeMs":1602044790898.4688,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:26:30.894Z","mtime":"2020-10-07T04:26:30.898Z","ctime":"2020-10-07T04:26:30.898Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:26:31,161 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:29:02,665 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:29:02,464 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3461,"blocks":8,"atimeMs":1602044942401.5312,"mtimeMs":1602044942402.4243,"ctimeMs":1602044942402.4243,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:29:02.402Z","mtime":"2020-10-07T04:29:02.402Z","ctime":"2020-10-07T04:29:02.402Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:29:08,773 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:29:08,569 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3467,"blocks":8,"atimeMs":1602044948554.0261,"mtimeMs":1602044948558.1833,"ctimeMs":1602044948558.1833,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:29:08.554Z","mtime":"2020-10-07T04:29:08.558Z","ctime":"2020-10-07T04:29:08.558Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:29:10,053 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:29:09,799 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3467,"blocks":8,"atimeMs":1602044949787.3943,"mtimeMs":1602044949788.147,"ctimeMs":1602044949788.147,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:29:09.787Z","mtime":"2020-10-07T04:29:09.788Z","ctime":"2020-10-07T04:29:09.788Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:29:09,849 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3467,"blocks":8,"atimeMs":1602044949787.3943,"mtimeMs":1602044949788.147,"ctimeMs":1602044949788.147,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:29:09.787Z","mtime":"2020-10-07T04:29:09.788Z","ctime":"2020-10-07T04:29:09.788Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:30:39,430 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:30:39,229 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3479,"blocks":8,"atimeMs":1602045039163.468,"mtimeMs":1602045039168.0896,"ctimeMs":1602045039168.0896,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:30:39.163Z","mtime":"2020-10-07T04:30:39.168Z","ctime":"2020-10-07T04:30:39.168Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:30:44,952 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:30:44,696 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3479,"blocks":8,"atimeMs":1602045044683.7817,"mtimeMs":1602045044684.63,"ctimeMs":1602045044684.63,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:30:44.684Z","mtime":"2020-10-07T04:30:44.685Z","ctime":"2020-10-07T04:30:44.685Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:30:44,747 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3479,"blocks":8,"atimeMs":1602045044683.7817,"mtimeMs":1602045044684.63,"ctimeMs":1602045044684.63,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:30:44.684Z","mtime":"2020-10-07T04:30:44.685Z","ctime":"2020-10-07T04:30:44.685Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:36:06,387 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:36:06,183 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3479,"blocks":8,"atimeMs":1602045366182.913,"mtimeMs":1602045366121.997,"ctimeMs":1602045366121.997,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:36:06.183Z","mtime":"2020-10-07T04:36:06.122Z","ctime":"2020-10-07T04:36:06.122Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:53:35,863 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 308374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-10-08 12:33:46,729 INFO 55260 [egg-logrotator] agent logger reload: got log-reload message
+2020-10-08 22:51:47,198 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:549:17)
     at processTimers (internal/timers.js:492:7)
@@ -84,193 +7,557 @@ name: "ClusterClientNoResponseError"
 pid: 55260
 hostname: localhost
 
-2020-10-07 12:54:49,005 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:54:48,800 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3479,"blocks":8,"atimeMs":1602046488737.1758,"mtimeMs":1602046488738.0264,"ctimeMs":1602046488738.0264,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:54:48.737Z","mtime":"2020-10-07T04:54:48.738Z","ctime":"2020-10-07T04:54:48.738Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:33,833 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:56:33,630 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3503,"blocks":8,"atimeMs":1602046593564.558,"mtimeMs":1602046593568.3896,"ctimeMs":1602046593568.3896,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:33.565Z","mtime":"2020-10-07T04:56:33.568Z","ctime":"2020-10-07T04:56:33.568Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:37,171 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:56:36,971 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3502,"blocks":8,"atimeMs":1602046596956.3748,"mtimeMs":1602046596959.3945,"ctimeMs":1602046596959.3945,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:36.956Z","mtime":"2020-10-07T04:56:36.959Z","ctime":"2020-10-07T04:56:36.959Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:38,485 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3501,"blocks":8,"atimeMs":1602046598473.4507,"mtimeMs":1602046598474.269,"ctimeMs":1602046598474.269,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:38.473Z","mtime":"2020-10-07T04:56:38.474Z","ctime":"2020-10-07T04:56:38.474Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:38,536 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3501,"blocks":8,"atimeMs":1602046598473.4507,"mtimeMs":1602046598474.269,"ctimeMs":1602046598474.269,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:38.473Z","mtime":"2020-10-07T04:56:38.474Z","ctime":"2020-10-07T04:56:38.474Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:38,741 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:56:41,981 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:56:41,729 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3496,"blocks":8,"atimeMs":1602046601713.5562,"mtimeMs":1602046601719.5613,"ctimeMs":1602046601719.5613,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:41.714Z","mtime":"2020-10-07T04:56:41.720Z","ctime":"2020-10-07T04:56:41.720Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:41,779 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3496,"blocks":8,"atimeMs":1602046601713.5562,"mtimeMs":1602046601719.5613,"ctimeMs":1602046601719.5613,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:41.714Z","mtime":"2020-10-07T04:56:41.720Z","ctime":"2020-10-07T04:56:41.720Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:45,554 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:56:45,297 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3496,"blocks":8,"atimeMs":1602046605285.072,"mtimeMs":1602046605285.8853,"ctimeMs":1602046605285.8853,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:45.285Z","mtime":"2020-10-07T04:56:45.286Z","ctime":"2020-10-07T04:56:45.286Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:56:45,347 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3496,"blocks":8,"atimeMs":1602046605285.072,"mtimeMs":1602046605285.8853,"ctimeMs":1602046605285.8853,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:56:45.285Z","mtime":"2020-10-07T04:56:45.286Z","ctime":"2020-10-07T04:56:45.286Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:57:03,682 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3486,"blocks":8,"atimeMs":1602046623619.7307,"mtimeMs":1602046623620.5713,"ctimeMs":1602046623620.5713,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:57:03.620Z","mtime":"2020-10-07T04:57:03.621Z","ctime":"2020-10-07T04:57:03.621Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 12:57:03,883 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:58:13,437 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 12:58:13,232 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3486,"blocks":8,"atimeMs":1602046693168.5933,"mtimeMs":1602046693171.9915,"ctimeMs":1602046693171.9915,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T04:58:13.169Z","mtime":"2020-10-07T04:58:13.172Z","ctime":"2020-10-07T04:58:13.172Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:06:45,216 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:06:45,014 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3590,"blocks":8,"atimeMs":1602047204950.198,"mtimeMs":1602047204952.688,"ctimeMs":1602047204952.688,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:06:44.950Z","mtime":"2020-10-07T05:06:44.953Z","ctime":"2020-10-07T05:06:44.953Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:07:15,663 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:07:15,458 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3596,"blocks":8,"atimeMs":1602047235396.5142,"mtimeMs":1602047235397.328,"ctimeMs":1602047235397.328,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:07:15.397Z","mtime":"2020-10-07T05:07:15.397Z","ctime":"2020-10-07T05:07:15.397Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:21:16,989 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:21:16,787 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3720,"blocks":8,"atimeMs":1602048076724.2197,"mtimeMs":1602048076725.0671,"ctimeMs":1602048076725.0671,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:21:16.724Z","mtime":"2020-10-07T05:21:16.725Z","ctime":"2020-10-07T05:21:16.725Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:21:28,783 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:21:28,528 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3721,"blocks":8,"atimeMs":1602048088517.0903,"mtimeMs":1602048088518.0552,"ctimeMs":1602048088518.0552,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:21:28.517Z","mtime":"2020-10-07T05:21:28.518Z","ctime":"2020-10-07T05:21:28.518Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:21:28,579 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3721,"blocks":8,"atimeMs":1602048088517.0903,"mtimeMs":1602048088518.0552,"ctimeMs":1602048088518.0552,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:21:28.517Z","mtime":"2020-10-07T05:21:28.518Z","ctime":"2020-10-07T05:21:28.518Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:22:41,005 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:22:40,801 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3741,"blocks":8,"atimeMs":1602048160739.0293,"mtimeMs":1602048160739.8818,"ctimeMs":1602048160739.8818,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:22:40.739Z","mtime":"2020-10-07T05:22:40.740Z","ctime":"2020-10-07T05:22:40.740Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:23:16,984 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:23:16,780 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3796,"blocks":8,"atimeMs":1602048196717.027,"mtimeMs":1602048196717.8074,"ctimeMs":1602048196717.8074,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:23:16.717Z","mtime":"2020-10-07T05:23:16.718Z","ctime":"2020-10-07T05:23:16.718Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:23:46,166 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3809,"blocks":8,"atimeMs":1602048226101.9429,"mtimeMs":1602048226105.6548,"ctimeMs":1602048226105.6548,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:23:46.102Z","mtime":"2020-10-07T05:23:46.106Z","ctime":"2020-10-07T05:23:46.106Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:23:46,369 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:24:10,032 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:24:09,827 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3808,"blocks":8,"atimeMs":1602048249765.7146,"mtimeMs":1602048249767.0132,"ctimeMs":1602048249767.0132,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:24:09.766Z","mtime":"2020-10-07T05:24:09.767Z","ctime":"2020-10-07T05:24:09.767Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:24:11,592 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3808,"blocks":8,"atimeMs":1602048251581.012,"mtimeMs":1602048251581.8225,"ctimeMs":1602048251581.8225,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:24:11.581Z","mtime":"2020-10-07T05:24:11.582Z","ctime":"2020-10-07T05:24:11.582Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:24:11,643 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3808,"blocks":8,"atimeMs":1602048251581.012,"mtimeMs":1602048251581.8225,"ctimeMs":1602048251581.8225,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:24:11.581Z","mtime":"2020-10-07T05:24:11.582Z","ctime":"2020-10-07T05:24:11.582Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:24:11,848 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:27:17,746 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4063,"blocks":8,"atimeMs":1602048437683.3564,"mtimeMs":1602048437684.3765,"ctimeMs":1602048437684.3765,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:27:17.683Z","mtime":"2020-10-07T05:27:17.684Z","ctime":"2020-10-07T05:27:17.684Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:27:17,950 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:27:31,802 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3814,"blocks":8,"atimeMs":1602048451790.5588,"mtimeMs":1602048451791.3284,"ctimeMs":1602048451791.3284,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:27:31.791Z","mtime":"2020-10-07T05:27:31.791Z","ctime":"2020-10-07T05:27:31.791Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:27:31,853 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3814,"blocks":8,"atimeMs":1602048451790.5588,"mtimeMs":1602048451791.3284,"ctimeMs":1602048451791.3284,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:27:31.791Z","mtime":"2020-10-07T05:27:31.791Z","ctime":"2020-10-07T05:27:31.791Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:27:32,058 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:28:10,963 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3819,"blocks":8,"atimeMs":1602048490900.5378,"mtimeMs":1602048490901.3523,"ctimeMs":1602048490901.3523,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:28:10.901Z","mtime":"2020-10-07T05:28:10.901Z","ctime":"2020-10-07T05:28:10.901Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:28:11,165 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:28:42,574 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:28:42,370 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3820,"blocks":8,"atimeMs":1602048522308.0413,"mtimeMs":1602048522309.9346,"ctimeMs":1602048522309.9346,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:28:42.308Z","mtime":"2020-10-07T05:28:42.310Z","ctime":"2020-10-07T05:28:42.310Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:28:44,684 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:28:44,432 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3820,"blocks":8,"atimeMs":1602048524420.0996,"mtimeMs":1602048524420.944,"ctimeMs":1602048524420.944,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:28:44.420Z","mtime":"2020-10-07T05:28:44.421Z","ctime":"2020-10-07T05:28:44.421Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:28:44,483 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3820,"blocks":8,"atimeMs":1602048524420.0996,"mtimeMs":1602048524420.944,"ctimeMs":1602048524420.944,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:28:44.420Z","mtime":"2020-10-07T05:28:44.421Z","ctime":"2020-10-07T05:28:44.421Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:29:32,081 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3871,"blocks":8,"atimeMs":1602048572017.905,"mtimeMs":1602048572020.7812,"ctimeMs":1602048572020.7812,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:29:32.018Z","mtime":"2020-10-07T05:29:32.021Z","ctime":"2020-10-07T05:29:32.021Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:29:32,285 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:30:40,376 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:30:40,176 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048640112.7444,"mtimeMs":1602048640115.9478,"ctimeMs":1602048640115.9478,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:30:40.113Z","mtime":"2020-10-07T05:30:40.116Z","ctime":"2020-10-07T05:30:40.116Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:30:56,323 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:30:56,118 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048656055.2842,"mtimeMs":1602048656061.6096,"ctimeMs":1602048656061.6096,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:30:56.055Z","mtime":"2020-10-07T05:30:56.062Z","ctime":"2020-10-07T05:30:56.062Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:30:59,115 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:30:58,860 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048658847.6025,"mtimeMs":1602048658848.4377,"ctimeMs":1602048658848.4377,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:30:58.848Z","mtime":"2020-10-07T05:30:58.848Z","ctime":"2020-10-07T05:30:58.848Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:30:58,910 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048658847.6025,"mtimeMs":1602048658848.4377,"ctimeMs":1602048658848.4377,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:30:58.848Z","mtime":"2020-10-07T05:30:58.848Z","ctime":"2020-10-07T05:30:58.848Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:26,241 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:31:26,036 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3759,"blocks":8,"atimeMs":1602048685974.2444,"mtimeMs":1602048685975.0823,"ctimeMs":1602048685975.0823,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:25.974Z","mtime":"2020-10-07T05:31:25.975Z","ctime":"2020-10-07T05:31:25.975Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:28,055 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:31:27,804 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3759,"blocks":8,"atimeMs":1602048687792.1956,"mtimeMs":1602048687792.965,"ctimeMs":1602048687792.965,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:27.792Z","mtime":"2020-10-07T05:31:27.793Z","ctime":"2020-10-07T05:31:27.793Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:27,854 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3759,"blocks":8,"atimeMs":1602048687792.1956,"mtimeMs":1602048687792.965,"ctimeMs":1602048687792.965,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:27.792Z","mtime":"2020-10-07T05:31:27.793Z","ctime":"2020-10-07T05:31:27.793Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:33,502 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3762,"blocks":8,"atimeMs":1602048693490.519,"mtimeMs":1602048693491.3743,"ctimeMs":1602048693491.3743,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:33.491Z","mtime":"2020-10-07T05:31:33.491Z","ctime":"2020-10-07T05:31:33.491Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:33,552 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3762,"blocks":8,"atimeMs":1602048693490.519,"mtimeMs":1602048693491.3743,"ctimeMs":1602048693491.3743,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:33.491Z","mtime":"2020-10-07T05:31:33.491Z","ctime":"2020-10-07T05:31:33.491Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:33,757 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:31:41,528 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3774,"blocks":8,"atimeMs":1602048701506.728,"mtimeMs":1602048701520.3972,"ctimeMs":1602048701520.3972,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:41.507Z","mtime":"2020-10-07T05:31:41.520Z","ctime":"2020-10-07T05:31:41.520Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:41,579 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3774,"blocks":8,"atimeMs":1602048701506.728,"mtimeMs":1602048701520.3972,"ctimeMs":1602048701520.3972,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:41.507Z","mtime":"2020-10-07T05:31:41.520Z","ctime":"2020-10-07T05:31:41.520Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:41,782 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:31:50,011 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:31:49,754 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3780,"blocks":8,"atimeMs":1602048709742.9976,"mtimeMs":1602048709743.932,"ctimeMs":1602048709743.932,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:49.743Z","mtime":"2020-10-07T05:31:49.744Z","ctime":"2020-10-07T05:31:49.744Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:31:49,805 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3780,"blocks":8,"atimeMs":1602048709742.9976,"mtimeMs":1602048709743.932,"ctimeMs":1602048709743.932,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:31:49.743Z","mtime":"2020-10-07T05:31:49.744Z","ctime":"2020-10-07T05:31:49.744Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:13,622 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:32:13,367 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3753,"blocks":8,"atimeMs":1602048733166.1814,"mtimeMs":1602048733168.6433,"ctimeMs":1602048733168.6433,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:13.166Z","mtime":"2020-10-07T05:32:13.169Z","ctime":"2020-10-07T05:32:13.169Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:13,417 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3753,"blocks":8,"atimeMs":1602048733166.1814,"mtimeMs":1602048733168.6433,"ctimeMs":1602048733168.6433,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:13.166Z","mtime":"2020-10-07T05:32:13.169Z","ctime":"2020-10-07T05:32:13.169Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:17,184 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:32:16,929 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3753,"blocks":8,"atimeMs":1602048736915.7913,"mtimeMs":1602048736918.525,"ctimeMs":1602048736918.525,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:16.916Z","mtime":"2020-10-07T05:32:16.919Z","ctime":"2020-10-07T05:32:16.919Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:16,980 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3753,"blocks":8,"atimeMs":1602048736915.7913,"mtimeMs":1602048736918.525,"ctimeMs":1602048736918.525,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:16.916Z","mtime":"2020-10-07T05:32:16.919Z","ctime":"2020-10-07T05:32:16.919Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:27,702 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048747688.0574,"mtimeMs":1602048747692.3977,"ctimeMs":1602048747692.3977,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:27.688Z","mtime":"2020-10-07T05:32:27.692Z","ctime":"2020-10-07T05:32:27.692Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:27,906 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:32:30,734 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048750722.8127,"mtimeMs":1602048750723.5322,"ctimeMs":1602048750723.5322,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:30.723Z","mtime":"2020-10-07T05:32:30.724Z","ctime":"2020-10-07T05:32:30.724Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:30,784 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3765,"blocks":8,"atimeMs":1602048750722.8127,"mtimeMs":1602048750723.5322,"ctimeMs":1602048750723.5322,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:32:30.723Z","mtime":"2020-10-07T05:32:30.724Z","ctime":"2020-10-07T05:32:30.724Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:32:30,989 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:34:31,589 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:34:31,385 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3775,"blocks":8,"atimeMs":1602048871322.8672,"mtimeMs":1602048871323.7883,"ctimeMs":1602048871323.7883,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:34:31.323Z","mtime":"2020-10-07T05:34:31.324Z","ctime":"2020-10-07T05:34:31.324Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:35:02,991 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:35:02,788 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3777,"blocks":8,"atimeMs":1602048902723.0417,"mtimeMs":1602048902726.5493,"ctimeMs":1602048902726.5493,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:35:02.723Z","mtime":"2020-10-07T05:35:02.727Z","ctime":"2020-10-07T05:35:02.727Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:35:26,298 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3784,"blocks":8,"atimeMs":1602048926234.9082,"mtimeMs":1602048926235.7932,"ctimeMs":1602048926235.7932,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:35:26.235Z","mtime":"2020-10-07T05:35:26.236Z","ctime":"2020-10-07T05:35:26.236Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:35:26,501 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:36:52,189 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:36:51,986 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3809,"blocks":8,"atimeMs":1602049011925.31,"mtimeMs":1602049011926.2266,"ctimeMs":1602049011926.2266,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:36:51.925Z","mtime":"2020-10-07T05:36:51.926Z","ctime":"2020-10-07T05:36:51.926Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:36:53,348 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3809,"blocks":8,"atimeMs":1602049013344.8494,"mtimeMs":1602049013345.9514,"ctimeMs":1602049013345.9514,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:36:53.345Z","mtime":"2020-10-07T05:36:53.346Z","ctime":"2020-10-07T05:36:53.346Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:36:53,398 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3809,"blocks":8,"atimeMs":1602049013344.8494,"mtimeMs":1602049013345.9514,"ctimeMs":1602049013345.9514,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:36:53.345Z","mtime":"2020-10-07T05:36:53.346Z","ctime":"2020-10-07T05:36:53.346Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:36:53,602 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:38:25,365 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:38:25,159 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3803,"blocks":8,"atimeMs":1602049105097.8582,"mtimeMs":1602049105099.546,"ctimeMs":1602049105099.546,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:38:25.098Z","mtime":"2020-10-07T05:38:25.100Z","ctime":"2020-10-07T05:38:25.100Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:40:55,296 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3851,"blocks":8,"atimeMs":1602049255230.9854,"mtimeMs":1602049255234.3877,"ctimeMs":1602049255234.3877,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:40:55.231Z","mtime":"2020-10-07T05:40:55.234Z","ctime":"2020-10-07T05:40:55.234Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:40:55,498 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:41:08,167 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3868,"blocks":8,"atimeMs":1602049268155.7407,"mtimeMs":1602049268156.5146,"ctimeMs":1602049268156.5146,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:41:08.156Z","mtime":"2020-10-07T05:41:08.157Z","ctime":"2020-10-07T05:41:08.157Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:41:08,217 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3868,"blocks":8,"atimeMs":1602049268155.7407,"mtimeMs":1602049268156.5146,"ctimeMs":1602049268156.5146,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:41:08.156Z","mtime":"2020-10-07T05:41:08.157Z","ctime":"2020-10-07T05:41:08.157Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:41:08,422 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:44:00,113 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:43:59,909 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3921,"blocks":8,"atimeMs":1602049439846.2815,"mtimeMs":1602049439848.2876,"ctimeMs":1602049439848.2876,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:43:59.846Z","mtime":"2020-10-07T05:43:59.848Z","ctime":"2020-10-07T05:43:59.848Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:44:03,348 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:44:03,094 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3921,"blocks":8,"atimeMs":1602049443081.8616,"mtimeMs":1602049443082.7805,"ctimeMs":1602049443082.7805,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:44:03.082Z","mtime":"2020-10-07T05:44:03.083Z","ctime":"2020-10-07T05:44:03.083Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:44:03,145 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3921,"blocks":8,"atimeMs":1602049443081.8616,"mtimeMs":1602049443082.7805,"ctimeMs":1602049443082.7805,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:44:03.082Z","mtime":"2020-10-07T05:44:03.083Z","ctime":"2020-10-07T05:44:03.083Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:53:34,338 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:53:34,134 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3988,"blocks":8,"atimeMs":1602050014070.0486,"mtimeMs":1602050014073.0317,"ctimeMs":1602050014073.0317,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:53:34.070Z","mtime":"2020-10-07T05:53:34.073Z","ctime":"2020-10-07T05:53:34.073Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:55:11,565 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:55:11,363 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3985,"blocks":8,"atimeMs":1602050111300.378,"mtimeMs":1602050111301.2444,"ctimeMs":1602050111301.2444,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:55:11.300Z","mtime":"2020-10-07T05:55:11.301Z","ctime":"2020-10-07T05:55:11.301Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:55:45,834 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":3985,"blocks":8,"atimeMs":1602050145771.915,"mtimeMs":1602050145772.7332,"ctimeMs":1602050145772.7332,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:55:45.772Z","mtime":"2020-10-07T05:55:45.773Z","ctime":"2020-10-07T05:55:45.773Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:55:46,036 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:58:52,230 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:58:52,028 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4291,"blocks":16,"atimeMs":1602050331964.854,"mtimeMs":1602050331965.8909,"ctimeMs":1602050331965.8909,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:58:51.965Z","mtime":"2020-10-07T05:58:51.966Z","ctime":"2020-10-07T05:58:51.966Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 13:59:48,395 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 13:59:48,191 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4298,"blocks":16,"atimeMs":1602050388127.8958,"mtimeMs":1602050388128.933,"ctimeMs":1602050388128.933,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T05:59:48.128Z","mtime":"2020-10-07T05:59:48.129Z","ctime":"2020-10-07T05:59:48.129Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:00:33,065 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:00:32,861 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4302,"blocks":16,"atimeMs":1602050432798.2659,"mtimeMs":1602050432800.0981,"ctimeMs":1602050432800.0981,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:00:32.798Z","mtime":"2020-10-07T06:00:32.800Z","ctime":"2020-10-07T06:00:32.800Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:01:12,779 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4304,"blocks":16,"atimeMs":1602050472710.39,"mtimeMs":1602050472720.2446,"ctimeMs":1602050472720.2446,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:01:12.710Z","mtime":"2020-10-07T06:01:12.720Z","ctime":"2020-10-07T06:01:12.720Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:01:12,984 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:01:13,919 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4304,"blocks":16,"atimeMs":1602050473908.6116,"mtimeMs":1602050473909.4128,"ctimeMs":1602050473909.4128,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:01:13.909Z","mtime":"2020-10-07T06:01:13.909Z","ctime":"2020-10-07T06:01:13.909Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:01:14,174 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:01:13,969 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4304,"blocks":16,"atimeMs":1602050473969.5208,"mtimeMs":1602050473909.4128,"ctimeMs":1602050473909.4128,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:01:13.970Z","mtime":"2020-10-07T06:01:13.909Z","ctime":"2020-10-07T06:01:13.909Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:01:22,918 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4320,"blocks":16,"atimeMs":1602050482904.9043,"mtimeMs":1602050482908.2336,"ctimeMs":1602050482908.2336,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:01:22.905Z","mtime":"2020-10-07T06:01:22.908Z","ctime":"2020-10-07T06:01:22.908Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:01:23,170 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:01:22,968 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4320,"blocks":16,"atimeMs":1602050482904.9043,"mtimeMs":1602050482908.2336,"ctimeMs":1602050482908.2336,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:01:22.905Z","mtime":"2020-10-07T06:01:22.908Z","ctime":"2020-10-07T06:01:22.908Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:01:24,200 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:01:24,000 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4320,"blocks":16,"atimeMs":1602050483988.093,"mtimeMs":1602050483988.8176,"ctimeMs":1602050483988.8176,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:01:23.988Z","mtime":"2020-10-07T06:01:23.989Z","ctime":"2020-10-07T06:01:23.989Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:02:46,933 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:02:46,729 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4320,"blocks":16,"atimeMs":1602050566666.306,"mtimeMs":1602050566667.1897,"ctimeMs":1602050566667.1897,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:02:46.666Z","mtime":"2020-10-07T06:02:46.667Z","ctime":"2020-10-07T06:02:46.667Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:02:50,000 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:02:49,745 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4320,"blocks":16,"atimeMs":1602050569733.7742,"mtimeMs":1602050569734.6487,"ctimeMs":1602050569734.6487,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:02:49.734Z","mtime":"2020-10-07T06:02:49.735Z","ctime":"2020-10-07T06:02:49.735Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:02:49,795 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4320,"blocks":16,"atimeMs":1602050569733.7742,"mtimeMs":1602050569734.6487,"ctimeMs":1602050569734.6487,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:02:49.734Z","mtime":"2020-10-07T06:02:49.735Z","ctime":"2020-10-07T06:02:49.735Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:03:24,264 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:03:24,062 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4068,"blocks":8,"atimeMs":1602050603999.9531,"mtimeMs":1602050604008.7502,"ctimeMs":1602050604008.7502,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:03:24.000Z","mtime":"2020-10-07T06:03:24.009Z","ctime":"2020-10-07T06:03:24.009Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:04:41,377 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4061,"blocks":8,"atimeMs":1602050681311.1365,"mtimeMs":1602050681316.2136,"ctimeMs":1602050681316.2136,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:04:41.311Z","mtime":"2020-10-07T06:04:41.316Z","ctime":"2020-10-07T06:04:41.316Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:04:41,579 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:04:46,347 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:04:46,145 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4053,"blocks":8,"atimeMs":1602050686132.839,"mtimeMs":1602050686133.547,"ctimeMs":1602050686133.547,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:04:46.133Z","mtime":"2020-10-07T06:04:46.134Z","ctime":"2020-10-07T06:04:46.134Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:04:53,480 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:04:53,277 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4043,"blocks":8,"atimeMs":1602050693262.5142,"mtimeMs":1602050693265.5618,"ctimeMs":1602050693265.5618,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:04:53.263Z","mtime":"2020-10-07T06:04:53.266Z","ctime":"2020-10-07T06:04:53.266Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:07:07,573 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:07:07,368 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4079,"blocks":8,"atimeMs":1602050827306.0842,"mtimeMs":1602050827306.916,"ctimeMs":1602050827306.916,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:07:07.306Z","mtime":"2020-10-07T06:07:07.307Z","ctime":"2020-10-07T06:07:07.307Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:13:43,127 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4560,"blocks":16,"atimeMs":1602051223063.4817,"mtimeMs":1602051223064.3616,"ctimeMs":1602051223064.3616,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:13:43.063Z","mtime":"2020-10-07T06:13:43.064Z","ctime":"2020-10-07T06:13:43.064Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:13:43,330 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:16:46,774 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:16:46,570 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4495,"blocks":16,"atimeMs":1602051406507.8496,"mtimeMs":1602051406509.5164,"ctimeMs":1602051406509.5164,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:16:46.508Z","mtime":"2020-10-07T06:16:46.510Z","ctime":"2020-10-07T06:16:46.510Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:18,624 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:17:18,421 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4495,"blocks":16,"atimeMs":1602051438359.1555,"mtimeMs":1602051438360.1765,"ctimeMs":1602051438360.1765,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:18.359Z","mtime":"2020-10-07T06:17:18.360Z","ctime":"2020-10-07T06:17:18.360Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:47,582 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:17:47,378 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4614,"blocks":16,"atimeMs":1602051467262.026,"mtimeMs":1602051467266.4387,"ctimeMs":1602051467266.4387,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:47.262Z","mtime":"2020-10-07T06:17:47.266Z","ctime":"2020-10-07T06:17:47.266Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:49,017 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4617,"blocks":16,"atimeMs":1602051469003.4119,"mtimeMs":1602051469006.5195,"ctimeMs":1602051469006.5195,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:49.003Z","mtime":"2020-10-07T06:17:49.007Z","ctime":"2020-10-07T06:17:49.007Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:49,273 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:17:49,067 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4617,"blocks":16,"atimeMs":1602051469003.4119,"mtimeMs":1602051469006.5195,"ctimeMs":1602051469006.5195,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:49.003Z","mtime":"2020-10-07T06:17:49.007Z","ctime":"2020-10-07T06:17:49.007Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:50,732 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:17:50,476 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4615,"blocks":16,"atimeMs":1602051470464.7646,"mtimeMs":1602051470466.4155,"ctimeMs":1602051470466.4155,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:50.465Z","mtime":"2020-10-07T06:17:50.466Z","ctime":"2020-10-07T06:17:50.466Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:50,527 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4615,"blocks":16,"atimeMs":1602051470464.7646,"mtimeMs":1602051470466.4155,"ctimeMs":1602051470466.4155,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:50.465Z","mtime":"2020-10-07T06:17:50.466Z","ctime":"2020-10-07T06:17:50.466Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:58,715 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:17:58,463 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4614,"blocks":16,"atimeMs":1602051478451.5425,"mtimeMs":1602051478452.387,"ctimeMs":1602051478452.387,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:58.452Z","mtime":"2020-10-07T06:17:58.452Z","ctime":"2020-10-07T06:17:58.452Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:17:58,513 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4614,"blocks":16,"atimeMs":1602051478451.5425,"mtimeMs":1602051478452.387,"ctimeMs":1602051478452.387,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:17:58.452Z","mtime":"2020-10-07T06:17:58.452Z","ctime":"2020-10-07T06:17:58.452Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:19:21,031 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:19:20,828 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4675,"blocks":16,"atimeMs":1602051560764.8542,"mtimeMs":1602051560765.9055,"ctimeMs":1602051560765.9055,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:19:20.765Z","mtime":"2020-10-07T06:19:20.766Z","ctime":"2020-10-07T06:19:20.766Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:21:18,165 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:21:17,962 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4613,"blocks":16,"atimeMs":1602051677897.094,"mtimeMs":1602051677900.0059,"ctimeMs":1602051677900.0059,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:21:17.897Z","mtime":"2020-10-07T06:21:17.900Z","ctime":"2020-10-07T06:21:17.900Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:21:29,621 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:21:29,418 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4613,"blocks":16,"atimeMs":1602051689403.231,"mtimeMs":1602051689406.036,"ctimeMs":1602051689406.036,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:21:29.403Z","mtime":"2020-10-07T06:21:29.406Z","ctime":"2020-10-07T06:21:29.406Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:24:25,695 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:24:25,490 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4641,"blocks":16,"atimeMs":1602051865425.751,"mtimeMs":1602051865428.7415,"ctimeMs":1602051865428.7415,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:24:25.426Z","mtime":"2020-10-07T06:24:25.429Z","ctime":"2020-10-07T06:24:25.429Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:27:02,138 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:27:01,936 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4923,"blocks":16,"atimeMs":1602052021871.856,"mtimeMs":1602052021875.232,"ctimeMs":1602052021875.232,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:27:01.872Z","mtime":"2020-10-07T06:27:01.875Z","ctime":"2020-10-07T06:27:01.875Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:27:50,818 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4826,"blocks":16,"atimeMs":1602052070754.0635,"mtimeMs":1602052070756.9556,"ctimeMs":1602052070756.9556,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:27:50.754Z","mtime":"2020-10-07T06:27:50.757Z","ctime":"2020-10-07T06:27:50.757Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:27:51,023 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:30:34,315 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:30:34,110 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4957,"blocks":16,"atimeMs":1602052234046.8987,"mtimeMs":1602052234047.9465,"ctimeMs":1602052234047.9465,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:30:34.047Z","mtime":"2020-10-07T06:30:34.048Z","ctime":"2020-10-07T06:30:34.048Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:32:08,171 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:32:07,967 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4957,"blocks":16,"atimeMs":1602052327904.9653,"mtimeMs":1602052327906.0098,"ctimeMs":1602052327906.0098,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:32:07.905Z","mtime":"2020-10-07T06:32:07.906Z","ctime":"2020-10-07T06:32:07.906Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:32:45,634 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4957,"blocks":16,"atimeMs":1602052365570.5703,"mtimeMs":1602052365571.4924,"ctimeMs":1602052365571.4924,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:32:45.571Z","mtime":"2020-10-07T06:32:45.571Z","ctime":"2020-10-07T06:32:45.571Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:32:45,839 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:34:18,457 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:34:18,252 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4918,"blocks":16,"atimeMs":1602052458189.1643,"mtimeMs":1602052458190.1895,"ctimeMs":1602052458190.1895,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:34:18.189Z","mtime":"2020-10-07T06:34:18.190Z","ctime":"2020-10-07T06:34:18.190Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:34:22,812 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:34:22,555 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4933,"blocks":16,"atimeMs":1602052462543.7693,"mtimeMs":1602052462544.9958,"ctimeMs":1602052462544.9958,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:34:22.544Z","mtime":"2020-10-07T06:34:22.545Z","ctime":"2020-10-07T06:34:22.545Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:34:22,607 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4933,"blocks":16,"atimeMs":1602052462543.7693,"mtimeMs":1602052462544.9958,"ctimeMs":1602052462544.9958,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:34:22.544Z","mtime":"2020-10-07T06:34:22.545Z","ctime":"2020-10-07T06:34:22.545Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:34:23,912 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4933,"blocks":16,"atimeMs":1602052463900.451,"mtimeMs":1602052463901.4485,"ctimeMs":1602052463901.4485,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:34:23.900Z","mtime":"2020-10-07T06:34:23.901Z","ctime":"2020-10-07T06:34:23.901Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:34:23,962 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4933,"blocks":16,"atimeMs":1602052463900.451,"mtimeMs":1602052463901.4485,"ctimeMs":1602052463901.4485,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:34:23.900Z","mtime":"2020-10-07T06:34:23.901Z","ctime":"2020-10-07T06:34:23.901Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
-2020-10-07 14:34:24,167 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:34:42,910 WARN 55260 [agent:development] reload worker because /Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js change
-2020-10-07 14:34:42,707 INFO 55260 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17906506,"size":4791,"blocks":16,"atimeMs":1602052482643.9114,"mtimeMs":1602052482644.893,"ctimeMs":1602052482644.893,"birthtimeMs":1601362003872.6194,"atime":"2020-10-07T06:34:42.644Z","mtime":"2020-10-07T06:34:42.645Z","ctime":"2020-10-07T06:34:42.645Z","birthtime":"2020-09-29T06:46:43.873Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-10-08 23:02:05,008 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 577802ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:12:00,422 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575405ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:22:15,794 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:32:10,750 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574946ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:42:26,136 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:52:22,108 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:02:37,449 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575323ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:12:32,804 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:22:47,714 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:32:43,116 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:42:59,505 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:52:54,842 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:02:51,002 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:13:06,619 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575600ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:23:02,027 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:33:17,331 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:43:12,570 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575231ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:53:27,732 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:03:25,989 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578250ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:13:41,362 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:23:36,820 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575447ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:33:52,094 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:43:46,953 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:54:02,274 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575306ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:03:58,397 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576111ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:14:13,614 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:24:08,831 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:34:24,258 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575404ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:44:22,770 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578496ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:54:38,062 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:04:33,414 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:14:48,947 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575520ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:24:44,338 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:35:00,078 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:44:55,312 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575221ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:55:13,705 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:05:08,909 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:15:24,743 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:25:19,056 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:35:16,003 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:45:31,793 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:55:26,846 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:05:42,100 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575239ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:15:37,590 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:25:53,040 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:35:48,553 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:46:03,872 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575312ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:55:59,385 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:06:14,694 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575294ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:16:10,107 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:26:25,519 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575394ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:36:20,867 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:46:36,838 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:56:32,080 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:06:47,396 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:16:42,687 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575278ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:26:58,130 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:36:53,516 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:46:50,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 09:54:59,407 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 4049395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 09:58:03,405 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 163989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 10:12:04,700 WARN 658 Sequelize Error: read ECONNRESET, sleep 1 seconds to retry...
+2020-10-09 10:12:03,751 INFO 658 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-09 10:12:04,079 INFO 658 [egg:core] dump config after load, 4ms
+2020-10-09 10:12:04,119 INFO 658 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-09 10:12:04,119 INFO 658 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-09 10:12:04,120 INFO 658 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-09 10:12:04,120 INFO 658 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-09 10:12:04,120 INFO 658 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-09 10:12:04,120 INFO 658 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-09 10:12:04,121 INFO 658 [egg-watcher:agent] watcher start success
+2020-10-09 10:12:05,706 WARN 658 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:12:06,712 WARN 658 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:12:07,714 ERROR 658 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 658
+hostname: lxddeMacBook-Pro.local
+
+2020-10-09 10:12:07,720 INFO 658 [egg:core] dump config after ready, 5ms
+2020-10-09 10:13:20,747 WARN 765 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:13:20,558 INFO 765 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-09 10:13:20,719 INFO 765 [egg:core] dump config after load, 4ms
+2020-10-09 10:13:20,743 INFO 765 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-09 10:13:20,743 INFO 765 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-09 10:13:20,744 INFO 765 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-09 10:13:20,744 INFO 765 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-09 10:13:20,744 INFO 765 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-09 10:13:20,744 INFO 765 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-09 10:13:20,744 INFO 765 [egg-watcher:agent] watcher start success
+2020-10-09 10:13:21,750 WARN 765 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:13:22,752 WARN 765 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:13:23,758 ERROR 765 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 765
+hostname: lxddeMacBook-Pro.local
+
+2020-10-09 10:13:23,765 INFO 765 [egg:core] dump config after ready, 6ms
+2020-10-09 10:17:00,340 WARN 1088 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:17:00,151 INFO 1088 [egg:logger] init all loggers with options: {"dir":"/Users/lxd/Desktop/mine/egg-example/logs/egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-10-09 10:17:00,312 INFO 1088 [egg:core] dump config after load, 4ms
+2020-10-09 10:17:00,335 INFO 1088 [egg-watcher] Start watching: ["/Users/lxd/Desktop/mine/egg-example/app","/Users/lxd/Desktop/mine/egg-example/config","/Users/lxd/Desktop/mine/egg-example/mocks","/Users/lxd/Desktop/mine/egg-example/mocks_proxy","/Users/lxd/Desktop/mine/egg-example/app.js"]
+2020-10-09 10:17:00,335 INFO 1088 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app"
+2020-10-09 10:17:00,336 INFO 1088 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/config"
+2020-10-09 10:17:00,336 INFO 1088 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks"
+2020-10-09 10:17:00,336 INFO 1088 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/mocks_proxy"
+2020-10-09 10:17:00,336 INFO 1088 [egg-watcher] Start watching: "/Users/lxd/Desktop/mine/egg-example/app.js"
+2020-10-09 10:17:00,336 INFO 1088 [egg-watcher:agent] watcher start success
+2020-10-09 10:17:01,869 WARN 1088 Sequelize Error: read ECONNRESET, sleep 1 seconds to retry...
+2020-10-09 10:17:02,875 WARN 1088 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-10-09 10:17:03,879 ERROR 1088 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 1088
+hostname: lxddeMacBook-Pro.local
+
+2020-10-09 10:17:03,887 INFO 1088 [egg:core] dump config after ready, 7ms

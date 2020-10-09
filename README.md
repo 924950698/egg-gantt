@@ -110,7 +110,7 @@ update 表名 set 字段名 = replace(字段名,’旧内容’,’新内容’)
 
 -- 在sequelize中， 每个表都当作一个模型，表名称与模型名称保持一致。<br>
 
-<h3>5. </h3>
+<h3>5. SQL命令补充</h3>
 
 -- 表中列的数据类型的修改<br>
 ALTER TABLE gannt CHANGE start start INT;<br>
@@ -120,6 +120,20 @@ ALTER TABLE gannt CHANGE duration duration INT;<br>
 ALTER TABLE gannt  DROP start;<br>
 
 -- 表中列的数据的增加<br>
-ALTER TABLE gannt ADD start DATETIME;
+ALTER TABLE gannt ADD start DATETIME;<br>
 
-delete from gannt where id = 2;
+delete from gannt where id = 2;<br>
+
+
+<h3>6. sequeliz文档补充</h3>
+
+sequeliz数据库常用方法补充：https://github.com/demopark/sequelize-docs-Zh-CN/blob/master/core-concepts/model-querying-basics.md<br>
+
+<h3>7. 如何启动SQL数据库</h3>
+
+sudo /usr/local/mysql/bin/mysql -u root -p <br/>
+
+<h3>8. 本地SQL数据库兼容问题</h3>
+node版本与sql高版本不兼容，查看当前macOS的版本，使用对应的低版本的sql安装包。<br/>
+如果报错用户没有权限时：mac连接mysql出现Access denied for user 'root'@'localhost' (using password: YES)<br/>
+https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>

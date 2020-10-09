@@ -1,19 +1,4 @@
-2020-10-07 12:10:23,007 ERROR 6414 [-/192.168.0.100/-/21ms POST /gannt/created] nodejs.TypeError: Cannot read property 'data' of undefined
-    at GanntController.created (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:72:69)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:39:63
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 6414
-hostname: bogon
-
-2020-10-07 12:53:35,863 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 308374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-10-08 22:51:47,198 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:549:17)
     at processTimers (internal/timers.js:492:7)
@@ -21,168 +6,518 @@ name: "ClusterClientNoResponseError"
 pid: 55260
 hostname: localhost
 
-2020-10-07 13:06:48,872 ERROR 8204 [-/192.168.0.100/-/41ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.TypeError: userList.map is not a function
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:44:32)
+2020-10-08 23:02:05,008 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 577802ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:12:00,422 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575405ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:22:15,794 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:32:10,750 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574946ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:42:26,136 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-08 23:52:22,107 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:02:37,449 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575323ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:12:32,804 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:22:47,713 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:32:43,116 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:42:59,505 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 00:52:54,842 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:02:51,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:13:06,619 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575600ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:23:02,027 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:33:17,331 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:43:12,570 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575231ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 01:53:27,731 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:03:25,989 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578250ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:13:41,362 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:23:36,819 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575447ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:33:52,094 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:43:46,953 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 02:54:02,274 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575306ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:03:58,396 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576111ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:14:13,614 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:24:08,831 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:34:24,258 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575404ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:44:22,770 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578496ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 03:54:38,062 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:04:33,414 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:14:48,947 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575520ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:24:44,338 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:35:00,077 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:44:55,312 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575221ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 04:55:13,704 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:05:08,909 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:15:24,743 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:25:19,056 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:35:16,003 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:45:31,793 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 05:55:26,846 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:05:42,100 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575239ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:15:37,590 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:25:53,040 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:35:48,553 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:46:03,872 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575312ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 06:55:59,385 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:06:14,693 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575294ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:16:10,106 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:26:25,519 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575394ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:36:20,867 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:46:36,837 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 07:56:32,080 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:06:47,395 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:16:42,687 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575278ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:26:58,129 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:36:53,516 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 08:46:50,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 09:54:59,406 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 4049395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 09:58:03,405 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 163989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 55260
+hostname: localhost
+
+2020-10-09 10:12:07,714 ERROR 658 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8204
-hostname: bogon
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 658
+hostname: lxddeMacBook-Pro.local
 
-2020-10-07 13:23:19,631 ERROR 8694 [-/192.168.0.100/-/7ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.ReferenceError: Op is not defined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:45:14)
-    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8694
-hostname: bogon
-
-2020-10-07 13:23:49,544 ERROR 8724 [-/192.168.0.100/-/10ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:45:52)
-    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8724
-hostname: bogon
-
-2020-10-07 13:24:14,614 ERROR 8765 [-/192.168.0.100/-/10ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:45:52)
-    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8765
-hostname: bogon
-
-2020-10-07 13:34:35,846 ERROR 9256 [-/192.168.0.100/-/38ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:59:22)
+2020-10-09 10:13:23,757 ERROR 765 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 9256
-hostname: bogon
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 765
+hostname: lxddeMacBook-Pro.local
 
-2020-10-07 13:35:06,068 ERROR 9279 [-/192.168.0.100/-/28ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:59:22)
+2020-10-09 10:17:03,879 ERROR 1088 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 9279
-hostname: bogon
-
-2020-10-07 13:35:29,439 ERROR 9310 [-/192.168.0.100/-/29ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.Error: Invalid value { undefined: '1_' }
-    at Object.escape (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/sql-string.js:65:11)
-    at MySQLQueryGenerator.escape (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:985:22)
-    at MySQLQueryGenerator._whereParseSingleValueObject (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2636:41)
-    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2348:19)
-    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
-    at Array.forEach (<anonymous>)
-    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
-    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
-    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
-    at MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:974:37)
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 9310
-hostname: bogon
-
-2020-10-07 13:36:56,900 ERROR 9414 [-/192.168.0.100/-/55ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:61:22)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 9414
-hostname: bogon
-
-2020-10-07 13:44:37,276 ERROR 9686 [-/192.168.0.100/-/4ms GET /gannt/lists?filters=%E5%93%88%E5%93%88&currentPage=1&currentSizes=10] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:66:43)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 9686
-hostname: bogon
-
-2020-10-07 14:17:29,155 ERROR 10862 [-/192.168.0.100/-/6ms GET /gannt/lists?filters=5&currentPage=1&currentSizes=10] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:43:28)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 10862
-hostname: bogon
-
-2020-10-07 14:18:12,846 ERROR 10913 [-/192.168.0.100/-/6ms GET /gannt/lists?filters=5&currentPage=1&currentSizes=10] nodejs.TypeError: Cannot read property 'rows' of undefined
-    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:43:28)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
-    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 10913
-hostname: bogon
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 1088
+hostname: lxddeMacBook-Pro.local
 
