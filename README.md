@@ -60,8 +60,6 @@ create table gannt(
   childId varchar(100) not null comment '子ID'
 )engine=InnoDB charset=utf8;
 
-id CHAR(36) PRIMARY KEY COMMENT '编号' DEFAULT 1,
-
 tips: <br>
 int、varchar 前者为基本数据类型、后者为string类型<br>
 auto_increment 自动递增<br>
