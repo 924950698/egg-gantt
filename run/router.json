@@ -151,17 +151,5 @@
     "stack": [
       "wrappedController"
     ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/gannt/search",
-    "regexp": "/^\\/gannt\\/search(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
   }
 ]

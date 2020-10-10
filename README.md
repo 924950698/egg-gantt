@@ -46,19 +46,21 @@ create table user(
 ```
 
 create table gannt(
-  id int(10) not null auto_increment, 
+  id CHAR(36) PRIMARY KEY COMMENT '编号' DEFAULT 1,
   label varchar(50) not null comment '需求名称',
   user varchar(10) not null comment '用户名',
-  start int(10) not null comment '开始时间',
-  endDate varchar(50) not null comment '结束时间',
+  start DATETIME not null comment '开始时间',
+  endDate DATETIME not null comment '结束时间',
   duration int(50) not null comment '周期',
   percent int(10) not null default 0 comment '完成度',
   type varchar(10) not null comment '类型',
   proType varchar(10) not null comment '产品需求',
   risk varchar(10) not null comment '风险预警xxx',
-  primary key(id)
+  parentId int(100) not null comment '父ID',
+  childId varchar(100) not null comment '子ID'
 )engine=InnoDB charset=utf8;
 
+id CHAR(36) PRIMARY KEY COMMENT '编号' DEFAULT 1,
 
 tips: <br>
 int、varchar 前者为基本数据类型、后者为string类型<br>
@@ -137,3 +139,11 @@ sudo /usr/local/mysql/bin/mysql -u root -p <br/>
 node版本与sql高版本不兼容，查看当前macOS的版本，使用对应的低版本的sql安装包。<br/>
 如果报错用户没有权限时：mac连接mysql出现Access denied for user 'root'@'localhost' (using password: YES)<br/>
 https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
+
+<h3>9. 问题总结：</h3>
+
+Q：sequelize的startsWith在数据库检索时，无法区分1_ 和 13_ ， 为什么会这样，怎么解决？
+
+A：
+
+

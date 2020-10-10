@@ -205,7 +205,8 @@
       "egg-sequelize": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
       "moment": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
-      "mysql2": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
+      "mysql2": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/lxd/Desktop/mine/egg-example/node_modules/egg/config/config.default.js",

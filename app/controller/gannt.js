@@ -12,17 +12,6 @@ function toInt(str) {
 
 class GanntController extends Controller {
 
-  // 获取列表
-  // async lists() {
-  //   const { ctx } = this;
-  //   const res = await ctx.model.Gannt.findAll();
-  //   if(res) {
-  //     this.success(res);
-  //   } else {
-  //     this.notFound('lists接口地址错误');
-  //   }
-  // }
-
   // 列表 和 查询
   async lists() {
     const { ctx } = this;
@@ -37,12 +26,14 @@ class GanntController extends Controller {
         limit: Number(currentSizes),//limit每页数据数量
         where: {
           label: filters,
-          // parentId: null,
         },
       });
       
       const len = countArr.rows;
       for( let i = 0; i < len.length; i ++) { // 过滤结果是数组
+        if(i == 0) {
+          countArr.rows = [];
+        }
         var id;
         if(len[i].childId) {
           id = len[i].childId.split('_')[0];
@@ -65,8 +56,9 @@ class GanntController extends Controller {
             ],
           },
         })
+
         console.log("userList==>", JSON.stringify(userList));
-        countArr.rows = userList.rows;
+        countArr.rows = countArr.rows.concat(userList.rows);
         countArr.count = countArr.count;
       }
       
@@ -80,15 +72,16 @@ class GanntController extends Controller {
       })
       const len = countArr.rows;
       for( let i = 0; i < len.length; i ++) {
-          userList =  await ctx.model.Gannt.findAndCountAll({
+        const filters = '1_';
+        userList =  await ctx.model.Gannt.findAndCountAll({
           where: {
             childId: {
-              [Op.startsWith]: len[i].id + '_',
+              [Op.startsWith]: filters, // Op.startsWith 无法区分 1_ 与 12_
             } 
           },
         })
         countArr.rows = countArr.rows.concat(userList.rows);
-        countArr.count = userList.count + countArr.count
+        countArr.count = userList.count + countArr.count;
       }
     }
     ctx.body = {
@@ -97,49 +90,43 @@ class GanntController extends Controller {
     };
   }
 
-  //过滤
-  async search() {
-    // const { ctx } = this;
-    // const params = ctx.request.body;
-    // const res = await ctx.model.Gannt.findByLabel(params.label);
-    // if(res) {
-    //   this.success(res);
-    // } else {
-    //   this.notFound('search接口地址错误');
-    // }
-  }
-
-   // 新建 - 处理childId
-   async created() {
+  // 新建
+  async created() {
     const { ctx } = this;
     // parentId - id
     // 新建接口获取id，再调更新接口更新childId
     const params = ctx.request.body;
-    const res = await ctx.model.Gannt.create(params);
+    const res = await ctx.model.Gannt.create(params); // 新建需求
     const parentId= params.parentId;
-    const currentId= res.id;
-    var childId = ''; 
-    const parentVal = await ctx.model.Gannt.findById(parentId);
-    const parentData = parentVal[0].dataValues;
-    // console.log("parentData==>", parentData);
-    if(parentData) {
-      if(parentData.childId) {
-        childId = parentData.childId + '_' + currentId;
-      }else {
-        childId = parentData.id + '_' + currentId;
+    if(parentId) {                                    // 新建子节点
+      const currentId= res.id;
+      var childId = ''; 
+      const parentVal = await ctx.model.Gannt.findById(parentId);
+      const parentData = parentVal[0].dataValues;
+      if(parentData) {
+        if(parentData.childId) {
+          childId = parentData.childId + '_' + currentId;
+        }else {
+          childId = parentData.id + '_' + currentId;
+        }
+      } else {
+        this.notFound('查找不到该条parentId记录！');
+      }
+      params.childId = childId;
+      console.log("params==>", params);
+      const body = await res.update(params);
+      console.log("body==>", body);
+      if(body) {
+        this.success(body);
+      } else {
+        this.notFound('created接口地址错误');
       }
     } else {
-      this.notFound('查找不到该条parentId记录！');
-    }
-    // console.log("childId==>", childId);
-    params.childId = childId;
-    // console.log("params==>", params);
-    const body = await res.update(params);
-    // console.log("body==>", body);
-    if(body) {
-      this.success(body);
-    } else {
-      this.notFound('created接口地址错误');
+      if(res) {
+        this.success(res);
+      } else {
+        this.notFound('created接口地址错误');
+      }
     }
   }
 

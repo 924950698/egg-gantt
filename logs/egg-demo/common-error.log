@@ -1,523 +1,524 @@
-2020-10-08 22:51:47,198 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-10-10 00:19:10,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 563834ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 55260
+pid: 19253
+hostname: bogon
+
+2020-10-10 00:29:16,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 00:39:21,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564449ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 00:49:27,001 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 565014ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 00:59:31,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 563591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 01:09:36,001 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 01:19:42,001 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 565993ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 01:29:47,003 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564993ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 01:39:53,001 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 565991ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 01:49:58,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564815ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:00:03,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564990ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:10:09,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:20:14,002 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 564997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:29:47,001 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 532987ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:39:26,646 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 579492ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:49:36,222 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 569429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 02:59:43,184 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 03:09:50,158 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566853ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 03:19:59,135 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 568849ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 03:30:06,158 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566879ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 03:40:15,186 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 568769ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 03:50:22,157 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566716ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 04:00:29,158 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566833ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 04:10:36,190 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566860ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 04:20:44,142 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567592ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 04:30:51,274 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 04:41:00,127 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 568698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 04:51:07,238 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566833ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 05:01:15,206 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567784ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 05:11:22,134 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 05:21:30,137 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567697ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 05:31:37,129 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566870ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 05:41:44,185 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566845ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 05:51:51,146 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566831ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 06:01:59,137 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567844ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 06:12:06,207 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 06:22:14,118 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 06:32:21,145 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 06:42:29,126 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567861ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 06:52:36,177 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566889ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 07:02:45,143 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 568797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 07:12:53,178 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 07:23:00,156 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 07:33:09,178 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 568808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 07:43:17,178 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567765ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 07:53:14,128 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 576810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 08:03:22,138 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 08:13:30,119 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567765ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 08:23:39,184 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 568777ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 08:33:46,150 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 566705ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 08:43:54,132 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 567667ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 09:48:50,357 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 3855743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19253
+hostname: bogon
+
+2020-10-10 10:00:58,761 ERROR 22463 [-/192.168.7.50/-/27ms POST /gannt/created] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Function.Gannt.findById (/Users/lxd/Desktop/mine/egg-example/app/model/gannt.js:30:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22463
 hostname: localhost
 
-2020-10-08 23:02:05,008 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 577802ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
+2020-10-10 10:16:16,131 ERROR 23243 [-/192.168.7.50/-/2ms POST /gannt/created] nodejs.ReferenceError: res is not defined
+    at GanntController.created (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:100:24)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 23243
 hostname: localhost
 
-2020-10-08 23:12:00,422 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575405ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
+2020-10-10 10:19:03,528 ERROR 23243 [-/192.168.7.50/-/0ms POST /gannt/created] nodejs.ReferenceError: res is not defined
+    at GanntController.created (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:100:24)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 23243
 hostname: localhost
 
-2020-10-08 23:22:15,794 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
+2020-10-10 10:20:14,723 ERROR 23397 [-/192.168.7.50/-/10ms POST /gannt/created] nodejs.ReferenceError: Cannot access 'params' before initialization
+    at GanntController.created (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:97:46)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/lxd/Desktop/mine/egg-example/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 23397
 hostname: localhost
 
-2020-10-08 23:32:10,750 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574946ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
+2020-10-10 10:54:59,320 ERROR 24747 [-/192.168.7.50/-/42ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '~* '^[len[i].id_]'' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:980:18)
+    at async Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:19)
+    at async Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:12)
+    at async Promise.all (index 0)
+    at async Function.findAndCountAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2085:27)
+    at async GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:76:21)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\x7e* '^[len[i].id_]'' at line 1","sql":"SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` \\x7e* '^[len[i].id_]';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\x7e* '^[len[i].id_]'' at line 1","sql":"SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` \\x7e* '^[len[i].id_]';"}
+sql: "SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` ~* '^[len[i].id_]';"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 24747
 hostname: localhost
 
-2020-10-08 23:42:26,136 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
+2020-10-10 10:56:32,507 ERROR 24826 [-/192.168.7.50/-/25ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1_')' at line 1
+    at Query.formatError (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.rawSelect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/abstract/query-interface.js:980:18)
+    at async Function.aggregate (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:1986:19)
+    at async Function.count (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2037:12)
+    at async Promise.all (index 0)
+    at async Function.findAndCountAll (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/model.js:2085:27)
+    at async GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:76:21)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1_')' at line 1","sql":"SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE ANY ('1_');"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1_')' at line 1","sql":"SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE ANY ('1_');"}
+sql: "SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE ANY ('1_');"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 24826
 hostname: localhost
 
-2020-10-08 23:52:22,107 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-10-10 13:36:42,003 ERROR 19253 nodejs.ClusterClientNoResponseError: client no response in 5566438ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 00:02:37,449 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575323ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 00:12:32,804 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 00:22:47,713 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 00:32:43,116 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 00:42:59,505 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 00:52:54,842 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 01:02:51,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 01:13:06,619 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575600ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 01:23:02,027 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 01:33:17,331 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 01:43:12,570 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575231ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 01:53:27,731 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 02:03:25,989 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578250ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 02:13:41,362 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 02:23:36,819 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575447ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 02:33:52,094 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 02:43:46,953 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 02:54:02,274 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575306ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 03:03:58,396 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576111ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 03:14:13,614 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 03:24:08,831 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 03:34:24,258 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575404ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 03:44:22,770 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578496ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 03:54:38,062 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 04:04:33,414 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575343ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 04:14:48,947 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575520ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 04:24:44,338 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 04:35:00,077 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 04:44:55,312 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575221ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 04:55:13,704 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 578379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 05:05:08,909 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 05:15:24,743 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 05:25:19,056 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 574307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 05:35:16,003 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 05:45:31,793 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 05:55:26,846 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 06:05:42,100 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575239ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 06:15:37,590 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 06:25:53,040 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 06:35:48,553 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 06:46:03,872 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575312ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 06:55:59,385 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 07:06:14,693 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575294ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 07:16:10,106 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 07:26:25,519 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575394ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 07:36:20,867 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 07:46:36,837 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 07:56:32,080 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 08:06:47,395 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 08:16:42,687 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575278ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 08:26:58,129 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 08:36:53,516 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 575374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 08:46:50,001 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 576478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 09:54:59,406 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 4049395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 09:58:03,405 ERROR 55260 nodejs.ClusterClientNoResponseError: client no response in 163989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/lxd/Desktop/mine/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 55260
-hostname: localhost
-
-2020-10-09 10:12:07,714 ERROR 658 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
-    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-name: "SequelizeConnectionRefusedError"
-parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-pid: 658
-hostname: lxddeMacBook-Pro.local
-
-2020-10-09 10:13:23,757 ERROR 765 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
-    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-name: "SequelizeConnectionRefusedError"
-parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-pid: 765
-hostname: lxddeMacBook-Pro.local
-
-2020-10-09 10:17:03,879 ERROR 1088 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
-    at ConnectionManager.connect (/Users/lxd/Desktop/mine/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-name: "SequelizeConnectionRefusedError"
-parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-pid: 1088
-hostname: lxddeMacBook-Pro.local
+pid: 19253
+hostname: bogon
 
