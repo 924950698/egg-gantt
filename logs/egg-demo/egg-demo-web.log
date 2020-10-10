@@ -1471,3 +1471,174 @@ hostname: localhost
 2020-10-10 13:51:59,619 INFO 27447 [egg-sequelize](29ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_%';
 2020-10-10 13:51:59,626 INFO 27447 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_%';
 2020-10-10 13:51:59,627 INFO 27447 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_%';
+2020-10-10 14:10:16,905 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:10:32,376 INFO 28225 [egg-sequelize](6ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:10:32,379 INFO 28225 [egg-sequelize](8ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:10:32,383 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_?%';
+2020-10-10 14:10:32,384 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_?%';
+2020-10-10 14:10:32,386 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_?%';
+2020-10-10 14:10:32,421 INFO 28225 [egg-sequelize](36ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_?%';
+2020-10-10 14:10:32,424 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_?%';
+2020-10-10 14:10:32,425 INFO 28225 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_?%';
+2020-10-10 14:10:32,429 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_?%';
+2020-10-10 14:10:32,429 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_?%';
+2020-10-10 14:10:32,431 INFO 28225 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_?%';
+2020-10-10 14:10:32,432 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_?%';
+2020-10-10 14:10:32,433 INFO 28225 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_?%';
+2020-10-10 14:10:32,434 INFO 28225 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_?%';
+2020-10-10 14:18:13,217 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:18:15,636 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:18:15,641 INFO 28441 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:18:15,647 INFO 28441 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_*%';
+2020-10-10 14:18:15,648 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_*%';
+2020-10-10 14:18:15,651 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_*%';
+2020-10-10 14:18:15,651 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_*%';
+2020-10-10 14:18:15,654 INFO 28441 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_*%';
+2020-10-10 14:18:15,654 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_*%';
+2020-10-10 14:18:15,658 INFO 28441 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_*%';
+2020-10-10 14:18:15,659 INFO 28441 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_*%';
+2020-10-10 14:18:15,662 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_*%';
+2020-10-10 14:18:15,663 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_*%';
+2020-10-10 14:18:15,665 INFO 28441 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_*%';
+2020-10-10 14:18:15,705 INFO 28441 [egg-sequelize](40ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_*%';
+2020-10-10 14:18:54,555 INFO 28474 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:24:54,027 INFO 28646 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:24:56,603 INFO 28646 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:24:56,607 INFO 28646 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:24:56,613 INFO 28646 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1[_]%';
+2020-10-10 14:24:56,618 INFO 28646 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1[_]%';
+2020-10-10 14:24:56,623 INFO 28646 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3[_]%';
+2020-10-10 14:24:56,634 INFO 28646 [egg-sequelize](14ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3[_]%';
+2020-10-10 14:24:56,638 INFO 28646 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6[_]%';
+2020-10-10 14:24:56,638 INFO 28646 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6[_]%';
+2020-10-10 14:24:56,644 INFO 28646 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9[_]%';
+2020-10-10 14:24:56,646 INFO 28646 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9[_]%';
+2020-10-10 14:24:56,650 INFO 28646 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13[_]%';
+2020-10-10 14:24:56,650 INFO 28646 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13[_]%';
+2020-10-10 14:24:56,654 INFO 28646 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14[_]%';
+2020-10-10 14:24:56,683 INFO 28646 [egg-sequelize](30ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14[_]%';
+2020-10-10 14:25:04,706 INFO 28668 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:25:06,660 INFO 28668 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:25:06,666 INFO 28668 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:25:06,671 INFO 28668 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_%';
+2020-10-10 14:25:06,675 INFO 28668 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_%';
+2020-10-10 14:25:06,681 INFO 28668 [egg-sequelize](5ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_%';
+2020-10-10 14:25:06,683 INFO 28668 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_%';
+2020-10-10 14:25:06,686 INFO 28668 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_%';
+2020-10-10 14:25:06,686 INFO 28668 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_%';
+2020-10-10 14:25:06,689 INFO 28668 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_%';
+2020-10-10 14:25:06,690 INFO 28668 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_%';
+2020-10-10 14:25:06,693 INFO 28668 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_%';
+2020-10-10 14:25:06,694 INFO 28668 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_%';
+2020-10-10 14:25:06,696 INFO 28668 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_%';
+2020-10-10 14:25:06,697 INFO 28668 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_%';
+2020-10-10 14:30:13,014 INFO 28838 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:30:15,633 INFO 28838 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:30:15,642 INFO 28838 [egg-sequelize](9ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:30:15,649 INFO 28838 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_*';
+2020-10-10 14:30:15,655 INFO 28838 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_*';
+2020-10-10 14:30:15,663 INFO 28838 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_*';
+2020-10-10 14:30:15,669 INFO 28838 [egg-sequelize](11ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_*';
+2020-10-10 14:30:15,676 INFO 28838 [egg-sequelize](5ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_*';
+2020-10-10 14:30:15,677 INFO 28838 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_*';
+2020-10-10 14:30:15,680 INFO 28838 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_*';
+2020-10-10 14:30:15,680 INFO 28838 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_*';
+2020-10-10 14:30:15,684 INFO 28838 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_*';
+2020-10-10 14:30:15,685 INFO 28838 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_*';
+2020-10-10 14:30:15,690 INFO 28838 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_*';
+2020-10-10 14:30:15,691 INFO 28838 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_*';
+2020-10-10 14:30:39,199 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:30:41,610 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:30:41,617 INFO 28859 [egg-sequelize](7ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:30:41,624 INFO 28859 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1[_]';
+2020-10-10 14:30:41,630 INFO 28859 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1[_]';
+2020-10-10 14:30:41,633 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3[_]';
+2020-10-10 14:30:41,643 INFO 28859 [egg-sequelize](11ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3[_]';
+2020-10-10 14:30:41,646 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6[_]';
+2020-10-10 14:30:41,646 INFO 28859 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6[_]';
+2020-10-10 14:30:41,650 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9[_]';
+2020-10-10 14:30:41,650 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9[_]';
+2020-10-10 14:30:41,652 INFO 28859 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13[_]';
+2020-10-10 14:30:41,653 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13[_]';
+2020-10-10 14:30:41,657 INFO 28859 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14[_]';
+2020-10-10 14:30:41,658 INFO 28859 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14[_]';
+2020-10-10 14:31:11,169 INFO 28889 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:31:12,685 INFO 28889 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:31:12,691 INFO 28889 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:31:12,710 ERROR 28889 [-/192.168.7.50/-/30ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.ReferenceError: _ is not defined
+    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 28889
+hostname: lxddeMacBook-Pro.local
+
+2020-10-10 14:31:28,591 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:31:30,138 INFO 28915 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:31:30,142 INFO 28915 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:31:30,150 INFO 28915 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_';
+2020-10-10 14:31:30,153 INFO 28915 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1_';
+2020-10-10 14:31:30,158 INFO 28915 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_';
+2020-10-10 14:31:30,158 INFO 28915 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3_';
+2020-10-10 14:31:30,164 INFO 28915 [egg-sequelize](5ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_';
+2020-10-10 14:31:30,165 INFO 28915 [egg-sequelize](6ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6_';
+2020-10-10 14:31:30,188 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_';
+2020-10-10 14:31:30,188 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9_';
+2020-10-10 14:31:30,191 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_';
+2020-10-10 14:31:30,191 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13_';
+2020-10-10 14:31:30,194 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_';
+2020-10-10 14:31:30,194 INFO 28915 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14_';
+2020-10-10 14:31:51,492 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:31:54,295 INFO 28942 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:31:54,300 INFO 28942 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:31:54,308 INFO 28942 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1^_';
+2020-10-10 14:31:54,313 INFO 28942 [egg-sequelize](5ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '1^_';
+2020-10-10 14:31:54,320 INFO 28942 [egg-sequelize](5ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3^_';
+2020-10-10 14:31:54,327 INFO 28942 [egg-sequelize](12ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '3^_';
+2020-10-10 14:31:54,330 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6^_';
+2020-10-10 14:31:54,331 INFO 28942 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '6^_';
+2020-10-10 14:31:54,333 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9^_';
+2020-10-10 14:31:54,334 INFO 28942 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '9^_';
+2020-10-10 14:31:54,337 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13^_';
+2020-10-10 14:31:54,338 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '13^_';
+2020-10-10 14:31:54,341 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14^_';
+2020-10-10 14:31:54,341 INFO 28942 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` LIKE '14^_';
+2020-10-10 14:34:00,781 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-10-10 14:34:04,338 INFO 29021 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:34:04,343 INFO 29021 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:34:04,353 INFO 29021 [egg-sequelize](6ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
+2020-10-10 14:34:04,355 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
+2020-10-10 14:34:04,358 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^3_';
+2020-10-10 14:34:04,361 INFO 29021 [egg-sequelize](5ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^3_';
+2020-10-10 14:34:04,364 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^6_';
+2020-10-10 14:34:04,364 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^6_';
+2020-10-10 14:34:04,367 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^9_';
+2020-10-10 14:34:04,368 INFO 29021 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^9_';
+2020-10-10 14:34:04,372 INFO 29021 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^13_';
+2020-10-10 14:34:04,373 INFO 29021 [egg-sequelize](4ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^13_';
+2020-10-10 14:34:04,375 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^14_';
+2020-10-10 14:34:04,376 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^14_';
+2020-10-10 14:35:04,997 INFO 29021 [egg-sequelize](3ms) Executed (default): INSERT INTO `gannt` (`id`,`label`,`user`,`start`,`endDate`,`percent`,`proType`,`risk`,`parentId`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2020-10-10 14:35:04,999 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`id` = 14;
+2020-10-10 14:35:05,007 INFO 29021 [egg-sequelize](4ms) Executed (default): UPDATE `gannt` SET `childId`=? WHERE `id` = ?
+2020-10-10 14:35:05,115 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL;
+2020-10-10 14:35:05,117 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`parentId` IS NULL LIMIT 0, 10;
+2020-10-10 14:35:05,119 INFO 29021 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
+2020-10-10 14:35:05,122 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
+2020-10-10 14:35:05,125 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^3_';
+2020-10-10 14:35:05,126 INFO 29021 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^3_';
+2020-10-10 14:35:05,129 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^6_';
+2020-10-10 14:35:05,130 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^6_';
+2020-10-10 14:35:05,133 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^9_';
+2020-10-10 14:35:05,135 INFO 29021 [egg-sequelize](3ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^9_';
+2020-10-10 14:35:05,138 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^13_';
+2020-10-10 14:35:05,139 INFO 29021 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^13_';
+2020-10-10 14:35:05,141 INFO 29021 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^14_';
+2020-10-10 14:35:05,141 INFO 29021 [egg-sequelize](1ms) Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^14_';

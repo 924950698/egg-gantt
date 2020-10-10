@@ -522,3 +522,18 @@ name: "ClusterClientNoResponseError"
 pid: 19253
 hostname: bogon
 
+2020-10-10 14:31:12,694 ERROR 28889 [-/192.168.7.50/-/30ms GET /gannt/lists?currentPage=1&currentSizes=10&filters=] nodejs.ReferenceError: _ is not defined
+    at GanntController.lists (/Users/lxd/Desktop/mine/egg-example/app/controller/gannt.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lxd/Desktop/mine/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/lxd/Desktop/mine/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/lxd/Desktop/mine/egg-example/node_modules/koa-static-cache/index.js:41:56
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 28889
+hostname: lxddeMacBook-Pro.local
+

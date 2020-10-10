@@ -142,8 +142,18 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 <h3>9. 问题总结：</h3>
 
-Q：sequelize的startsWith在数据库检索时，无法区分1_ 和 13_ ， 为什么会这样，怎么解决？
+Q：sequelize的startsWith在数据库检索时，无法区分1_ 和 13_ ， 为什么会这样，怎么解决？<br/>
 
-A：
+A： startsWith方法执行的是LIKE语句，该语句仅支持模糊查询；<br/>
+如果需要精确查询的话，可以使用<br/>
+```
+  [Op.regexp]: [`^${len[i].id}_`]
+```
+
+该方法执行的是：<br/>
+
+```
+Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
+```
 
 

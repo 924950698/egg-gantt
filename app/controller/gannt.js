@@ -75,7 +75,7 @@ class GanntController extends Controller {
         userList =  await ctx.model.Gannt.findAndCountAll({
           where: {
             childId: {
-              [Op.startsWith]: len[i].id + "_", // Op.startsWith 无法区分 1_ 与 12_
+              [Op.regexp]: [`^${len[i].id}_`], // Op.startsWith 无法区分 1_ 与 12_
             } 
           },
         })
