@@ -72,11 +72,10 @@ class GanntController extends Controller {
       })
       const len = countArr.rows;
       for( let i = 0; i < len.length; i ++) {
-        const filters = '1_';
         userList =  await ctx.model.Gannt.findAndCountAll({
           where: {
             childId: {
-              [Op.startsWith]: filters, // Op.startsWith 无法区分 1_ 与 12_
+              [Op.startsWith]: len[i].id + "_", // Op.startsWith 无法区分 1_ 与 12_
             } 
           },
         })
