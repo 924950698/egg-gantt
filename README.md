@@ -140,12 +140,17 @@ node版本与sql高版本不兼容，查看当前macOS的版本，使用对应�
 如果报错用户没有权限时：mac连接mysql出现Access denied for user 'root'@'localhost' (using password: YES)<br/>
 https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
-<h3>9. 问题总结：</h3>
+<h3> 9. JWT验权 </h3>
+
+流程：前端 -》用户信息（加密）-》服务端 -》用户信息（解密）-》数据库 -》服务端（验证无误）-》前端 <br/> 
+
+
+
+<h3>问题总结：</h3>
 
 Q：sequelize的startsWith在数据库检索时，无法区分1_ 和 13_ ， 为什么会这样，怎么解决？<br/>
 
-A： startsWith方法执行的是LIKE语句，该语句仅支持模糊查询；<br/>
-如果需要精确查询的话，可以使用<br/>
+A： startsWith方法执行的是LIKE语句，该语句仅支持模糊查询；如果需要精确查询的话，可以使用<br/>
 ```
   [Op.regexp]: [`^${len[i].id}_`]
 ```
@@ -155,5 +160,6 @@ A： startsWith方法执行的是LIKE语句，该语句仅支持模糊查询；<
 ```
 Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
 ```
+
 
 

@@ -16,7 +16,6 @@ class GanntController extends Controller {
   async lists() {
     const { ctx } = this;
     let { currentPage = 1, currentSizes = 10, filters } = ctx.request.query
-    console.log(currentPage, currentSizes);
     let offset = (currentPage - 1) * currentSizes;
     var userList;
     var countArr;
@@ -56,8 +55,6 @@ class GanntController extends Controller {
             ],
           },
         })
-
-        console.log("userList==>", JSON.stringify(userList));
         countArr.rows = countArr.rows.concat(userList.rows);
         countArr.count = countArr.count;
       }
@@ -75,7 +72,7 @@ class GanntController extends Controller {
         userList =  await ctx.model.Gannt.findAndCountAll({
           where: {
             childId: {
-              [Op.regexp]: [`^${len[i].id}_`], // Op.startsWith 无法区分 1_ 与 12_
+              [Op.regexp]: [`^${len[i].id}_`], // Op.startsWith 无法区分 1_ 与 12_； 使用Op.regexp替换即可
             } 
           },
         })
@@ -112,9 +109,7 @@ class GanntController extends Controller {
         this.notFound('查找不到该条parentId记录！');
       }
       params.childId = childId;
-      console.log("params==>", params);
       const body = await res.update(params);
-      console.log("body==>", body);
       if(body) {
         this.success(body);
       } else {
@@ -132,7 +127,6 @@ class GanntController extends Controller {
   // 更新
   async update() {
     const { ctx } = this;
-    console.log(ctx.request.body);
     const params = ctx.request.body;
     const user = await ctx.model.Gannt.findByPk(params.id);
     if (!user) {
@@ -151,7 +145,6 @@ class GanntController extends Controller {
   async destroy() {
     const { ctx } = this;
     const params = ctx.request.body;
-    console.log(params);
     const user = await ctx.model.Gannt.findByPk(params.id);
     if (!user) {
       ctx.status = 404;
