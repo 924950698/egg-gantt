@@ -140,7 +140,9 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 流程：前端 -》用户信息（加密）-》服务端 -》用户信息（解密）-》数据库 -》服务端（验证无误）-》前端 <br/> 
 
-![WechatIMG4.jpeg](assets/jwt.jpg)
+![WechatIMG4.jpeg](assets/jwt.jpeg)
+
+![WechatIMG5.jpeg](assets/jwt_flow.jpeg)
 
 <h3>问题总结：</h3>
 
