@@ -44,8 +44,28 @@ class UserController extends Controller {
         errMsg: '注册使用失败'
       }
     }
-
   };
+
+  async login() {
+    const { ctx } = this;
+    const { username, password } = ctx.request.body;
+    const result = await ctx.service.user.getUser(username, password);
+    if(result) {
+      ctx.session.userId = result.id;
+      ctx.body = {
+        status: 200,
+        data: {
+          ...helper.upPick(result.dataValues, ['password']),
+          createTime: helper.timeStamp(result.createTime),
+        }
+      }
+    } else {
+      ctx.body = {
+        status: 500,
+        errMsg: '登录使用失败'
+      }
+    }
+  }
 
   
 
