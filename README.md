@@ -104,8 +104,6 @@ update 表名 set 字段名 = replace(字段名,’旧内容’,’新内容’)
 
 默认更新全部符合条件的数据
 
-
-
 <h3> 4. egg-sequelize的使用  </h3> 
 
 -- 在sequelize中， 每个表都当作一个模型，表名称与模型名称保持一致。<br>
@@ -142,7 +140,7 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 流程：前端 -》用户信息（加密）-》服务端 -》用户信息（解密）-》数据库 -》服务端（验证无误）-》前端 <br/> 
 
-
+![WechatIMG4.jpeg](https://i.loli.net/2020/10/11/fa7rwojURyB1kcs.jpg)
 
 <h3>问题总结：</h3>
 
