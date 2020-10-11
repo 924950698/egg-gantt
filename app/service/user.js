@@ -14,7 +14,6 @@ class userService extends Service {
           username
         }
       });
-      console.log('查找当前用户==>', result)
       return result;
     } catch(error) {
       console.log(error);

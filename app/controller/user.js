@@ -2,7 +2,7 @@
 
 const Controller = require('egg').Controller;
 const md5 = require('md5');
-const dayjs = require('dayjs');
+const helper = require('../extend/helper');
 
 class UserController extends Controller {
 
@@ -17,8 +17,6 @@ class UserController extends Controller {
       return;
     }  
     const user = await ctx.service.user.getUser(params.username);
-
-    console.log("user==>", user);
     if(user) {
       ctx.body = {
         statue: 500,
@@ -30,13 +28,15 @@ class UserController extends Controller {
     const result = await ctx.service.user.add({
       ...params,
       password: md5(params.password + this.app.config.salt),
-      crreateTime: dayjs().format('YYYY-MM-DD HH:ss:ss')
+      createTime: helper.time('YYYY-MM-DD HH:mm:ss'),
     });
-
     if(result) {
       ctx.body = {
         status: 200,
-        data: result,
+        data: {
+          ...helper.upPick(result.dataValues, ['password']),
+          createTime: helper.timeStamp(result.createTime),
+        }
       }
     }else {
       ctx.body = {
