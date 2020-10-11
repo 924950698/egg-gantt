@@ -40,6 +40,11 @@ module.exports = appInfo => {
     agent: false,// 是否挂载到代理下
   }
 
+  // add your user config here
+  config.userConfig = {
+    salt: 'muke',
+  }
+
   config.sequelize = {
     dialect: 'mysql', // 数据源
     host: '127.0.0.1',
