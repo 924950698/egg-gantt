@@ -7,6 +7,11 @@ const helper = require('../extend/helper');
 
 class UserController extends Controller {
 
+  getToken(username) {
+    const { app } = this;
+    return app.jwt.sign({ username }, app.config.jwt.secret);
+  }
+
   async register() {
     const { ctx } = this;
     const params = ctx.request.body;
@@ -32,11 +37,13 @@ class UserController extends Controller {
       createTime: helper.time('YYYY-MM-DD HH:mm:ss'),
     });
     if(result) {
+      const token = await this.getToken(params.username);
       ctx.body = {
         status: 200,
         data: {
           ...helper.upPick(result.dataValues, ['password']),
           createTime: helper.timeStamp(result.createTime),
+          token
         }
       }
     }else {
@@ -48,13 +55,12 @@ class UserController extends Controller {
   };
 
   async login() {
-    const { ctx,  app } = this;
+    const { ctx } = this;
     const { username, password } = ctx.request.body;
     const result = await ctx.service.user.getUser(username, password);
     if(result) {
-      const token = app.jwt.sign({ username }, app.config.jwt.secret);
-      console.log("token==>", token);
-      ctx.session[username] = 1;//result.id;
+      const token = await this.getToken(username);
+      ctx.session[username] = result.id;
       ctx.body = {
         status: 200,
         data: {
@@ -70,6 +76,8 @@ class UserController extends Controller {
       }
     }
   }
+
+  
 
 
   
