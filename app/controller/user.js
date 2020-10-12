@@ -2,6 +2,7 @@
 
 const Controller = require('egg').Controller;
 const md5 = require('md5');
+// const jwt = require('egg-jwt');
 const helper = require('../extend/helper');
 
 class UserController extends Controller {
@@ -47,16 +48,19 @@ class UserController extends Controller {
   };
 
   async login() {
-    const { ctx } = this;
+    const { ctx,  app } = this;
     const { username, password } = ctx.request.body;
     const result = await ctx.service.user.getUser(username, password);
     if(result) {
-      ctx.session.userId = result.id;
+      const token = app.jwt.sign({ username }, app.config.jwt.secret);
+      console.log("token==>", token);
+      ctx.session[username] = 1;//result.id;
       ctx.body = {
         status: 200,
         data: {
           ...helper.upPick(result.dataValues, ['password']),
           createTime: helper.timeStamp(result.createTime),
+          token
         }
       }
     } else {
@@ -66,6 +70,7 @@ class UserController extends Controller {
       }
     }
   }
+
 
   
 

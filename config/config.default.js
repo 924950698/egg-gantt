@@ -45,6 +45,10 @@ module.exports = appInfo => {
     salt: 'muke',
   }
 
+  config.jwt = {
+    secret: 'muke',
+  }
+
   config.sequelize = {
     dialect: 'mysql', // 数据源
     host: '127.0.0.1',
