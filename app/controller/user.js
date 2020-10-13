@@ -2,7 +2,6 @@
 
 const Controller = require('egg').Controller;
 const md5 = require('md5');
-// const jwt = require('egg-jwt');
 const helper = require('../extend/helper');
 
 class UserController extends Controller {
@@ -61,6 +60,7 @@ class UserController extends Controller {
     if(result) {
       const token = await this.getToken(username);
       ctx.session[username] = result.id;
+      console.log("session==>", JSON.stringify(ctx));
       ctx.body = {
         status: 200,
         data: {
@@ -75,7 +75,25 @@ class UserController extends Controller {
         errMsg: '登录使用失败'
       }
     }
+  };
+
+  async logout() {
+    const { ctx } = this;
+    try {
+      ctx.session[ctx.username] = null;
+      ctx.body = {
+        status: 200,
+        data: 'ok',
+      }
+    } catch(error) {
+      ctx.body = {
+        status: 500,
+        errMsg: '退出登录失败！'
+      }
+    }
   }
+
+
 
   
 

@@ -8,7 +8,7 @@ module.exports = app => {
   router.get('/', controller.home.index);
   router.post('/api/user/register', controller.user.register);
   router.post('/api/user/login', controller.user.login);
-  // router.get('/user/lists',controller.user.lists);
+  router.get('/api/user/logout',controller.user.logout);
   // router.get('/user/find', controller.user.find);
   // router.get('/user/insert', controller.user.insert);
   // router.get('/user/update', controller.user.update);

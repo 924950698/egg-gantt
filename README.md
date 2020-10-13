@@ -159,5 +159,14 @@ A： startsWith方法执行的是LIKE语句，该语句仅支持模糊查询；�
 Executed (default): SELECT `id`, `label`, `user`, `start`, `endDate`, `duration`, `percent`, `type`, `proType`, `risk`, `parentId`, `childId` FROM `gannt` AS `gannt` WHERE `gannt`.`childId` REGEXP '^1_';
 ```
 
+Q: 用户未登录时，没有token的清空下调用接口，该保证接口安全？<br/>
+
+A： 由前端调用MD5加密，生程sign，传送给后端进行加密。当调用dev和prod环境接口时，会传给MD5不同的string。由后端解析后进行校验。<br/>
+ 前端调接口时传两个参数： ts字段10位时间戳  和  sign字段 时间戳和string由MD5加密生成。<br/>
+ 
+ ![WechatIMG5.jpeg](assets/images/WechatIMG8.png);
+<br/>
+  ![WechatIMG5.jpeg](assets/images/WechatIMG9.png);
 
 
+<br/>

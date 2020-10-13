@@ -3,18 +3,21 @@
 const Controller = require('../core/base_controller');
 const { Op } = require("sequelize");
 
-
-function toInt(str) {
-  if (typeof str === 'number') return str;
-  if (!str) return str;
-  return parseInt(str, 10) || 0;
-}
-
 class GanntController extends Controller {
 
   // 列表 和 查询
   async lists() {
     const { ctx } = this;
+    // 先判断当前用户是否存在
+    const user = await ctx.service.user.getUser(ctx.username);
+    console.log("ctx==>", ctx.username);
+    if(!user) {
+      ctx.body = {
+        status: 500,
+        errMsg: '该用户不存在',
+      }; 
+      return;
+    };
     let { currentPage = 1, currentSizes = 10, filters } = ctx.request.query
     let offset = (currentPage - 1) * currentSizes;
     var userList;
