@@ -165,7 +165,9 @@ A： 由前端调用MD5加密，生程sign，传送给后端进行加密。当�
  前端调接口时传两个参数： ts字段10位时间戳  和  sign字段 时间戳和string由MD5加密生成。<br/>
  
  ![WechatIMG5.jpeg](assets/images/WechatIMG8.png);
-<br/>
+
+  <br/>
+
   ![WechatIMG5.jpeg](assets/images/WechatIMG9.png);
 
 
