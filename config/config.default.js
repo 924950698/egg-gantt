@@ -22,11 +22,18 @@ module.exports = appInfo => {
     },
   };
 
-  // 添加 news 的配置项
-  // config.news = {
-  //   pageSize: 5,
-  //   serverUrl: 'https://hacker-news.firebaseio.com/v0',
-  // };
+  // add your user config here
+  config.userConfig = {
+    salt: 'muke',
+  }
+
+  config.jwt = {
+    secret: 'muke',
+  }
+  
+  config.auth = {
+    exclude: ['/api/user/login', '/api/user/register']
+  }
 
   config.mysql = {
     client: {
@@ -38,15 +45,6 @@ module.exports = appInfo => {
     },
     app: true,   // 是否挂载在全局下
     agent: false,// 是否挂载到代理下
-  }
-
-  // add your user config here
-  config.userConfig = {
-    salt: 'muke',
-  }
-
-  config.jwt = {
-    secret: 'muke',
   }
 
   config.sequelize = {
@@ -78,10 +76,21 @@ module.exports = appInfo => {
     domainWhiteList: [ '*'],
   };
   
+  // 配置 跨域
   config.cors = {
-    origin: '*',//匹配规则  域名+端口  *则为全匹配
+    credentials: true, // 支持cookie跨域
+    origin: 'http://192.168.0.100:8080', // 这里的地址要配置具体的客户端地址，* 会有问题，另外：如果是App这种，内部使用的file协议，那么file请求接口是不会有跨域问题的
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
+
+  // config.redis = {
+  //   client: {
+  //     port: 6379,
+  //     host: '127.0.0.1',
+  //     password: 'abc123456',
+  //     db: 0
+  //   }
+  // };
 
   return {
     ...config,

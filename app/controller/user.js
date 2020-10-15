@@ -60,7 +60,7 @@ class UserController extends Controller {
     if(result) {
       const token = await this.getToken(username);
       ctx.session[username] = result.id;
-      console.log("session==>", JSON.stringify(ctx));
+      console.log("session==>", JSON.stringify(ctx.session));
       ctx.body = {
         status: 200,
         data: {
@@ -80,10 +80,11 @@ class UserController extends Controller {
   async logout() {
     const { ctx } = this;
     try {
-      ctx.session[ctx.username] = null;
+      // ctx.session[ctx.username] = null;
+      console.log("logout==>", JSON.stringify(ctx.session));
       ctx.body = {
         status: 200,
-        data: 'ok',
+        data: 'ok1',
       }
     } catch(error) {
       ctx.body = {

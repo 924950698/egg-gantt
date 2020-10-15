@@ -17,7 +17,7 @@ module.exports = {
   get username() {
     const token = this.request.header.token;
     const tokenCache = token ? this.app.jwt.verify(token, this.app.config.jwt.secret) : undefined; //verify方法验证token
-    console.log("tokenCache==>", tokenCache);
+    // console.log("tokenCache==>", tokenCache);
     return tokenCache ? tokenCache.username : undefined;
   },
 

@@ -10,7 +10,7 @@ class GanntController extends Controller {
     const { ctx } = this;
     // 先判断当前用户是否存在
     const user = await ctx.service.user.getUser(ctx.username);
-    console.log("ctx==>", ctx.username);
+    console.log("lists==>", JSON.stringify(ctx.session));
     if(!user) {
       ctx.body = {
         status: 500,
