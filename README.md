@@ -178,7 +178,11 @@ A： 由前端调用MD5加密，生程sign，传送给后端进行加密。当�
     同时，在config.default.js设置config.cors配置项，允许跨域即可 <br/> 
 
 
-  Q: 为什么浏览器端的session过期时间总是比maxAge少8个小时？<br/> 
+  Q: 为什么浏览器端的session过期时间总是比maxAge少8个小时 ？<br/> 
   A: Z代表格林威治时间 t + 0，北京时区为 t + 8 <br/> 
+
+  Q：session的过期时间, plugin.js中的maxAge并没有生效 ?  <br/> 
+  A: 通过代码设置
+    ``` this.ctx.session.maxAge = 1000* 10; ```
 
 <br/>
