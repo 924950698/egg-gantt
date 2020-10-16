@@ -29,9 +29,9 @@ exports.auth = {
 
 exports.session = {
   key: 'SESSION_ID',
-  maxAge: 24 * 3600 * 1000,
+  maxAge: 5 * 1000,
   httpOnly: true,
-  renew: true,
+  // renew: true,
   encrypt: true,
 }
 

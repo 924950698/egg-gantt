@@ -172,7 +172,13 @@ A： 由前端调用MD5加密，生程sign，传送给后端进行加密。当�
 
   Q：用户在登录接口为session存储username和id。在登录成功以后，在auth.js的中间件中获取session却是空对象？
 
-  A：
+  A：因为域名不一致；<br/> 
+    egg项目启动地址为本机ip地址：192.168.*.*** <br/> 
+    前端项目自带的启动地址为：localhost 或者 127.0.0.1都不行。只要将地址也设为ip启动即可。 <br/> 
+    同时，在config.default.js设置config.cors配置项，允许跨域即可 <br/> 
 
+
+  Q: 为什么浏览器端的session过期时间总是比maxAge少8个小时？<br/> 
+  A: Z代表格林威治时间 t + 0，北京时区为 t + 8 <br/> 
 
 <br/>
