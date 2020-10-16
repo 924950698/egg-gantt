@@ -144,6 +144,21 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 ![WechatIMG5.jpeg](assets/images/jwt_flow.jpeg)
 
+<h3> 10. mac安装、启动redis教程</h3>
+
+https://blog.csdn.net/Hedon954/article/details/107146301/
+
+进入redis目录 
+
+```
+./bin/redis-server etc/redis.conf
+
+// 重新打开一个新的 Termianl，启动 Redis 客户端， redis目录
+
+./bin/redis-cli
+
+```
+
 <h3>问题总结：</h3>
 
 Q：sequelize的startsWith在数据库检索时，无法区分1_ 和 13_ ， 为什么会这样，怎么解决？<br/>

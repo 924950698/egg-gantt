@@ -6,9 +6,11 @@ const helper = require('../extend/helper');
 
 class UserController extends Controller {
 
-  getToken(username) {
+  async jwtSign(username) {
     const { app } = this;
-    return app.jwt.sign({ username }, app.config.jwt.secret);
+     const token = app.jwt.sign({ username }, app.config.jwt.secret);
+     await app.redis.set(username, 1, 'EX', 5);
+     return token;
   }
 
   async register() {
@@ -36,7 +38,7 @@ class UserController extends Controller {
       createTime: helper.time('YYYY-MM-DD HH:mm:ss'),
     });
     if(result) {
-      const token = await this.getToken(params.username);
+      const token = await this.jwtSign(params.username);
       ctx.body = {
         status: 200,
         data: {
@@ -58,9 +60,7 @@ class UserController extends Controller {
     const { username, password } = ctx.request.body;
     const result = await ctx.service.user.getUser(username, password);
     if(result) {
-      const token = await this.getToken(username);
-      ctx.session[username] = result.id;
-      console.log("session==>", JSON.stringify(ctx.session));
+      const token = await this.jwtSign(username);
       ctx.body = {
         status: 200,
         data: {
@@ -80,11 +80,11 @@ class UserController extends Controller {
   async logout() {
     const { ctx } = this;
     try {
-      // ctx.session[ctx.username] = null;
+      ctx.session[ctx.username] = null;
       console.log("logout==>", JSON.stringify(ctx.session));
       ctx.body = {
         status: 200,
-        data: 'ok1',
+        data: 'ok',
       }
     } catch(error) {
       ctx.body = {

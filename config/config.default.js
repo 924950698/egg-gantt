@@ -84,14 +84,14 @@ module.exports = appInfo => {
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
 
-  // config.redis = {
-  //   client: {
-  //     port: 6379,
-  //     host: '127.0.0.1',
-  //     password: 'abc123456',
-  //     db: 0
-  //   }
-  // };
+  config.redis = {
+    client: {
+      port: 6379,
+      host: '127.0.0.1',
+      password: 'liuxiangdong',
+      db: 0, // 数据库选择 1 - 15
+    }
+  };
 
   return {
     ...config,
