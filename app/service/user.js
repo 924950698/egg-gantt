@@ -4,35 +4,28 @@
 
 const Service = require('egg').Service;
 const md5 = require('md5');
+const BaseService = require('./base');
 
-class userService extends Service {
+class userService extends BaseService {
 
   async getUser(username, password) {
-    try {
+    return this.run(async () => {
       const { ctx } = this;
       const _where = password ? { username, password: md5(password + this.app.config.salt) } : { username };
       const result = await ctx.model.User.findOne({
         where: _where
       });
       return result;
-    } catch(error) {
-      console.log(error);
-      return null;
-    }
+    });
   }
 
   async add(params){
-    try {
+    return this.run(async () => {
       const { ctx } = this;
       const result = await ctx.model.User.create(params);
       return result;
-    } catch(error){
-      console.log(error);
-      return null;
-    }
+    });
   }
-
-
 }
 
 module.exports = userService;

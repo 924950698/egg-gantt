@@ -10,7 +10,7 @@ class UserController extends BaseController {
   async jwtSign(username) {
     const { app } = this;
      const token = app.jwt.sign({ username }, app.config.jwt.secret);
-     await app.redis.set(username, token, 'EX', 50);
+     await app.redis.set(username, token, 'EX', 24 * 3600);
      return token;
   }
 
