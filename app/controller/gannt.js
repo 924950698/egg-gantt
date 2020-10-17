@@ -2,8 +2,9 @@
 
 const Controller = require('../core/base_controller');
 const { Op } = require("sequelize");
+const BaseController = require('./base'); 
 
-class GanntController extends Controller {
+class GanntController extends BaseController {
 
   // 列表 和 查询
   async lists() {
@@ -12,13 +13,9 @@ class GanntController extends Controller {
     const user = await ctx.service.user.getUser(ctx.username);
     console.log("lists==>", JSON.stringify(ctx.session));
     if(!user) {
-      ctx.body = {
-        status: 500,
-        errMsg: '该用户不存在',
-      }; 
-      return;
+      return this.error('该用户不存在');
     };
-    let { currentPage = 1, currentSizes = 10, filters } = ctx.request.query
+    let { currentPage = 1, currentSizes = 10, filters } = ctx.params();
     let offset = (currentPage - 1) * currentSizes;
     var userList;
     var countArr;
@@ -109,20 +106,20 @@ class GanntController extends Controller {
           childId = parentData.id + '_' + currentId;
         }
       } else {
-        this.notFound('查找不到该条parentId记录！');
+        this.error('查找不到该条parentId记录！');
       }
       params.childId = childId;
       const body = await res.update(params);
       if(body) {
         this.success(body);
       } else {
-        this.notFound('created接口地址错误');
+        this.error('created接口地址错误');
       }
     } else {
       if(res) {
         this.success(res);
       } else {
-        this.notFound('created接口地址错误');
+        this.error('created接口地址错误');
       }
     }
   }
@@ -140,7 +137,7 @@ class GanntController extends Controller {
     if(res) {
       this.success(res);
     } else {
-      this.notFound('update接口地址错误');
+      this.error('update接口地址错误');
     }
   }
 
@@ -157,7 +154,7 @@ class GanntController extends Controller {
     if(res) {
       this.success(res);
     } else {
-      this.notFound('delete接口地址错误');
+      this.error('delete接口地址错误');
     }
   }
   

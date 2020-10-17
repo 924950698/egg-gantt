@@ -21,4 +21,19 @@ module.exports = {
     return tokenCache ? tokenCache.username : undefined;
   },
 
+  /**
+   *  Tips: 
+   *  GET的请求参数通过this.query获取；
+   *  POST的请求参数通过this.requset.body获取  
+  */
+
+  params(key) {
+    const method = this.request.method;
+    if(method === 'GET') {
+      return key ? this.query[key] : this.query; 
+    } else {
+      return key ? this.request.body[key] : this.request.body;
+    }
+  },
+
 }

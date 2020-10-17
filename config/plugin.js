@@ -31,7 +31,6 @@ exports.session = {
   key: 'SESSION_ID',
   maxAge: 5 * 1000,
   httpOnly: true,
-  // renew: true,
   encrypt: true,
 }
 
