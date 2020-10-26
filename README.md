@@ -148,16 +148,25 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 https://blog.csdn.net/Hedon954/article/details/107146301/
 
-进入redis目录 
+如何启动redis：
 
 ```
-./bin/redis-server etc/redis.conf
 
-// 重新打开一个新的 Termianl，启动 Redis 客户端， redis目录
+进入redis目录  /usr/local 
 
-./bin/redis-cli
+打开Termianl，输入 ./bin/redis-server etc/redis.conf
+
+在redis目录打开一个新的 Termianl，启动 Redis 客户端 ./bin/redis-cli
 
 ```
+
+<h3>查漏补缺：</h3>
+
+1. Egg.js中的定时任务 <br>
+
+A: 定时上报应用状态（便于系统监控）、定时从远程接口更新数据、定时处理文件（清除过期日志文件）
+
+ 
 
 <h3>问题总结：</h3>
 
