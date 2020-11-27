@@ -167,6 +167,46 @@ https://blog.csdn.net/Hedon954/article/details/107146301/
 A: 定时上报应用状态（便于系统监控）、定时从远程接口更新数据、定时处理文件（清除过期日志文件）
 
  
+<h3>线上部署：</h3>
+
+Q： 为什么需要docker ？
+A：开发系统不一致（本地环境和线上开发环境不一致）、软件安装麻烦（不同系统安装容易出错）、运维成本过高（新增机器还需要重新安装）
+
+![9B243E78-52D4-46E9-81C5-BB5B2267A55C.png](https://i.loli.net/2020/11/27/TY1WJD2sZ7dNPcg.png)
+
+docker三个概念？
+1. 镜像： docker运行的镜像程序，node、sel等
+2. 容器： docker镜像创建的运行实例（类似虚拟机，执行启动、停止、删除等操作；每个容器都是独立的）
+3. 仓库：镜像位置，类似github，默认使用hub.docker.com仓库（国外比较慢）, 推荐使用hub.daocloud.io网址（国内比较快）。
+
+<h3>docker的一些命令</h3>
+docker pull 镜像地址
+docker tag <imgageId> <name>:v1.0 重新命名 和 设置版本v1.0
+docker images 查看当前容器镜像
+docker save -o <镜像名称> <imgageId> 导出镜像
+docker rmi <imgageId> -f 强制删除镜像
+docker load -i <镜像名称> 导入镜像
+docker run -d -p 3307:3306 --name mysql -e MYSQL_ROOT_PASSWORD=abc123456 <imgageId>
+注释：-d 后台运行 -p 端口号 3307宿主机端口 3306 当前启动容器的端口 --name 容器名称 -e 设置mysql密码 
+
+docker ps 查看当前运行的镜像
+docker ps -a 查看当前所有镜像（包括运行和停止的镜像）
+docker ps -aq 查看容器id
+docker stop <容器id> 停止运行的镜像
+docker rm <容器id> 删除停止的镜像
+docker exec -it <容器id> sh 进入容器内部
+mysql -u root -p 然后输入密码 就可以访问服务器
+show databases; 可以正常展示包含的数据库 
+exit exit 退出该镜像 退出该容器
+docker logs -f <容器id>  查看日志
+docker restart <容器id> 重新启动容器
+
+
+当前使用node镜像地址：daocloud.io/library/node:12.18
+当前使用sql镜像地址：daocloud.io/library/mysql:8.0.20
+
+
+
 
 <h3>问题总结：</h3>
 
