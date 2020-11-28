@@ -206,6 +206,36 @@ docker restart <容器id> 重新启动容器
 当前使用sql镜像地址：daocloud.io/library/mysql:8.0.20
 
 
+<h3>阿里云项目部署：</h3>
+
+1. 购买阿里云服务器 （当前配置： X86、 共享型）
+购买成功后，如下图：
+![WechatIMG3.jpeg](https://i.loli.net/2020/11/28/gPLeCQs3qElj4Xx.jpg)
+
+2. 在本地链接公网IP
+ssh root@<公网IP>  
+然后输入创建阿里云实例的时候输入的密码
+
+3. 安装yum，然后输入y
+yum install yum-utils device-mapper-persistent-data lvm2
+
+4. 安装完毕后，设置docker的镜像源
+yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+
+5. 安装docker 
+yum install docker-ce docker-ce-cli containerd.io
+
+4. 启动docker，设置为开机自动启动
+// 启动docker服务
+systemctl start docker
+
+// 开机自动启动docker
+systemctl enable docker
+
+// 测试
+docker run hello-world
+
+5. 后续操作参考[muke教材](https://coding.imooc.com/lesson/452.html#mid=39377)
 
 
 <h3>问题总结：</h3>
