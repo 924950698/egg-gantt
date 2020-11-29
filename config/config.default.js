@@ -37,10 +37,10 @@ module.exports = appInfo => {
 
   config.mysql = {
     client: {
-      host: '127.0.0.1',
+      host: '47.108.160.159',
       port: '3306',
       user: 'root',
-      password: 'liuxiangdong',
+      password: 'abc123456',
       database: 'egg',
     },
     app: true,   // 是否挂载在全局下
@@ -52,7 +52,7 @@ module.exports = appInfo => {
     host: '127.0.0.1',
     port: '3306',
     root: 'root',
-    password: 'liuxiangdong',
+    password: 'abc123456',
     database: 'egg', 
     define: {
       timestamps: false,  // 是否自动添加时间戳createAt，updateAt
@@ -87,8 +87,8 @@ module.exports = appInfo => {
   config.redis = {
     client: {
       port: 6379,
-      host: '127.0.0.1',
-      password: 'liuxiangdong',
+      host: '47.108.160.159',
+      password: 'abc123456',
       db: 0, // 数据库选择 1 - 15
     }
   };

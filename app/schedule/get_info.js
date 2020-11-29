@@ -12,7 +12,7 @@ class getInfo extends Subscription {
   // subscribe 是真正定时任务执行时被运行的函数
   async subscribe() {
     const info = this.ctx.info;
-    console.log( new Date(), info);  // 服务器端打印端是格林时间 t + 8
+    // console.log( new Date(), info);  // 服务器端打印端是格林时间 t + 8
   }
 
 }
