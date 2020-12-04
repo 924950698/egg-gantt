@@ -169,7 +169,7 @@ A: 定时上报应用状态（便于系统监控）、定时从远程接口更�
  
 <h3>线上部署：</h3>
 
-Q： 为什么需要docker ？
+Q： 为什么需要docker ？<br/>
 A：开发系统不一致（本地环境和线上开发环境不一致）、软件安装麻烦（不同系统安装容易出错）、运维成本过高（新增机器还需要重新安装）<br/>
 
 ![9B243E78-52D4-46E9-81C5-BB5B2267A55C.png](https://i.loli.net/2020/11/27/TY1WJD2sZ7dNPcg.png)<br/>
@@ -240,7 +240,7 @@ docker run hello-world<br/>
 6. 上传后端代码后的操作
 ```
 docker build -t egg:1.0 ./server
-docker run -d -p 7001:7001 --name egg1.0 镜像id
+docker run -d -p 7001:7001 --name server 镜像id
 ```
 
 
