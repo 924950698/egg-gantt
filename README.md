@@ -100,9 +100,9 @@ update user set pwd='123456' where id = 1;<br>
 delete from user where id = 2;<br>
 
 -- 更新字段内容<br>
-update 表名 set 字段名 = replace(字段名,’旧内容’,’新内容’)
+update 表名 set 字段名 = replace(字段名,’旧内容’,’新内容’) <br/>
 
-默认更新全部符合条件的数据
+默认更新全部符合条件的数据<br/>
 
 <h3> 4. egg-sequelize的使用  </h3> 
 
@@ -140,9 +140,9 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 流程：前端 -》用户信息（加密）-》服务端 -》用户信息（解密）-》数据库 -》服务端（验证无误）-》前端 <br/> 
 
-![WechatIMG4.jpeg](assets/images/jwt.jpeg)
+![WechatIMG4.jpeg](assets/images/jwt.jpeg)<br/>
 
-![WechatIMG5.jpeg](assets/images/jwt_flow.jpeg)
+![WechatIMG5.jpeg](assets/images/jwt_flow.jpeg)<br/>
 
 <h3> 10. mac安装、启动redis教程</h3>
 
@@ -164,78 +164,84 @@ https://blog.csdn.net/Hedon954/article/details/107146301/
 
 1. Egg.js中的定时任务 <br>
 
-A: 定时上报应用状态（便于系统监控）、定时从远程接口更新数据、定时处理文件（清除过期日志文件）
+A: 定时上报应用状态（便于系统监控）、定时从远程接口更新数据、定时处理文件（清除过期日志文件）<br/>
 
  
 <h3>线上部署：</h3>
 
 Q： 为什么需要docker ？
-A：开发系统不一致（本地环境和线上开发环境不一致）、软件安装麻烦（不同系统安装容易出错）、运维成本过高（新增机器还需要重新安装）
+A：开发系统不一致（本地环境和线上开发环境不一致）、软件安装麻烦（不同系统安装容易出错）、运维成本过高（新增机器还需要重新安装）<br/>
 
-![9B243E78-52D4-46E9-81C5-BB5B2267A55C.png](https://i.loli.net/2020/11/27/TY1WJD2sZ7dNPcg.png)
+![9B243E78-52D4-46E9-81C5-BB5B2267A55C.png](https://i.loli.net/2020/11/27/TY1WJD2sZ7dNPcg.png)<br/>
 
 docker三个概念？
-1. 镜像： docker运行的镜像程序，node、sel等
-2. 容器： docker镜像创建的运行实例（类似虚拟机，执行启动、停止、删除等操作；每个容器都是独立的）
-3. 仓库：镜像位置，类似github，默认使用hub.docker.com仓库（国外比较慢）, 推荐使用hub.daocloud.io网址（国内比较快）。
+1. 镜像： docker运行的镜像程序，node、sel等<br/>
+2. 容器： docker镜像创建的运行实例（类似虚拟机，执行启动、停止、删除等操作；每个容器都是独立的）<br/>
+3. 仓库：镜像位置，类似github，默认使用hub.docker.com仓库（国外比较慢）, 推荐使用hub.daocloud.io网址（国内比较快）。<br/>
 
 <h3>docker的一些命令</h3>
-docker pull 镜像地址
-docker tag <imgageId> <name>:v1.0 重新命名 和 设置版本v1.0
-docker images 查看当前容器镜像
-docker save -o <镜像名称> <imgageId> 导出镜像
-docker rmi <imgageId> -f 强制删除镜像
-docker load -i <镜像名称> 导入镜像
-docker run -d -p 3307:3306 --name mysql -e MYSQL_ROOT_PASSWORD=abc123456 <imgageId>
-注释：-d 后台运行 -p 端口号 3307宿主机端口 3306 当前启动容器的端口 --name 容器名称 -e 设置mysql密码 
+docker pull 镜像地址<br/>
+docker tag <imgageId> <name>:v1.0 重新命名 和 设置版本v1.0<br/>
+docker images 查看当前容器镜像<br/>
+docker save -o <镜像名称> <imgageId> 导出镜像<br/>
+docker rmi <imgageId> -f 强制删除镜像<br/>
+docker load -i <镜像名称> 导入镜像<br/>
+docker run -d -p 3307:3306 --name mysql -e MYSQL_ROOT_PASSWORD=abc123456 <imgageId><br/>
+注释：-d 后台运行 -p 端口号 3307宿主机端口 3306 当前启动容器的端口 --name 容器名称 -e 设置mysql密码 <br/>
 
-docker ps 查看当前运行的镜像
-docker ps -a 查看当前所有镜像（包括运行和停止的镜像）
-docker ps -aq 查看容器id
-docker stop <容器id> 停止运行的镜像
-docker rm <容器id> 删除停止的镜像
-docker exec -it <容器id> sh 进入容器内部
-mysql -u root -p 然后输入密码 就可以访问服务器
-show databases; 可以正常展示包含的数据库 
-exit exit 退出该镜像 退出该容器
-docker logs -f <容器id>  查看日志
-docker restart <容器id> 重新启动容器
+docker ps 查看当前运行的镜像<br/>
+docker ps -a 查看当前所有镜像（包括运行和停止的镜像）<br/>
+docker ps -aq 查看容器id<br/>
+docker stop <容器id> 停止运行的镜像<br/>
+docker rm <容器id> 删除停止的镜像<br/>
+docker exec -it <容器id> sh 进入容器内部<br/>
+mysql -u root -p 然后输入密码 就可以访问服务器<br/>
+show databases; 可以正常展示包含的数据库 <br/>
+exit exit 退出该镜像 退出该容器<br/>
+docker logs -f <容器id>  查看日志<br/>
+docker restart <容器id> 重新启动容器<br/>
 
 
-当前使用node镜像地址：daocloud.io/library/node:12.18
-当前使用sql镜像地址：daocloud.io/library/mysql:8.0.20
+当前使用node镜像地址：daocloud.io/library/node:12.18<br/>
+当前使用sql镜像地址：daocloud.io/library/mysql:8.0.20<br/>
 
 
 <h3>阿里云项目部署：</h3>
 
 1. 购买阿里云服务器 （当前配置： X86、 共享型）
-购买成功后，如下图：
-![WechatIMG3.jpeg](https://i.loli.net/2020/11/28/gPLeCQs3qElj4Xx.jpg)
+购买成功后，如下图：<br/>
+![WechatIMG3.jpeg](https://i.loli.net/2020/11/28/gPLeCQs3qElj4Xx.jpg)<br/>
 
 2. 在本地链接公网IP
-ssh root@<公网IP>  
-然后输入创建阿里云实例的时候输入的密码
+ssh root@<公网IP>  <br/>
+然后输入创建阿里云实例的时候输入的密码<br/>
 
 3. 安装yum，然后输入y
-yum install yum-utils device-mapper-persistent-data lvm2
+yum install yum-utils device-mapper-persistent-data lvm2<br/>
 
 4. 安装完毕后，设置docker的镜像源
-yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo<br/>
 
 5. 安装docker 
-yum install docker-ce docker-ce-cli containerd.io
+yum install docker-ce docker-ce-cli containerd.io<br/>
 
 4. 启动docker，设置为开机自动启动
-// 启动docker服务
-systemctl start docker
+// 启动docker服务<br/>
+systemctl start docker<br/>
 
-// 开机自动启动docker
-systemctl enable docker
+// 开机自动启动docker<br/>
+systemctl enable docker<br/>
 
-// 测试
-docker run hello-world
+// 测试<br/>
+docker run hello-world<br/>
 
-5. 后续操作参考[muke教材](https://coding.imooc.com/lesson/452.html#mid=39377)
+5. 后续操作参考[muke教材](https://coding.imooc.com/lesson/452.html#mid=39377)<br/>
+
+6. 上传后端代码后的操作
+```
+docker build -t egg:1.0 ./server
+docker run -d -p 7001:7001 --name egg1.0 镜像id
+```
 
 
 <h3>问题总结：</h3>
