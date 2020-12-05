@@ -146,7 +146,7 @@ https://blog.csdn.net/zhangqiang180/article/details/104665987/<br/>
 
 <h3> 10. mac安装、启动redis教程</h3>
 
-https://blog.csdn.net/Hedon954/article/details/107146301/
+https://blog.csdn.net/Hedon954/article/details/107146301/<br/>
 
 如何启动redis：
 
@@ -241,6 +241,12 @@ docker run hello-world<br/>
 ```
 docker build -t egg:1.0 ./server
 docker run -d -p 7001:7001 --name server 镜像id
+```
+
+7. 进入阿里云mysql库
+```
+docker exec -it 容器id sh
+mysql -u root -P 3306 -h 47.108.160.159 -p
 ```
 
 

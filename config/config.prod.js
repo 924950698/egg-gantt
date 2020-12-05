@@ -35,7 +35,7 @@ module.exports = appInfo => {
     exclude: ['/api/user/login', '/api/user/register', '/api/user/logout']
   }
 
-  config.allowHost = ['47.108.160.159'];
+  // config.allowHost = ['47.108.160.159:7001'];
 
   config.mysql = {
     client: {
@@ -82,9 +82,15 @@ module.exports = appInfo => {
   config.cors = {
     credentials: true, // 支持cookie跨域
     // origin: 'http://192.168.0.100:8080', // 这里的地址要配置具体的客户端地址，* 会有问题，另外：如果是App这种，内部使用的file协议，那么file请求接口是不会有跨域问题的
-    origin: 'http://47.108.160.159',
+    origin: ['http://47.108.160.159:7001'],
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
+
+  // config.allowHost = ['47.108.160.159:7001'];
+
+  // config.origin = {
+  //   whiteList: [ 'http://47.108.160.159:7001' ],
+  // };
 
   config.redis = {
     client: {
