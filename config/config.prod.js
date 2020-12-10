@@ -70,18 +70,31 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  // config.security = {
+  //   csrf: {
+  //     enable: false,
+  //     ignoreJSON: true,
+  //   },
+  //   domainWhiteList: ['*'],
+  // };
+  
+  // // 配置 跨域
+  // config.cors = {
+  //   credentials: false, // 支持cookie跨域
+  //   origin: 'http://47.108.160.159:7001',
+  //   allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+  // };
+
   config.security = {
     csrf: {
       enable: false,
       ignoreJSON: true,
     },
-    domainWhiteList: ['*'],
+    domainWhiteList: [ '*'],
   };
   
-  // 配置 跨域
   config.cors = {
-    credentials: true, // 支持cookie跨域
-    origin: '*',
+    origin: '*',//匹配规则  域名+端口  *则为全匹配
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
 
