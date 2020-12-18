@@ -49,7 +49,7 @@ module.exports = appInfo => {
 
   config.sequelize = {
     dialect: 'mysql', // 数据源
-    host: '127.0.0.1',
+    host: '47.108.160.159',
     port: '3306',
     root: 'root',
     password: 'abc123456',
@@ -80,7 +80,7 @@ module.exports = appInfo => {
   config.cors = {
     credentials: true, // 支持cookie跨域
     // origin: 'http://192.168.0.100:8080', // 这里的地址要配置具体的客户端地址，* 会有问题，另外：如果是App这种，内部使用的file协议，那么file请求接口是不会有跨域问题的
-    origin: 'http://192.168.7.50:8080',
+    origin: 'http://192.168.7.170:7001',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
 
