@@ -74,7 +74,7 @@ module.exports = appInfo => {
   config.cors = {
     credentials: false, // 支持cookie跨域
     origin: 'http://47.108.160.159',
-    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+    allowMethods: 'OPTIONS, GET,HEAD,PUT,POST,DELETE,PATCH'
   };
 
   config.redis = {
